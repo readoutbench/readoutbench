@@ -5,7 +5,7 @@ Forecast clinical trials before their results are public.
 **Round 1** has 653 company-run, randomized phase 2 and 3 trials whose primary completion falls between July 2026 and March 2027. It opens on 1 November 2026 and closes at the end of 15 November 2026 (23:59:59 UTC). Entries are scored as results come out: an early look at 31 March 2027, the ranked result at 30 June 2027 and an unranked final pass at 31 December 2027.
 
 - Site: https://readoutbench.com
-- Enter: https://huggingface.co/spaces/readoutbench/readoutbench
+- Enter: https://huggingface.co/spaces/lucasheinrichsb/readoutbench
 - Trial files: https://huggingface.co/datasets/readoutbench/readoutbench-r1
 - Rules: [`docs/round1-rules-draft.md`](docs/round1-rules-draft.md)
 - Fingerprints: [`fingerprints/`](fingerprints/) and the [releases](https://github.com/readoutbench/readoutbench/releases)
