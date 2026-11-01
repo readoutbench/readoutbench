@@ -1,0 +1,36 @@
+name: deploy
+on:
+  workflow_dispatch:
+    inputs:
+      step:
+        description: "github (unpack the site and code into the repo) or hf (upload the Space and dataset to Hugging Face)"
+        required: true
+        default: github
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download the release bundles
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download launch-bundles --dir /tmp/bundles
+      - name: Unpack the repo contents and commit
+        if: ${{ inputs.step == 'github' }}
+        run: |
+          unzip -o -q /tmp/bundles/bundle_github.zip -d .
+          git config user.name "readoutbench"
+          git config user.email "readoutbench@users.noreply.github.com"
+          git add -A
+          git commit -m "ReadoutBench Round 1: code, rules, checks, site and paper" || echo "nothing to commit"
+          git push
+      - name: Upload the Space and dataset to Hugging Face
+        if: ${{ inputs.step == 'hf' }}
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          unzip -o -q /tmp/bundles/bundle_hf.zip -d /tmp/hf
+          pip install -q huggingface_hub==2.4.0
+          python3 /tmp/hf/scripts/deploy_hf.py readoutbench readoutbench
