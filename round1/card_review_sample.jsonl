@@ -1,0 +1,60 @@
+{"nct_id": "NCT06908876", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06843018", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07260877", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06268886", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06128447", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06707103", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06742190", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07437547", "verdict": "wrong", "problems": ["Numbers flag 'none' is wrong: the endpoint rule takes the first-listed efficacy primary (time to return to unrestricted sport), which is a single time-to-event result (hazard ratio vs placebo); having a second co-primary is not by itself a reason for 'none' (the PFS/OS dual-primary card in this batch is handled with numbers 'yes')", "Notes say the control measure would be in days; the rule asks for the median time in months"], "fix": {"effect_measure": "hazard ratio for return to unrestricted sport, experimental vs control", "better": "higher", "control_measure": "median time to return to unrestricted sport in the placebo arm", "unit": "months", "numbers": "yes", "numbers_reason": null}}
+{"nct_id": "NCT07166211", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07235085", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06474442", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT03994471", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05609968", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06403267", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06683742", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07073417", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05221840", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07237568", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07109869", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05909397", "verdict": "minor", "problems": ["Planned patients (565/565) come from the description's planned Phase 3 of about 1130, not from the registered enrolment of 59 as the rules require; the notes explain this and number questions are none, so a forecaster is not misled"], "fix": null}
+{"nct_id": "NCT06803823", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07482657", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06799247", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06388200", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05202509", "verdict": "minor", "problems": ["Control event rate is anchored to 'the end of follow-up', which varies by patient (at least 30 months, up to about 4.5 years); better to state it as the crude % of placebo patients with a first MACE over the trial or a Kaplan-Meier rate at a stated year"], "fix": null}
+{"nct_id": "NCT06480383", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07005336", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06500026", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06568627", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07089186", "verdict": "wrong", "problems": ["Numbers flag 'none' is not supported by the rules: the card's endpoint (first listed primary, cUTI overall success at test of cure) is a single responder proportion, there is a control arm (best available therapy) and the unit (%) is not arbitrary", "Several primaries are handled by taking the first listed efficacy outcome, as done on other cards; being in different infection subgroups is not one of the reasons for 'none'"], "fix": {"numbers": "yes", "numbers_reason": null, "control_measure": "% of best-available-therapy patients with cUTI achieving overall success (clinical plus microbiological response) at the test-of-cure visit (day 12-23)", "effect_measure": "difference in overall success rate in cUTI, percentage points, experimental minus control", "better": "higher", "unit": "%"}}
+{"nct_id": "NCT07105488", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06151574", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06206564", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07678931", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06863961", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06671548", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05464784", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06104566", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05598333", "verdict": "wrong", "problems": ["Number questions set to none because four primaries are listed with none named as main; that is not one of the rule's reasons for none. The rule takes the first listed efficacy primary (CV death at 52 weeks), which has a placebo control, a standard unit and is a time-to-event outcome, so number questions should be yes.", "Record does not describe a hierarchical composite or win-ratio analysis that would make the main result something other than one number."], "fix": {"numbers": "yes", "numbers_reason": null, "effect_measure": "hazard ratio for cardiovascular death, AB-1002 1.43E14 vg vs placebo", "better": "lower", "control_measure": "cardiovascular death rate in % by week 52 in the placebo arm", "unit": "% at 52 weeks"}}
+{"nct_id": "NCT05822752", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06125951", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06316531", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06016738", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT04529772", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06775379", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07489612", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07036523", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06516965", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07219615", "verdict": "minor", "problems": ["The record lists two separate placebo interventions (Placebo - 50 mg, Placebo - 100 mg), which suggests four randomised arms (two placebo-to-active sequences). An even four-way split of 200 would give 50 on ritlecitinib 100 mg and 100 on pooled placebo, not 67/67. The card's notes already flag this."], "fix": null}
+{"nct_id": "NCT05519085", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06727565", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07222917", "verdict": "minor", "problems": ["The record only says 'change from baseline in UACR'. The card turns this into a difference in mean percent change (percentage points), but UACR results are usually reported as a ratio of geometric means (placebo-adjusted % change), which is not the same number as a percentage-point difference. The card's notes explain the choice."], "fix": null}
+{"nct_id": "NCT07505745", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07398378", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT04603807", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06601335", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06355531", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06323213", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06629779", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07029711", "verdict": "ok", "problems": [], "fix": null}

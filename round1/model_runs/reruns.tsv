@@ -1,0 +1,24 @@
+model	batch	reason
+opus	B_003	used the tool Edit on its own output
+opus	B_005	used the tool Edit
+opus	B_027	used the tool Edit
+opus	B_050	used the tool Edit
+opus	B_057	used the tool Edit
+opus	B_027	used the tool Edit (first re-run)
+opus	B_068	used the tool Edit
+sonnet	B_002	used the tool Edit
+opus	B_057	used the tool Edit (first re-run)
+sonnet	B_004	used the tool Edit
+sonnet	B_005	used the tool Edit
+sonnet	B_021	used the tool Bash
+sonnet	B_048	used the tool Bash
+sonnet	B_017	the round checker refused NCT06125951 (p_next_step missing)
+haiku	B_010	used the tool mcp__Claude_Docs__guide
+haiku	B_001	the round checker refused NCT04318041 (p_key_secondary missing)
+haiku	B_021	the round checker refused NCT06349980 (p_late missing)
+haiku	B_041	left out NCT06914895 (9 lines for 10 trials)
+haiku	B_053	the round checker refused NCT07169851 (p_key_secondary missing)
+haiku	B_064	the round checker refused NCT07486960 (p_late missing)
+opus	B_061	some replies came from another model (claude-opus-4-8, a runtime fallback), found by the stricter log check
+opus	B_061	first re-run stopped by a safety classifier before writing any answer; second re-run sends the 10 trials one at a time
+opus	B_061_t09	second re-run (the trial alone): replies again came from claude-opus-4-8 (fallback after a safety stop); no answer from claude-opus-5-5 within the two re-runs

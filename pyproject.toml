@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tdcb"
+version = "0.3.1"
+description = "Treatment Decision Calibration Benchmark: outcome calibration, safety traps, trial forecasts, trial facts and biomarker checks for oncology models"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scipy>=1.10",
+  "scikit-learn>=1.3",
+]
+
+[project.optional-dependencies]
+runner = ["httpx>=0.25"]
+test = ["pytest>=7"]
+
+[project.scripts]
+tdcb = "tdcb.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["tdcb*"]
+
+[tool.setuptools.package-data]
+tdcb = ["data/*.json", "schemas/*.json", "prompts/*.md"]

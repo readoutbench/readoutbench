@@ -1,0 +1,317 @@
+[
+{
+"nct_id": "NCT07807007",
+"questions": "main",
+"primary_completion_date": "2026-08-03",
+"phase": [
+"PHASE2"
+],
+"area": "lungs and airways",
+"sponsor": "Shanghai Xin Huanghe Pharmaceutical Co., Ltd.",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "web check: nothing public"
+},
+{
+"nct_id": "NCT07016412",
+"questions": "main",
+"primary_completion_date": "2026-08-17",
+"phase": [
+"PHASE2"
+],
+"area": "lungs and airways",
+"sponsor": "Verona Pharma, Inc., a subsidiary of Merck & Co., Inc. (Rahway, New Jersey USA",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "web check: nothing public"
+},
+{
+"nct_id": "NCT05039840",
+"questions": "main",
+"primary_completion_date": "2026-09-04",
+"phase": [
+"PHASE2"
+],
+"area": "immune and joints",
+"sponsor": "Sanofi",
+"comparison": "placebo or sham",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "web check: nothing public"
+},
+{
+"nct_id": "NCT07505888",
+"questions": "main",
+"primary_completion_date": "2026-11",
+"phase": [
+"PHASE3"
+],
+"area": "infections and vaccines",
+"sponsor": "Sinovac Biotech Co., Ltd",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT07103148",
+"questions": "main",
+"primary_completion_date": "2026-11-28",
+"phase": [
+"PHASE3"
+],
+"area": "infections and vaccines",
+"sponsor": "Sanofi",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT05928390",
+"questions": "main",
+"primary_completion_date": "2026-10-29",
+"phase": [
+"PHASE2"
+],
+"area": "diabetes, obesity and metabolism",
+"sponsor": "RECORDATI GROUP",
+"comparison": "placebo or sham",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not checked"
+},
+{
+"nct_id": "NCT07500506",
+"questions": "main",
+"primary_completion_date": "2026-12-04",
+"phase": [
+"PHASE3"
+],
+"area": "infections and vaccines",
+"sponsor": "Pfizer",
+"comparison": "another dose or schedule of the same treatment",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT04977024",
+"questions": "main",
+"primary_completion_date": "2026-12-31",
+"phase": [
+"PHASE2"
+],
+"area": "cancer",
+"sponsor": "GeoVax, Inc.",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT03789552",
+"questions": "main",
+"primary_completion_date": "2026-12",
+"phase": [
+"PHASE3"
+],
+"area": "heart and blood vessels",
+"sponsor": "Tasly Pharmaceuticals, Inc.",
+"comparison": "placebo or sham",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT06281119",
+"questions": "main",
+"primary_completion_date": "2026-12-31",
+"phase": [
+"PHASE3"
+],
+"area": "infections and vaccines",
+"sponsor": "Serum Institute of India Pvt. Ltd.",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT06806137",
+"questions": "main",
+"primary_completion_date": "2026-12-14",
+"phase": [
+"PHASE3"
+],
+"area": "infections and vaccines",
+"sponsor": "GlaxoSmithKline",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT07505836",
+"questions": "main",
+"primary_completion_date": "2027-01",
+"phase": [
+"PHASE3"
+],
+"area": "infections and vaccines",
+"sponsor": "Sinovac Biotech Co., Ltd",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT05757102",
+"questions": "main",
+"primary_completion_date": "2027-01-26",
+"phase": [
+"PHASE3"
+],
+"area": "lungs and airways",
+"sponsor": "GlaxoSmithKline",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT07215702",
+"questions": "main",
+"primary_completion_date": "2027-02-11",
+"phase": [
+"PHASE2"
+],
+"area": "infections and vaccines",
+"sponsor": "AstraZeneca",
+"comparison": "placebo or sham",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT07493265",
+"questions": "main",
+"primary_completion_date": "2027-02-14",
+"phase": [
+"PHASE2"
+],
+"area": "brain and nerves",
+"sponsor": "Eisai Inc.",
+"comparison": "placebo or sham",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT07415252",
+"questions": "main",
+"primary_completion_date": "2027-02-13",
+"phase": [
+"PHASE3"
+],
+"area": "other",
+"sponsor": "SK Bioscience Co., Ltd.",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT07245953",
+"questions": "main",
+"primary_completion_date": "2027-02",
+"phase": [
+"PHASE2"
+],
+"area": "infections and vaccines",
+"sponsor": "Suzhou HepaThera Biotech Co., Ltd.",
+"comparison": "placebo or sham",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT07017777",
+"questions": "main",
+"primary_completion_date": "2027-02-15",
+"phase": [
+"PHASE3"
+],
+"area": "infections and vaccines",
+"sponsor": "CanSino Biologics Inc.",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT07365462",
+"questions": "main",
+"primary_completion_date": "2027-02",
+"phase": [
+"PHASE2"
+],
+"area": "brain and nerves",
+"sponsor": "Neurocrine Biosciences",
+"comparison": "placebo or sham",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT07425392",
+"questions": "main",
+"primary_completion_date": "2027-03",
+"phase": [
+"PHASE3"
+],
+"area": "infections and vaccines",
+"sponsor": "Vaxcyte, Inc.",
+"comparison": "active drug",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+},
+{
+"nct_id": "NCT07395232",
+"questions": "main",
+"primary_completion_date": "2027-03",
+"phase": [
+"PHASE3"
+],
+"area": "eyes",
+"sponsor": "Domp\u00e9 Farmaceutici S.p.A",
+"comparison": "placebo or sham",
+"why_no_p_met": null,
+"from": "round 2 candidates",
+"note": null,
+"results_check": "not finished"
+}
+]

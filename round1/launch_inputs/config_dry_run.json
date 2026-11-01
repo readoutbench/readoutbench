@@ -1,0 +1,36 @@
+{
+ "questions": "questions.json",
+ "funnel": "funnel.json",
+ "review": "review.json",
+ "cards": "cards.jsonl",
+ "records": "records.jsonl",
+ "drops": "drops.jsonl",
+ "checks": [
+  "../results_check/other_checks.jsonl",
+  "../results_check/final_check/first_pass_labels.jsonl",
+  "../results_check/final_check/deep_pass_labels.jsonl"
+ ],
+ "min_queries": 2,
+ "min_opened": 1,
+ "checked_from": "2026-10-29",
+ "unchecked_step": "not checked deeply enough before the round opened (left out of Round 1)",
+ "signed_off": "signed_off.jsonl",
+ "below_bar": "below_bar.jsonl",
+ "closes": "2026-11-15",
+ "snapshot": "2026-10-29",
+ "received": "2026-10-29",
+ "rules": "../../docs/round1-rules-draft.md",
+ "refs": [
+  [
+   "ref-b0",
+   "../staged_round/entries/ref-b0/forecasts.jsonl",
+   "../staged_round/entries/ref-b0/meta.json"
+  ],
+  [
+   "ref-b1",
+   "../staged_round/entries/ref-b1/forecasts.jsonl",
+   "../staged_round/entries/ref-b1/meta.json"
+  ]
+ ],
+ "out": "/tmp/readoutbench_rebuild"
+}

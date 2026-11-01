@@ -1,0 +1,90 @@
+{"nct_id": "NCT04514653", "verdict": "minor", "problems": ["Planned patients are a rough five-way split of 146; enrolment spans 7 cohorts (cohorts 3-6 have no ranibizumab arm), so the Cohort 7 Dose 4 arm and its ranibizumab comparator are likely smaller than 29 each", "Non-inferiority inferred only from the 'similar effects' wording in a phase 2 dose-escalation study; no formal hypothesis or margin in the record"], "fix": null}
+{"nct_id": "NCT04704921", "verdict": "minor", "problems": ["Planned patients use the description's approximate 630 rather than the registered enrolment of 671 (about 224 per arm if split evenly across 3 arms)"], "fix": null}
+{"nct_id": "NCT05263934", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05407636", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05757869", "verdict": "minor", "problems": ["Control unit duplicated in the number-question wording ('(% per year) (% per year)')"], "fix": null}
+{"nct_id": "NCT05884398", "verdict": "minor", "problems": ["Primary is registered as the 18-month rPFS percentage, so the reported non-inferiority result may be a rate difference rather than the hazard ratio asked for (card notes this)", "Redundant duplicated unit parenthetical in the control wording"], "fix": null}
+{"nct_id": "NCT05952206", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05972473", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06495918", "verdict": "minor", "problems": ["Aflibercept is listed twice (apparently two aflibercept arms/regimens); the card does not say which aflibercept arm is the control", "Eligibility mentions 2 mg aflibercept, so 'dose not stated' could be refined to 2 mg"], "fix": null}
+{"nct_id": "NCT06569056", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06596252", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06716216", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06856577", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06957080", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07032597", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07037277", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07076199", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07122401", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07124221", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07165223", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07215312", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07487727", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07494409", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07504458", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07746726", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05270525", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05462587", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06769659", "verdict": "minor", "problems": ["Two NPT 2042 doses are evaluated among 14 subjects; the higher-dose vs placebo comparison likely includes fewer than 14 patients, so 14/14 overstates planned patients for that comparison (the card's notes flag this)"], "fix": null}
+{"nct_id": "NCT07016750", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07118254", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07434271", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07478744", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07646613", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05643534", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT04498117", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06993610", "verdict": "minor", "problems": ["Record does not say which tibulizumab dose is higher; choosing Dose B as the highest dose is an unverified assumption (disclosed in notes)", "Effect unit not stated; should be percentage points (difference in mean percent change)"], "fix": null}
+{"nct_id": "NCT07249463", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05141721", "verdict": "minor", "problems": ["Planned patients (350/350) are the whole Phase 2/3 enrolment, while the chosen Phase 2 ctDNA endpoint is analysed only in the smaller Phase 2 portion (disclosed in notes)"], "fix": null}
+{"nct_id": "NCT03816163", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05281471", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06190951", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07842991", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06206733", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07654140", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06388564", "verdict": "minor", "problems": ["Arms and allocation are not named in the record; the ruxolitinib-without-axatilimab control is inferred, and whether corticosteroids are given in either arm is unclear (disclosed in notes)"], "fix": null}
+{"nct_id": "NCT06855069", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06772168", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07533786", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT03887455", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT02972840", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05291091", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07101939", "verdict": "minor", "problems": ["Record describes a part-parallel, part-crossover design in which placebo may be a within-patient crossover period rather than a separate parallel arm, so the 40 vs 40 split and the parallel-group framing are uncertain (card flags this in notes)"], "fix": null}
+{"nct_id": "NCT07605338", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06944522", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06500702", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05884255", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07486960", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06598943", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06971094", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07221578", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06585787", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06701331", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07186413", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07057622", "verdict": "minor", "problems": ["PFS on octreotide LAR in progressive NETs usually reaches a median, so the rule would ask for median PFS in months; the 18-month PFS rate is acceptable here because it is the registered primary measure", "Primary is framed as a comparison of 18-month PFS rates; the trial may report a rate difference rather than a hazard ratio"], "fix": null}
+{"nct_id": "NCT06602479", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT04647240", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06577090", "verdict": "minor", "problems": ["Number of arms uncertain: summary mentions an active control and semaglutide is listed separately, so a semaglutide-alone arm (4 arms, about 34 each) is possible; 45/45 assumes 3 arms", "Outcome description (percent of participants with weight reduction) conflicts with the outcome title; card reasonably uses mean percent change"], "fix": null}
+{"nct_id": "NCT07107256", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT04657991", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07226661", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07246889", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06685757", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07832552", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06339008", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07216482", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06349980", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07521631", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07027345", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07453069", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07774364", "verdict": "minor", "problems": ["Endpoint field names inflammatory lesion count only, while the record's outcome (and the card's own numbers reason) covers both inflammatory and non-inflammatory lesions", "Time point: card uses week 8 from the description, but the registered time frame is 12 weeks; the discrepancy should be flagged in the endpoint rather than resolved silently"], "fix": null}
+{"nct_id": "NCT05702034", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06843590", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06641089", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06662383", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT05138133", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT07169942", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06660992", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06858878", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06846515", "verdict": "ok", "problems": [], "fix": null}
+{"nct_id": "NCT06075264", "verdict": "ok", "problems": [], "fix": null}

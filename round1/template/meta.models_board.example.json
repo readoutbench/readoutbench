@@ -1,0 +1,16 @@
+{
+ "team": "Your team",
+ "entry_name": "Model Y, bare",
+ "contact": "you@example.org",
+ "models": [
+  "model-y"
+ ],
+ "harness": "One call per batch of 10 trials with the round's instructions unchanged.",
+ "setting": "closed",
+ "web_access": false,
+ "cost_usd_per_trial": 0.05,
+ "model_version": "model-y-2026-09-15 (the provider's exact name)",
+ "provider": "the API used",
+ "prompt_sha256": "the SHA-256 of forecast_instructions.md, from manifest.json (instructions_sha256)",
+ "run_settings": "optional: reasoning effort, temperature, dates run"
+}

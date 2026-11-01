@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ReadoutBench</title>
+<meta name="description" content="Forecast 653 company-run clinical trials before their results are public. Round 1 opens 1 November 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --paper: #F3F5F3; --sheet: #FFFFFF; --ink: #13202B; --ink-2: #4A5865; --rule: #D2D9D8;
+  --accent: #0C6A82; --accent-soft: #DBEDF1; --warm: #A4462C;
+  --sans: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0E151B; --sheet: #151F28; --ink: #E2E9EE; --ink-2: #A1AFBB; --rule: #283642;
+    --accent: #5DB9D2; --accent-soft: #15323B; --warm: #E68B70; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0E151B; --sheet: #151F28; --ink: #E2E9EE; --ink-2: #A1AFBB; --rule: #283642;
+  --accent: #5DB9D2; --accent-soft: #15323B; --warm: #E68B70; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.55 var(--sans); }
+a { color: var(--accent); text-underline-offset: 3px; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+header.top { border-bottom: 1px solid var(--rule); }
+header.top .wrap { display: flex; justify-content: space-between; align-items: center; height: 56px; gap: 16px; }
+.brand { font-weight: 800; font-stretch: 112%; letter-spacing: -0.01em; text-decoration: none; color: var(--ink); }
+.brand span { color: var(--ink-2); font-weight: 500; font-stretch: 100%; }
+nav a { color: var(--ink-2); text-decoration: none; margin-left: 18px; font-size: 15px; }
+nav a:hover { color: var(--accent); }
+.hero { padding: 64px 0 40px; }
+.kicker { font: 500 13px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font-size: clamp(34px, 6vw, 60px); line-height: 1.04; font-stretch: 108%; font-weight: 800; letter-spacing: -0.02em; margin: 14px 0 18px; max-width: 16ch; }
+.lede { font-size: 19px; color: var(--ink-2); max-width: 62ch; margin: 0 0 28px; }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn { display: inline-block; padding: 12px 18px; border-radius: 6px; font-weight: 600; text-decoration: none; border: 1px solid var(--accent); }
+.btn.primary { background: var(--accent); color: var(--sheet); }
+.btn.ghost { color: var(--accent); }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--rule); background: var(--sheet); border-radius: 8px; margin: 40px 0 0; }
+.stat { padding: 18px 20px; border-left: 1px solid var(--rule); }
+.stat:first-child { border-left: 0; }
+.stat b { display: block; font: 600 30px/1.1 var(--mono); }
+.stat small { color: var(--ink-2); font-size: 14px; }
+section { padding: 44px 0; border-top: 1px solid var(--rule); }
+h2 { font-size: 26px; font-stretch: 108%; margin: 0 0 18px; letter-spacing: -0.01em; }
+.steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; counter-reset: s; list-style: none; padding: 0; margin: 0; }
+.steps li { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 18px; counter-increment: s; }
+.steps li::before { content: counter(s, decimal-leading-zero); font: 500 13px var(--mono); color: var(--accent); display: block; margin-bottom: 8px; }
+.steps h3 { margin: 0 0 6px; font-size: 17px; }
+.steps p { margin: 0; color: var(--ink-2); font-size: 15px; }
+.trials { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.trial { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 18px; display: flex; flex-direction: column; }
+.tmeta { display: flex; flex-wrap: wrap; gap: 6px 12px; font: 500 12px var(--mono); color: var(--accent); }
+.trial h3 { font-size: 16px; line-height: 1.35; margin: 8px 0 10px; }
+.trial dl { margin: 0; font-size: 14px; }
+.trial dt { font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); margin-top: 8px; }
+.trial dd { margin: 2px 0 0; }
+.trial small { color: var(--ink-2); }
+.trial .ask { font-size: 14px; margin: 12px 0 0; padding-top: 10px; border-top: 1px dashed var(--rule); }
+.trial .why { font-size: 14px; color: var(--ink-2); margin: 8px 0 0; font-style: italic; }
+.browser { margin-top: 20px; background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 18px; }
+.browser summary, .faq summary { cursor: pointer; font-weight: 600; }
+.filters { display: flex; flex-wrap: wrap; gap: 10px; margin: 14px 0 4px; }
+.filters input, .filters select { font: 15px var(--sans); padding: 9px 11px; border: 1px solid var(--rule); border-radius: 6px; background: var(--paper); color: var(--ink); }
+.filters input { flex: 1 1 260px; min-width: 0; }
+#list { list-style: none; margin: 8px 0 0; padding: 0; max-height: 560px; overflow-y: auto; }
+#list li { border-top: 1px solid var(--rule); padding: 10px 2px; font-size: 14px; }
+#list li b { font-weight: 600; }
+#list li .m { font: 12px var(--mono); color: var(--ink-2); }
+#list li details { margin-top: 4px; }
+#list li details p { margin: 4px 0; color: var(--ink-2); }
+.faq details { border-top: 1px solid var(--rule); padding: 14px 0; }
+.faq details:last-child { border-bottom: 1px solid var(--rule); }
+.faq p { margin: 8px 0 0; color: var(--ink-2); max-width: 72ch; }
+.diffs { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 22px; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.card { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 20px; }
+.card h3 { margin: 0 0 6px; }
+.card p { margin: 0; color: var(--ink-2); }
+.tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 8px; background: var(--sheet); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; min-width: 640px; }
+th, td { text-align: left; padding: 11px 14px; border-top: 1px solid var(--rule); vertical-align: top; }
+thead th { border-top: 0; font: 500 12px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); }
+td code, p code, li code { font: 14px var(--mono); background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; }
+.timeline { list-style: none; margin: 0; padding: 0; }
+.timeline li { display: grid; grid-template-columns: 170px 1fr; gap: 16px; padding: 12px 0; border-top: 1px dashed var(--rule); }
+.timeline li:first-child { border-top: 0; }
+.timeline time { font: 500 15px var(--mono); color: var(--accent); }
+.hash { font: 13px/1.6 var(--mono); background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; overflow-x: auto; white-space: pre; color: var(--ink-2); }
+.note { color: var(--ink-2); font-size: 15px; }
+section > p { max-width: 72ch; }
+footer { border-top: 1px solid var(--rule); padding: 28px 0 48px; color: var(--ink-2); font-size: 14px; }
+footer a { color: var(--ink-2); }
+@media (max-width: 820px) {
+  nav { display: none; }
+  .stats { grid-template-columns: 1fr 1fr; }
+  .stat:nth-child(3) { border-left: 0; }
+  .stat:nth-child(n+3) { border-top: 1px solid var(--rule); }
+  .steps, .two, .diffs, .trials { grid-template-columns: 1fr; }
+  .timeline li { grid-template-columns: 1fr; gap: 2px; }
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#">ReadoutBench</a>
+  <nav><a href="#why">Why</a><a href="#different">How it differs</a><a href="#examples">Trials</a><a href="#leaderboard">Leaderboard</a><a href="#faq">Questions</a><a href="readoutbench.pdf">Paper</a></nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <div class="kicker">Round 1 · open until 15 November 2026</div>
+    <h1>Forecast clinical trials before they read out.</h1>
+    <p class="lede">653 company-run phase 2 and 3 trials, randomized, completing between July 2026 and March 2027. Forecast whether each one works, by how much, and whether a result comes out at all. Entries are scored as the results arrive, over the next fourteen months.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://huggingface.co/spaces/readoutbench/readoutbench">Enter the round</a>
+      <a class="btn ghost" href="https://huggingface.co/datasets/readoutbench/readoutbench-r1">Download the trials</a>
+      <a class="btn ghost" href="https://github.com/readoutbench/readoutbench/blob/main/docs/round1-rules-draft.md">Read the rules</a>
+      <a class="btn ghost" href="readoutbench.pdf">Read the paper</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>653</b><small>trials in the round</small></div>
+      <div class="stat"><b>548</b><small>with a <code>p_met</code> question</small></div>
+      <div class="stat"><b>15 Nov</b><small>submissions close, 23:59:59 UTC</small></div>
+      <div class="stat"><b>30 Jun</b><small>2027: the ranked result</small></div>
+    </div>
+  </div>
+
+  <section id="why">
+    <h2>Why</h2>
+    <p>A woman whose lung cancer has come back after two lines of treatment is offered a place in a phase 3 trial. Half the patients get a new antibody-drug conjugate, half get docetaxel, a chemotherapy approved in 1996. Whether the new arm does better is what the trial is there to find out, and until it reads out, everyone involved works from some estimate of the odds. How good are those estimates? When 148 cancer specialists forecast 25 ongoing trials, their Brier score was 0.22, a little better than the 0.25 you get by saying 50% every time (<a href="https://doi.org/10.1177/17407745231203375">Doussau et al. 2023</a>). Investigators forecasting their own trials did no better than that coin (<a href="https://doi.org/10.1371/journal.pone.0262862">Benjamin et al. 2022</a>).</p>
+    <p>I think AI models will be asked to make that kind of estimate, and an estimate is only worth as much as its track record. ReadoutBench builds one at the level of trials: hundreds of real trials, forecast before they report and scored when they do.</p>
+    <p>The obvious guess is strong. About 64% of the reported trials the registry model learned from met their primary endpoint, so saying yes to everything already scores well. Beating that takes judgement about this drug and this design (and sometimes about a company's habit of describing a miss as a success).</p>
+    <p>If the best model cannot beat a logistic regression on seven registry fields, that is worth knowing.</p>
+  </section>
+
+  <section id="different">
+    <h2>How it differs</h2>
+    <p>Most medical AI benchmarks are exams with an answer key: MedQA and its relatives. Answer keys end up in training data, and a score on a test that has leaked says little. A question about a trial that has not reported has no key to leak. The closest benchmark to this one is <a href="https://arxiv.org/abs/2604.16742">CT Open</a>, a live clinical-trial outcome challenge, and it is worth a look. The differences are deliberate:</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th></th><th>CT Open</th><th>ReadoutBench</th></tr></thead>
+      <tbody>
+        <tr><td>What you give</td><td>A class per outcome measure: did it reach statistical significance</td><td>A probability per trial, plus the control-arm value and the effect size, subgroups, safety, whether a result comes out at all, and trial operations</td></tr>
+        <tr><td>Scoring</td><td>Macro-F1 and balanced accuracy</td><td>Brier score, a proper scoring rule: a confident miss costs more than a hedged one. Calibration shown for every entry</td></tr>
+        <tr><td>The bar</td><td>Language models next to classical models</td><td>Ranked in tiers against a published registry model; three frontier-model references are hashed before opening and published at the close</td></tr>
+        <tr><td>How results are read</td><td>An automated, model-based pipeline over reported results</td><td>Two independent labelling agents per trial that never see a forecast, reading press releases, filings, congress abstracts, papers and posted registry results; disagreements settled by the organiser, every label published with its sources</td></tr>
+        <tr><td>Who enters</td><td>Any method</td><td>Two boards: one model with the round's instructions unchanged, or anything at all</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Press releases matter here: a company often announces a readout months before it posts results on ClinicalTrials.gov, and the first public statement is what a forecast is scored against.</p>
+  </section>
+
+  <section id="examples">
+    <h2>Three of the 653</h2>
+    <div class="trials">
+      <article class="trial">
+        <div class="tmeta"><span>NCT06662383</span><span>Phase 3</span><span>Eli Lilly and Company</span></div>
+        <h3>A Study of Retatrutide (LY3437943) Compared to Tirzepatide (LY3298176) in Adults Who Have Obesity</h3>
+        <dl>
+          <dt>Experimental</dt><dd>Retatrutide (dose not stated) <small>(n = 400)</small></dd>
+          <dt>Control</dt><dd>Tirzepatide (dose not stated) <small>(n = 400)</small></dd>
+          <dt>Primary endpoint</dt><dd>Percent change in body weight from baseline to week 80</dd>
+          <dt>Design</dt><dd>superiority; primary completion 2026-11</dd>
+        </dl>
+        <p class="ask"><b>You forecast:</b> the probability it meets its primary objective; the mean percent change in body weight from baseline to week 80 in the tirzepatide arm; the difference in mean percent change in body weight, experimental minus control, each as a median and an 80% range; plus whether a result comes out by each deadline.</p>
+        <p class="why">Two drugs from the same company, head to head. The control arm is itself one of the strongest obesity drugs there is.</p>
+      </article>
+      <article class="trial">
+        <div class="tmeta"><span>NCT05757869</span><span>Phase 3</span><span>Janssen Research &amp; Development, LLC</span></div>
+        <h3>A Study of Milvexian Versus Apixaban in Participants With Atrial Fibrillation</h3>
+        <dl>
+          <dt>Experimental</dt><dd>Milvexian, oral factor XIa inhibitor (dose not stated), with apixaban-matching placebo <small>(n = 10,142)</small></dd>
+          <dt>Control</dt><dd>Apixaban (dose not stated), with milvexian-matching placebo <small>(n = 10,142)</small></dd>
+          <dt>Primary endpoint</dt><dd>Time to first stroke or non-CNS systemic embolism in atrial fibrillation, over up to 4 years of follow-up</dd>
+          <dt>Design</dt><dd>non-inferiority; primary completion 2026-12-08</dd>
+        </dl>
+        <p class="ask"><b>You forecast:</b> the probability it meets its primary objective; the annualized event rate of stroke or non-CNS systemic embolism in the apixaban arm; the hazard ratio, experimental vs control, each as a median and an 80% range; plus whether a result comes out by each deadline.</p>
+        <p class="why">Twenty thousand patients. Factor XIa inhibitors promise less bleeding; the question is whether they prevent as many strokes.</p>
+      </article>
+      <article class="trial">
+        <div class="tmeta"><span>NCT06356311</span><span>Phase 3</span><span>Merck Sharp &amp; Dohme LLC</span></div>
+        <h3>A Study to Evaluate Sacituzumab Tirumotecan (MK-2870) in Advanced/Metastatic Gastroesophageal Adenocarcinoma (MK-2870-015)</h3>
+        <dl>
+          <dt>Experimental</dt><dd>Sacituzumab tirumotecan (MK-2870) <small>(n = 237)</small></dd>
+          <dt>Control</dt><dd>Treatment of physician&#x27;s choice (trifluridine-tipiracil, irinotecan, paclitaxel or docetaxel) <small>(n = 236)</small></dd>
+          <dt>Primary endpoint</dt><dd>Overall survival (time from randomization to death from any cause), up to about 31 months</dd>
+          <dt>Design</dt><dd>superiority; primary completion 2026-10-19</dd>
+        </dl>
+        <p class="ask"><b>You forecast:</b> the probability it meets its primary objective; the median overall survival in the treatment of physician&#x27;s choice arm, in months; the hazard ratio for death, experimental vs control, each as a median and an 80% range; plus whether a result comes out by each deadline.</p>
+        <p class="why">Overall survival, the hardest endpoint there is, against chemotherapy of the physician's choice.</p>
+      </article>
+    </div>
+    <details class="browser" id="browse">
+      <summary>Browse all 653 trials</summary>
+      <div class="filters">
+        <input id="q" type="search" placeholder="Search drug, disease, sponsor or NCT number" aria-label="Search trials">
+        <select id="kind" aria-label="Question type"><option value="">All trials</option><option value="pm">With a p_met question</option><option value="ops">Operations only</option></select>
+      </div>
+      <p class="note" id="count"></p>
+      <ul id="list"></ul>
+    </details>
+  </section>
+
+  <section id="how">
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li><h3>Download</h3><p>Each trial has a packet: its ClinicalTrials.gov record as pulled for the round, a question card fixing the endpoint and arms, and its operations questions.</p></li>
+      <li><h3>Forecast</h3><p>One line per trial: probabilities, and for most efficacy trials the control-arm value and the effect. <code>forecast_instructions.md</code> is the prompt the Models board uses.</p></li>
+      <li><h3>Upload</h3><p>Sign in with Hugging Face and upload on the round's page. The file is checked at once. Up to three entries per account; each upload is logged in public.</p></li>
+      <li><h3>Get scored</h3><p>Two independent labelling agents read each result as it comes out, and every label is published with its sources. Scores at 31 March 2027 (early look), 30 June 2027 (ranked) and 31 December 2027 (supplementary).</p></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Two boards</h2>
+    <div class="two">
+      <div class="card"><h3>Models</h3><p>One model, answering from the packet alone with the round's instructions unchanged. It compares models.</p></div>
+      <div class="card"><h3>Open</h3><p>Anything else: any harness, tools, web access or several models. It shows how far a system can go.</p></div>
+    </div>
+  </section>
+
+  <section id="scored">
+    <h2>What is scored</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Trials</th><th>Will it work? <code>p_met</code></th><th>Numbers</th><th>Will a result be out?</th><th>Operations</th></tr></thead>
+      <tbody>
+        <tr><td>536 superiority and non-inferiority trials</td><td>yes</td><td>509 (control and effect; subgroups on 275)</td><td>yes</td><td>yes</td></tr>
+        <tr><td>12 equivalence trials</td><td>yes: equivalence shown</td><td>no</td><td>yes</td><td>yes</td></tr>
+        <tr><td>105 trials with no efficacy goal</td><td>no</td><td>no</td><td>no</td><td>yes</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Two rankings, both in tiers: <code>p_met</code> against the registry model, and the number score against the Opus reference entry. Everything else (safety, key secondary, next step, timing, operations) is shown on each entry's scorecard and never ranked.</p>
+  </section>
+
+  <section id="leaderboard">
+    <h2>Leaderboard</h2>
+    <p>First scores on 31 March 2027; the ranked result on 30 June 2027. Until then the board holds the five reference entries. The two baselines are in the dataset with their forecasts, training table and code. The three model entries are sealed until submissions close, so nobody can copy the Opus reference that scales the number score; their SHA-256 hashes are in the <a href="readoutbench.pdf">paper</a>, so they cannot be changed in the meantime.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Entry</th><th>Board</th><th>What it is</th><th>Brier, <code>p_met</code></th><th>Tier</th></tr></thead>
+      <tbody>
+        <tr><td>B1 · registry model</td><td>reference</td><td>Logistic regression on seven registry fields, fitted on reported trials. The bar for the ranking</td><td>pending</td><td>the reference</td></tr>
+        <tr><td>B0 · base rate</td><td>reference</td><td>The same probability for every trial</td><td>pending</td><td>pending</td></tr>
+        <tr><td>Claude Opus 5.5</td><td>Models</td><td>Packet only, the round's instructions unchanged. The reference for the number score</td><td>pending</td><td>pending</td></tr>
+        <tr><td>Claude Sonnet 5.5</td><td>Models</td><td>Same rules</td><td>pending</td><td>pending</td></tr>
+        <tr><td>Claude Haiku 5.5</td><td>Models</td><td>Same rules</td><td>pending</td><td>pending</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="unknown">
+    <h2>Are the answers really unknown?</h2>
+    <p>Before launch, every trial was searched for a public result, an announced stop or a statement on its primary outcome: PubMed, the web in the sponsor's language, congress abstracts, and sponsors' pipeline documents and quarterly reports. Each check, with its searches and pages, is in the <a href="https://github.com/readoutbench/readoutbench/tree/main/round1/results_check">repository</a>.</p>
+    <p>The checks cannot be perfect, so the scoring does not depend on them. When each trial is labelled, its first public statement is dated. Any trial with a result public before the round closed (a missed one from before launch, or one that came out during the two open weeks) is dropped from scoring and listed. Only results that appear after the close count.</p>
+    <p class="note">85 trials are marked <code>below the bar</code>: the pre-launch checks could not search them as deeply as the rest. They are scored, and the leaderboard also shows each entry without them.</p>
+  </section>
+
+  <section id="faq">
+    <h2>Questions</h2>
+    <div class="faq">
+      <details><summary>Can I use web search, tools or several models?</summary><p>On the Open board, yes: any model, prompt, tools, retrieval, web access and people in the loop, declared with the entry. The Models board is one model answering from the packet alone, with the round's instructions unchanged.</p></details>
+      <details><summary>Can people enter, not only AI systems?</summary><p>Yes, on the Open board, with <code>human_in_the_loop</code> set. A forecast for every trial with a <code>p_met</code> question is required (548), so a 50-trial hand-picked subset is not an entry; a spreadsheet and a lot of evenings is.</p></details>
+      <details><summary>What counts as "met"?</summary><p>The trial meets its primary objective as registered and fixed on its question card. "Positive" or "encouraging" with no statement on the primary endpoint keeps the question open; if nothing clearer comes by the deadline, it counts as not met. The rules list every case.</p></details>
+      <details><summary>What if a trial never reports?</summary><p>It is not scored for <code>p_met</code> at that deadline. Whether a result comes out at all is its own question (<code>p_public</code>), scored separately.</p></details>
+      <details><summary>What if a result was already out?</summary><p>Any trial whose first public statement on its primary result came before the round closed is dropped from scoring and listed, whether the checks before launch missed it or it came out during the two open weeks.</p></details>
+      <details><summary>Can I change my entry?</summary><p>Upload again before the close; the last upload counts. Every upload is logged in a public list with its time and file fingerprint. Up to three entries per Hugging Face account, each a different harness.</p></details>
+      <details><summary>Why only company-run trials?</summary><p>Companies announce readouts fast, often by press release within weeks of the primary analysis. Academic trials can take years to publish, which would leave most of the round unscored.</p></details>
+      <details><summary>Does it cost anything?</summary><p>No. Entries report their own cost per trial (compute and API), shown with the entry.</p></details>
+    </div>
+  </section>
+
+  <section id="dates">
+    <h2>Dates</h2>
+    <ul class="timeline">
+      <li><time>1 Nov 2026</time><span>Round opens. Trial files, rules and the two baseline entries published; the paper, with the hashes of all five reference entries, deposited on Zenodo.</span></li>
+      <li><time>15 Nov 2026</time><span>Submissions close at 23:59:59 UTC (00:59:59 CET on 16 November). The three model entries are published and can be checked against their hashes.</span></li>
+      <li><time>31 Mar 2027</time><span>Early look: results public by this date.</span></li>
+      <li><time>30 Jun 2027</time><span>Ranked result: results public by this date.</span></li>
+      <li><time>31 Dec 2027</time><span>Final, unranked pass, which also covers slower reporters.</span></li>
+    </ul>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  <p style="margin:0 0 10px">ReadoutBench is a research benchmark about forecasting trial results from public information. It is not medical advice and not a tool for decisions about individual patients, and nothing on it is investment advice.</p>
+  ReadoutBench is run by Lucas Heinrich. Contact: <a href="mailto:contact@readoutbench.com">contact@readoutbench.com</a> · Code and checks: <a href="https://github.com/readoutbench/readoutbench">GitHub</a> (MIT) · <a href="readoutbench.pdf">Paper</a>
+</div></footer>
+<script>
+(function () {
+  var all = null, list = document.getElementById("list"), q = document.getElementById("q"),
+      kind = document.getElementById("kind"), count = document.getElementById("count"), box = document.getElementById("browse");
+  function esc(t) { return String(t == null ? "" : t).replace(/[&<>"]/g, function (c) { return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  function row(o) {
+    var head = '<b>' + esc(o.t) + '</b><div class="m">' + esc(o.id) + ' · ' + esc(o.ph) + ' · ' + esc((o.sp || "").split(";")[0]) +
+      ' · ' + esc(o.co) + ' · primary completion ' + esc(o.pcd) + (o.bb ? ' · below the bar' : '') + (o.pm ? '' : ' · operations only') + '</div>';
+    if (!o.pm) return '<li>' + head + '</li>';
+    return '<li>' + head + '<details><summary>Question card</summary>' +
+      '<p><b>Experimental:</b> ' + esc(o.ea) + ' (n = ' + esc(o.ne) + ')</p><p><b>Control:</b> ' + esc(o.ca) + ' (n = ' + esc(o.nc) + ')</p>' +
+      '<p><b>Primary endpoint:</b> ' + esc(o.ep) + '</p><p><b>Design:</b> ' + esc(o.d) + (o.mg ? ', margin ' + esc(o.mg) : '') + '</p>' +
+      (o.nu === "yes" ? '<p><b>Numbers asked:</b> ' + esc(o.cm) + '; ' + esc(o.em) + '</p>' : '') +
+      (o.ks ? '<p><b>Key secondary:</b> ' + esc(o.ks) + '</p>' : '') + '</details></li>';
+  }
+  function draw() {
+    if (!all) return;
+    var t = q.value.trim().toLowerCase(), k = kind.value;
+    var hit = all.filter(function (o) {
+      if (k === "pm" && !o.pm) return false;
+      if (k === "ops" && o.pm) return false;
+      return !t || [o.id, o.t, o.sp, o.co, o.ea, o.ca, o.ep].join(" ").toLowerCase().indexOf(t) >= 0;
+    });
+    count.textContent = hit.length + " of " + all.length + " trials";
+    list.innerHTML = hit.slice(0, 200).map(row).join("") + (hit.length > 200 ? '<li class="m">Showing the first 200; narrow the search to see the rest.</li>' : '');
+  }
+  box.addEventListener("toggle", function () {
+    if (!box.open || all) return;
+    count.textContent = "Loading…";
+    fetch("trials.json").then(function (r) { return r.json(); }).then(function (d) { all = d; draw(); })
+      .catch(function () { count.textContent = "Could not load the trial list. It is also in the dataset (cards.jsonl)."; });
+  });
+  q.addEventListener("input", draw); kind.addEventListener("change", draw);
+})();
+</script>
+</body>
+</html>

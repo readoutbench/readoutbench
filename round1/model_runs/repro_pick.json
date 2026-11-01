@@ -1,0 +1,14 @@
+{
+ "seed": 20261029,
+ "rule": "batches shuffled with random.Random(seed); taken in order until they hold at least 50 trials with p_met",
+ "batches": [
+  "B_001",
+  "B_002",
+  "B_010",
+  "B_030",
+  "B_035",
+  "B_043",
+  "B_045"
+ ],
+ "p_met_trials": 56
+}

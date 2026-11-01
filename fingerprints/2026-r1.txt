@@ -1,0 +1,13 @@
+ReadoutBench 2026-r1: opens 2026-11-01, closes 2026-11-15 23:59:59 UTC (00:59:59 CET the next day), 653 trials
+manifest.json SHA-256 3df6536cd92ccd8e654242887647420fe09b23e0802a0ace6b5e986f9a8df910
+registry.json SHA-256 44eda736835cdf69101b27841cc6258d01fb4a4151f72e15110b0f0e231025d9
+label_instructions_r1.md SHA-256 80246ddb90faf891b68320c12604263af31044398f1770a652dd8ae988048850
+amend_label_instructions.md SHA-256 2c9775060823740810f349223d08735c6e0b7fac18d4881177fd71ca8eb20dbb
+next_step_label_instructions.md SHA-256 57ca0bdc5e1ea9a5995cb328caada6e952fe34b7060e4dc77b7613bf06ae7671
+reference ref-b0 received 2026-10-29 SHA-256 30f818f28c3f8c9947f0997d6877d61803309f59999e6313a1247f1e56a384e8 meta 5cf92ce68857e0925b4871d63d3a31769ab9218c8d8cb7e7b03fbd4b4d383a9c
+reference ref-b1 received 2026-10-29 SHA-256 7e2115bd78ac20f02a68241a065f8a94059ded0eeb93b5eac2b30548f022e3b1 meta 93d78f52c6317a27e4017bc936bb06ed8c57cfdabfb0fdf30cae69683a10e30e
+reference ref-opus-5-5 received 2026-10-29 SHA-256 b327da3d9ad0d5f3f46f80405801424e99657a4fd54fcad4a7afc6d73a363c76 meta 2daf9545f6ad973f2bb9b2bee445a4fe2713daee175ee2557092aabbacc2a864
+reference ref-sonnet-5-5 received 2026-10-29 SHA-256 b54374184abee348401a9763fab90b158c92f64a653ea591b2fc5935870c336e meta dbb3eb5326982ffda33e77896e4db3437c526069d0428013d87e9f7c2b5d50d1
+reference ref-haiku-5-5 received 2026-10-29 SHA-256 e910e8ae6cffddd123f33ec479be08808b2bce45b5c4364a95ef141d735cfcb0 meta 7b4d93ab1a73849fdd0a21790ad5f1865a86331f6e52e61be47b06bb984cdf6b
+model_runs/transcript_sha256.tsv SHA-256 3c7f87406c278b700020faff107a266c1f3da259841215b4af4993e70e9fa060
+# The dry run (round1/launch_inputs/config_dry_run.json) registers only ref-b0 and ref-b1, so its registry.json SHA-256 is bb8c14e58353bf272a36335d1de820f4ad95baf0dc21b31d95e26b5eccb7c350; the manifest SHA-256 above is the value it must reproduce. The registry above is the organiser's build, with the three model entries whose forecasts stay private until the close.

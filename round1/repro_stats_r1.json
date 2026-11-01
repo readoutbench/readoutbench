@@ -1,0 +1,69 @@
+{
+ "batches": [
+  "B_001",
+  "B_002",
+  "B_010",
+  "B_030",
+  "B_035",
+  "B_043",
+  "B_045"
+ ],
+ "same_model": {
+  "opus": {
+   "trials": 56,
+   "mean_abs_diff": 0.0452,
+   "median_abs_diff": 0.03,
+   "share_40_trial_draws_above_0.08": 0.0,
+   "p99_of_40_trial_mean": 0.0658,
+   "share_20_trial_draws_above_0.06": 0.1024,
+   "p99_of_20_trial_mean": 0.075
+  },
+  "sonnet": {
+   "trials": 56,
+   "mean_abs_diff": 0.0529,
+   "median_abs_diff": 0.05,
+   "share_40_trial_draws_above_0.08": 0.0001,
+   "p99_of_40_trial_mean": 0.07,
+   "share_20_trial_draws_above_0.06": 0.2281,
+   "p99_of_20_trial_mean": 0.0775
+  },
+  "haiku": {
+   "trials": 56,
+   "mean_abs_diff": 0.0621,
+   "median_abs_diff": 0.05,
+   "share_40_trial_draws_above_0.08": 0.0115,
+   "p99_of_40_trial_mean": 0.0805,
+   "share_20_trial_draws_above_0.06": 0.5635,
+   "p99_of_20_trial_mean": 0.089
+  }
+ },
+ "between_models": {
+  "opus-sonnet": {
+   "trials": 56,
+   "mean_abs_diff": 0.0804,
+   "median_abs_diff": 0.07,
+   "share_40_trial_draws_above_0.08": 0.5089,
+   "p99_of_40_trial_mean": 0.1045,
+   "share_20_trial_draws_above_0.06": 0.9284,
+   "p99_of_20_trial_mean": 0.1155
+  },
+  "opus-haiku": {
+   "trials": 56,
+   "mean_abs_diff": 0.1011,
+   "median_abs_diff": 0.085,
+   "share_40_trial_draws_above_0.08": 0.9419,
+   "p99_of_40_trial_mean": 0.1345,
+   "share_20_trial_draws_above_0.06": 0.9887,
+   "p99_of_20_trial_mean": 0.1495
+  },
+  "sonnet-haiku": {
+   "trials": 56,
+   "mean_abs_diff": 0.0971,
+   "median_abs_diff": 0.07,
+   "share_40_trial_draws_above_0.08": 0.879,
+   "p99_of_40_trial_mean": 0.133,
+   "share_20_trial_draws_above_0.06": 0.9752,
+   "p99_of_20_trial_mean": 0.149
+  }
+ }
+}

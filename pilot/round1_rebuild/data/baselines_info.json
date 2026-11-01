@@ -1,0 +1,213 @@
+{
+ "settings": {
+  "C": 0.1,
+  "clip": 0.05,
+  "shrink_trials": 20,
+  "check_date": "2026-10-25",
+  "before": "2026-10-27",
+  "training_lag_months": [
+   -4.47,
+   11.93
+  ]
+ },
+ "n_train_before_lag_filter": 256,
+ "n_train": 220,
+ "n_train_pilot2": 93,
+ "corrections_checked_against_table": 74,
+ "fit": {
+  "window_months": [
+   -0.99,
+   6.47
+  ],
+  "n": 105,
+  "n_not_followed_left_out": 84,
+  "labels": {
+   "no": 33,
+   "vague": 5,
+   "yes": 67
+  },
+  "share_met": 0.6381
+ },
+ "training_by_china_only": {
+  "china_only": {
+   "met": 13,
+   "not_met": 2
+  },
+  "other": {
+   "met": 54,
+   "not_met": 36
+  }
+ },
+ "coefficients_per_sd": {
+  "phase3": 0.231,
+  "placebo": -0.014,
+  "log_n": 0.289,
+  "cancer": 0.033,
+  "big_pharma": 0.01,
+  "china_only": 0.301,
+  "tte": -0.234
+ },
+ "matched_rate_by_completion_month": {
+  "2026-12": {
+   "window_months": [
+    -1.5,
+    5.9
+   ],
+   "n": 120,
+   "n_not_followed_left_out": 70,
+   "raw": 0.6333333333333333,
+   "rate": 0.6340136054421769
+  },
+  "2026-07": {
+   "window_months": [
+    4.3,
+    11.8
+   ],
+   "n": 0,
+   "n_not_followed_left_out": 20,
+   "raw": null,
+   "rate": 0.638095238095238
+  },
+  "2027-03": {
+   "window_months": [
+    -3.5,
+    4.0
+   ],
+   "n": 139,
+   "n_not_followed_left_out": 56,
+   "raw": 0.5971223021582733,
+   "rate": 0.6022761305780173
+  },
+  "2026-10": {
+   "window_months": [
+    1.3,
+    8.8
+   ],
+   "n": 26,
+   "n_not_followed_left_out": 121,
+   "raw": 0.7692307692307693,
+   "rate": 0.7122153209109731
+  },
+  "2026-08": {
+   "window_months": [
+    3.0,
+    10.4
+   ],
+   "n": 0,
+   "n_not_followed_left_out": 45,
+   "raw": null,
+   "rate": 0.638095238095238
+  },
+  "2027-01": {
+   "window_months": [
+    -2.0,
+    5.5
+   ],
+   "n": 126,
+   "n_not_followed_left_out": 63,
+   "raw": 0.6190476190476191,
+   "rate": 0.6216568819308546
+  },
+  "2027-02": {
+   "window_months": [
+    -3.3,
+    4.2
+   ],
+   "n": 140,
+   "n_not_followed_left_out": 56,
+   "raw": 0.5928571428571429,
+   "rate": 0.5985119047619047
+  },
+  "2026-09": {
+   "window_months": [
+    1.5,
+    9.0
+   ],
+   "n": 19,
+   "n_not_followed_left_out": 108,
+   "raw": 0.7368421052631579,
+   "rate": 0.6862026862026861
+  },
+  "2026-11": {
+   "window_months": [
+    0.0,
+    7.5
+   ],
+   "n": 78,
+   "n_not_followed_left_out": 105,
+   "raw": 0.6538461538461539,
+   "rate": 0.6506316812439261
+  }
+ },
+ "b0_range_on_round": [
+  0.585,
+  0.7131
+ ],
+ "b1_on_round": {
+  "n_fit": 105,
+  "share_met_fit": 0.6381,
+  "china_only_coefficient": 0.301,
+  "b1_mean": 0.6246,
+  "b1_mean_china_only": 0.7594,
+  "b1_mean_other": 0.5751,
+  "n_at_upper_clip": 0,
+  "n_at_lower_clip": 0
+ },
+ "sensitivity": {
+  "fit_on_window_end_p25": {
+   "window_months": [
+    -2.44,
+    5.02
+   ],
+   "n_fit": 136,
+   "share_met_fit": 0.6103,
+   "china_only_coefficient": 0.35,
+   "b1_mean": 0.5924,
+   "b1_mean_china_only": 0.7382,
+   "b1_mean_other": 0.539
+  },
+  "fit_on_window_end_p75": {
+   "window_months": [
+    0.49,
+    7.95
+   ],
+   "n_fit": 64,
+   "share_met_fit": 0.7344,
+   "china_only_coefficient": 0.361,
+   "b1_mean": 0.6641,
+   "b1_mean_china_only": 0.7999,
+   "b1_mean_other": 0.6143
+  },
+  "organiser_decisions_left_out": {
+   "n_left_out": 7,
+   "n_fit": 101,
+   "share_met_fit": 0.6535,
+   "china_only_coefficient": 0.442,
+   "b1_mean": 0.6564,
+   "b1_mean_china_only": 0.8453,
+   "b1_mean_other": 0.5871
+  }
+ },
+ "early_pass": {
+  "deadline": "2027-03-31",
+  "window_end_months": [
+   0.0,
+   8.94
+  ],
+  "n_round_trials_with_no_training_trial_followed": 0,
+  "b0_range_on_round": [
+   0.5383,
+   0.7075
+  ],
+  "b1_on_round": {
+   "n_fit": 105,
+   "share_met_fit": 0.6381,
+   "china_only_coefficient": 0.301,
+   "b1_mean": 0.6106,
+   "b1_mean_china_only": 0.7462,
+   "b1_mean_other": 0.5609,
+   "n_at_upper_clip": 0,
+   "n_at_lower_clip": 0
+  }
+ }
+}

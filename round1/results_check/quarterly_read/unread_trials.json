@@ -1,0 +1,663 @@
+{
+ "what": "the parts of the sponsor quarterly-report read (31 October) that were not done, per trial",
+ "not_read": {
+  "meaning": "reported and stop_announced are 'unchecked' in other_checks.jsonl: the sponsor's third-quarter 2026 report (or the part of it that names trials) was not read for this trial",
+  "count": 61,
+  "trials": [
+   {
+    "nct_id": "NCT02616302",
+    "sponsor": "Takeda",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Takeda Q2 FY2026 earnings 6-K (29 Oct 2026) as summarized by the fetch tool does not mention this trial; the full pipeline appendix was not opened and no search was possible.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001395064/000139506426000343/form6k-1_102926.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT03339128",
+    "sponsor": "AbbVie",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release could not be opened (SEC fetch failed); Q2 release and July pipeline update do not mention it; no search run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000023/abbv-20260630xexhibit991.htm",
+     "https://abbvie.gcs-web.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748"
+    ]
+   },
+   {
+    "nct_id": "NCT03873402",
+    "sponsor": "Bristol-Myers Squibb",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "BMS Q3 2026 release (8-K ex99.1 failed to load, not found elsewhere) could not be read; only the Q3 10-Q excerpt (no pipeline text) and the Q2 coverage were read, none mention this trial, and searches found no result.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000024/bmy-20260930.htm",
+     "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-to-Report-Results-for-Third-Quarter-2026-on-October-29-2026/default.aspx"
+    ]
+   },
+   {
+    "nct_id": "NCT04544189",
+    "sponsor": "Novartis Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Alpelisib appears only as Piqray/Vijoice brand row and Vijoice entries; the China Phase II trial is not mentioned. Web search budget was exhausted, so no extra search was run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_1.htm",
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_2.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT04704921",
+    "sponsor": "AbbVie",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release could not be opened (SEC fetch failed); Q2 release and July pipeline update do not mention it; one search found no topline.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000023/abbv-20260630xexhibit991.htm",
+     "https://abbvie.gcs-web.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748"
+    ]
+   },
+   {
+    "nct_id": "NCT04777357",
+    "sponsor": "AbbVie",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release could not be opened (SEC fetch failed); Q2 release and July pipeline update do not mention it; one search found no topline.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000023/abbv-20260630xexhibit991.htm",
+     "https://abbvie.gcs-web.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748"
+    ]
+   },
+   {
+    "nct_id": "NCT05230537",
+    "sponsor": "Novartis Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Iptacopan AMD not mentioned in Q3 release or pipeline appendix. Web search budget was exhausted, so no extra search was run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_1.htm",
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_2.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT05360446",
+    "sponsor": "Novartis Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Only Leqvio label update (MACE language) is mentioned; V-PLAQUE not named. Web search budget was exhausted, so no extra search was run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_1.htm",
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_2.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT05407636",
+    "sponsor": "AbbVie",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release could not be opened (SEC fetch failed); Q2 release and July pipeline update do not mention it; one search found no topline.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000023/abbv-20260630xexhibit991.htm",
+     "https://abbvie.gcs-web.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748"
+    ]
+   },
+   {
+    "nct_id": "NCT05608291",
+    "sponsor": "Regeneron Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release (30 Oct) could not be opened (SEC exhibit failed); Q2 2026 release (30 Jul) read and does not mention this trial's primary outcome, so Q3 status is unchecked.",
+    "documents_read": [
+     "https://investor.regeneron.com/static-files/81b30ae7-65ea-4118-90e1-102ecf9849cf"
+    ]
+   },
+   {
+    "nct_id": "NCT05617677",
+    "sponsor": "Bristol-Myers Squibb",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "BMS Q3 2026 release (8-K ex99.1 failed to load, not found elsewhere) could not be read; only the Q3 10-Q excerpt (no pipeline text) and the Q2 coverage were read, none mention this trial, and searches found no result.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000024/bmy-20260930.htm",
+     "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-to-Report-Results-for-Third-Quarter-2026-on-October-29-2026/default.aspx"
+    ]
+   },
+   {
+    "nct_id": "NCT05620407",
+    "sponsor": "Bristol-Myers Squibb",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "BMS Q3 2026 release (8-K ex99.1 failed to load, not found elsewhere) could not be read; only the Q3 10-Q excerpt (no pipeline text) and the Q2 coverage were read, none mention this trial, and searches found no result.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000024/bmy-20260930.htm",
+     "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-to-Report-Results-for-Third-Quarter-2026-on-October-29-2026/default.aspx"
+    ]
+   },
+   {
+    "nct_id": "NCT05648500",
+    "sponsor": "Viatris Innovation GmbH",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Viatris Q3 2026 release not found in search; not opened.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT05672576",
+    "sponsor": "Viatris Innovation GmbH",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Viatris Q3 2026 release not found in search; not opened.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT05849298",
+    "sponsor": "Novartis Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Pluvicto ARPI-combination approval mentioned but AAA617 PSMACare Phase II not named. Web search budget was exhausted, so no extra search was run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_1.htm",
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_2.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT05946941",
+    "sponsor": "Bristol-Myers Squibb",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "BMS Q3 2026 release (8-K ex99.1 failed to load, not found elsewhere) could not be read; only the Q3 10-Q excerpt (no pipeline text) and the Q2 coverage were read, none mention this trial, and searches found no result.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000024/bmy-20260930.htm",
+     "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-to-Report-Results-for-Third-Quarter-2026-on-October-29-2026/default.aspx"
+    ]
+   },
+   {
+    "nct_id": "NCT05995340",
+    "sponsor": "AbbVie",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release could not be opened (SEC fetch failed); Q2 release and July pipeline update do not mention it; no search run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000023/abbv-20260630xexhibit991.htm",
+     "https://abbvie.gcs-web.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748"
+    ]
+   },
+   {
+    "nct_id": "NCT06052267",
+    "sponsor": "Teva Branded Pharmaceutical Products R&D LLC",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Teva Q3 2026 results not yet out (call scheduled 3 Nov 2026); Q2 not opened; trial not seen on newsroom page.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT06088979",
+    "sponsor": "Tourmaline Bio, Inc., a Novartis Company",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "TOUR006/spiriTED not mentioned in either Q3 document. Web search budget was exhausted, so no extra search was run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_1.htm",
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_2.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT06116916",
+    "sponsor": "Kyowa Kirin Co., Ltd.",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Sponsor Q3 2026 results not opened (not yet published or unreachable within budget); no result or stop found.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT06122779",
+    "sponsor": "Bristol-Myers Squibb",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "BMS Q3 2026 release (8-K ex99.1 failed to load, not found elsewhere) could not be read; only the Q3 10-Q excerpt (no pipeline text) and the Q2 coverage were read, none mention this trial, and searches found no result.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000024/bmy-20260930.htm",
+     "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-to-Report-Results-for-Third-Quarter-2026-on-October-29-2026/default.aspx"
+    ]
+   },
+   {
+    "nct_id": "NCT06140836",
+    "sponsor": "Bristol-Myers Squibb",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "BMS Q3 2026 release (8-K ex99.1 failed to load, not found elsewhere) could not be read; only the Q3 10-Q excerpt (no pipeline text) and the Q2 coverage were read, none mention this trial, and searches found no result.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000024/bmy-20260930.htm",
+     "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-to-Report-Results-for-Third-Quarter-2026-on-October-29-2026/default.aspx"
+    ]
+   },
+   {
+    "nct_id": "NCT06161441",
+    "sponsor": "Regeneron Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release (30 Oct) could not be opened (SEC exhibit failed); Q2 2026 release (30 Jul) read and does not mention this trial's primary outcome, so Q3 status is unchecked.",
+    "documents_read": [
+     "https://investor.regeneron.com/static-files/81b30ae7-65ea-4118-90e1-102ecf9849cf"
+    ]
+   },
+   {
+    "nct_id": "NCT06190951",
+    "sponsor": "Regeneron Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release (30 Oct) could not be opened (SEC exhibit failed); Q2 2026 release (30 Jul) read and does not mention this trial's primary outcome, so Q3 status is unchecked.",
+    "documents_read": [
+     "https://investor.regeneron.com/static-files/81b30ae7-65ea-4118-90e1-102ecf9849cf"
+    ]
+   },
+   {
+    "nct_id": "NCT06233461",
+    "sponsor": "Takeda",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Takeda Q2 FY2026 earnings 6-K (29 Oct 2026) as summarized by the fetch tool does not mention this trial; the full pipeline appendix was not opened and no search was possible.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001395064/000139506426000343/form6k-1_102926.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT06246916",
+    "sponsor": "Regeneron Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 release unreadable; Q2 release reports a different fianlimab trial (vs pembrolizumab, missed PFS), not this relatlimab+nivolumab comparison, so unchecked for Q3.",
+    "documents_read": [
+     "https://investor.regeneron.com/static-files/81b30ae7-65ea-4118-90e1-102ecf9849cf"
+    ]
+   },
+   {
+    "nct_id": "NCT06268886",
+    "sponsor": "Bristol-Myers Squibb",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "BMS Q3 2026 release (8-K ex99.1 failed to load, not found elsewhere) could not be read; only the Q3 10-Q excerpt (no pipeline text) and the Q2 coverage were read, none mention this trial, and searches found no result.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000024/bmy-20260930.htm",
+     "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-to-Report-Results-for-Third-Quarter-2026-on-October-29-2026/default.aspx"
+    ]
+   },
+   {
+    "nct_id": "NCT06365853",
+    "sponsor": "AbbVie",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release could not be opened (SEC fetch failed); Q2 release and July pipeline update do not mention it; no search run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000023/abbv-20260630xexhibit991.htm",
+     "https://abbvie.gcs-web.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748"
+    ]
+   },
+   {
+    "nct_id": "NCT06389136",
+    "sponsor": "AbbVie",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release could not be opened (SEC fetch failed); Q2 release and July pipeline update do not mention it; no search run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000023/abbv-20260630xexhibit991.htm",
+     "https://abbvie.gcs-web.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748"
+    ]
+   },
+   {
+    "nct_id": "NCT06403267",
+    "sponsor": "NoNO Inc.",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Sponsor Q3 2026 results not opened (not yet published or unreachable within budget); no result or stop found.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT06421636",
+    "sponsor": "Regeneron Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release (30 Oct) could not be opened (SEC exhibit failed); Q2 2026 release (30 Jul) read and does not mention this trial's primary outcome, so Q3 status is unchecked.",
+    "documents_read": [
+     "https://investor.regeneron.com/static-files/81b30ae7-65ea-4118-90e1-102ecf9849cf"
+    ]
+   },
+   {
+    "nct_id": "NCT06602258",
+    "sponsor": "Eisai Inc.",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Eisai Q2 FY2026 results not on newsroom as of 30 Oct; latest E2814 item is 14 Jul 2026 AAIC biomarker data, no primary-outcome statement seen.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT06602479",
+    "sponsor": "AbbVie",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release could not be opened (SEC fetch failed); Q2 release and July pipeline update do not mention it; one search found no topline.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000023/abbv-20260630xexhibit991.htm",
+     "https://abbvie.gcs-web.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748"
+    ]
+   },
+   {
+    "nct_id": "NCT06619860",
+    "sponsor": "Vertex Pharmaceuticals Incorporated",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Search returned no Q3 2026 Vertex release or VX-993 statement; release not opened.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT06664619",
+    "sponsor": "Teva Branded Pharmaceutical Products R&D LLC",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Teva Q3 2026 results not yet out (call scheduled 3 Nov 2026); Q2 not opened; trial not seen on newsroom page.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT06701331",
+    "sponsor": "AbbVie",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release could not be opened (SEC fetch failed); Q2 release and July pipeline update do not mention it; no search run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000023/abbv-20260630xexhibit991.htm",
+     "https://abbvie.gcs-web.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748"
+    ]
+   },
+   {
+    "nct_id": "NCT06727565",
+    "sponsor": "Gilead Sciences",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Not in Gilead Q3 release; hinted Arcus/domvanalimab termination articles were not opened and no search possible, so a stop is unverified.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000882095/000088209526000037/exhibit991earningspressrel.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT06803823",
+    "sponsor": "Ono Pharmaceutical Co., Ltd.",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Ono Q2 FY2026 results dated 29 Oct 2026 exist per IR page but the PDF could not be opened (guessed URL failed); ONO-2020 unchecked in it.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT06812078",
+    "sponsor": "Takeda",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Takeda Q2 FY2026 earnings 6-K (29 Oct 2026) as summarized by the fetch tool does not mention this trial; the full pipeline appendix was not opened and no search was possible.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001395064/000139506426000343/form6k-1_102926.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT06868212",
+    "sponsor": "Novartis Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "RECLAIM not mentioned; remibrutinib CSU only generic. Web search budget was exhausted, so no extra search was run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_1.htm",
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_2.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT06881836",
+    "sponsor": "Ono Pharmaceutical Co., Ltd.",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Ono Q2 FY2026 results dated 29 Oct 2026 exist per IR page but the PDF could not be opened (guessed URL failed); ONO-2020 unchecked in it.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT06894511",
+    "sponsor": "Novartis Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "PSMAndARPI not mentioned. Web search budget was exhausted, so no extra search was run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_1.htm",
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_2.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT06928142",
+    "sponsor": "Otsuka Pharmaceutical Development & Commercialization, Inc.",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Otsuka newsroom Oct 2026 shows no release on this trial; Q3 financial documents not opened.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT06946797",
+    "sponsor": "Bristol-Myers Squibb",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "BMS Q3 2026 release (8-K ex99.1 failed to load, not found elsewhere) could not be read; only the Q3 10-Q excerpt (no pipeline text) and the Q2 coverage were read, none mention this trial, and searches found no result.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000024/bmy-20260930.htm",
+     "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-to-Report-Results-for-Third-Quarter-2026-on-October-29-2026/default.aspx"
+    ]
+   },
+   {
+    "nct_id": "NCT06951698",
+    "sponsor": "Bristol-Myers Squibb",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "BMS Q3 2026 release (8-K ex99.1 failed to load, not found elsewhere) could not be read; only the Q3 10-Q excerpt (no pipeline text) and the Q2 coverage were read, none mention this trial, and searches found no result.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000024/bmy-20260930.htm",
+     "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-to-Report-Results-for-Third-Quarter-2026-on-October-29-2026/default.aspx"
+    ]
+   },
+   {
+    "nct_id": "NCT06951711",
+    "sponsor": "Bristol-Myers Squibb",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "BMS Q3 2026 release (8-K ex99.1 failed to load, not found elsewhere) could not be read; only the Q3 10-Q excerpt (no pipeline text) and the Q2 coverage were read, none mention this trial, and searches found no result.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000024/bmy-20260930.htm",
+     "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-to-Report-Results-for-Third-Quarter-2026-on-October-29-2026/default.aspx"
+    ]
+   },
+   {
+    "nct_id": "NCT06952699",
+    "sponsor": "Takeda",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Takeda Q2 FY2026 earnings 6-K (29 Oct 2026) as summarized by the fetch tool does not mention this trial; the full pipeline appendix was not opened and no search was possible.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001395064/000139506426000343/form6k-1_102926.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT07009171",
+    "sponsor": "NeuroBiogen Co., Ltd",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Private Korean sponsor with no quarterly report; no search possible as shared search budget was exhausted.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT07015905",
+    "sponsor": "Regeneron Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release (30 Oct) could not be opened (SEC exhibit failed); Q2 2026 release (30 Jul) read and does not mention this trial's primary outcome, so Q3 status is unchecked.",
+    "documents_read": [
+     "https://investor.regeneron.com/static-files/81b30ae7-65ea-4118-90e1-102ecf9849cf"
+    ]
+   },
+   {
+    "nct_id": "NCT07032597",
+    "sponsor": "AbbVie",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release could not be opened (SEC fetch failed); Q2 release and July pipeline update do not mention it; no search run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000023/abbv-20260630xexhibit991.htm",
+     "https://abbvie.gcs-web.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748"
+    ]
+   },
+   {
+    "nct_id": "NCT07102628",
+    "sponsor": "Novartis Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "RIDES/ACS inclisiran trial not mentioned. Web search budget was exhausted, so no extra search was run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_1.htm",
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_2.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT07175428",
+    "sponsor": "Regeneron Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release (30 Oct) could not be opened (SEC exhibit failed); Q2 2026 release (30 Jul) read and does not mention this trial's primary outcome, so Q3 status is unchecked.",
+    "documents_read": [
+     "https://investor.regeneron.com/static-files/81b30ae7-65ea-4118-90e1-102ecf9849cf"
+    ]
+   },
+   {
+    "nct_id": "NCT07184632",
+    "sponsor": "Novo Nordisk A/S",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Q3 not out; Q2 6-K does not mention NNC0662-0419; no separate search run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000353278/000035327826000023/caq22026.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT07214571",
+    "sponsor": "Shionogi",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Sponsor Q3 2026 results not opened (not yet published or unreachable within budget); no result or stop found.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT07249463",
+    "sponsor": "Novartis Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "EDI048 cryptosporidium not mentioned. Web search budget was exhausted, so no extra search was run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_1.htm",
+     "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000014/a261027-99_2.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT07284381",
+    "sponsor": "AbbVie",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release could not be opened (SEC fetch failed); Q2 release and July pipeline update do not mention it; no search run.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000023/abbv-20260630xexhibit991.htm",
+     "https://abbvie.gcs-web.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748"
+    ]
+   },
+   {
+    "nct_id": "NCT07327840",
+    "sponsor": "Kylonova (Xiamen) Biopharma co., LTD.",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Sponsor Q3 2026 results not opened (not yet published or unreachable within budget); no result or stop found.",
+    "documents_read": []
+   },
+   {
+    "nct_id": "NCT07363720",
+    "sponsor": "Takeda",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Takeda Q2 FY2026 earnings 6-K (29 Oct 2026) as summarized by the fetch tool does not mention this trial; the full pipeline appendix was not opened and no search was possible.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0001395064/000139506426000343/form6k-1_102926.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT07431086",
+    "sponsor": "Regeneron Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release (30 Oct) could not be opened (SEC exhibit failed); Q2 2026 release (30 Jul) read and does not mention this trial's primary outcome, so Q3 status is unchecked.",
+    "documents_read": [
+     "https://investor.regeneron.com/static-files/81b30ae7-65ea-4118-90e1-102ecf9849cf"
+    ]
+   },
+   {
+    "nct_id": "NCT07477704",
+    "sponsor": "Regeneron Pharmaceuticals",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Q3 2026 release (30 Oct) could not be opened (SEC exhibit failed); Q2 2026 release (30 Jul) read and does not mention this trial's primary outcome, so Q3 status is unchecked.",
+    "documents_read": [
+     "https://investor.regeneron.com/static-files/81b30ae7-65ea-4118-90e1-102ecf9849cf"
+    ]
+   },
+   {
+    "nct_id": "NCT07496450",
+    "sponsor": "ModernaTX, Inc.",
+    "check": "sponsor quarterly-report read (31 October, rerun)",
+    "reason": "Sponsor Q3 2026 results not opened (not yet published or unreachable within budget); no result or stop found.",
+    "documents_read": []
+   }
+  ]
+ },
+ "q2_only": {
+  "meaning": "Pfizer had not published its third-quarter 2026 report on 31 October; these trials were read against its second-quarter release (4 August 2026) only and recorded as 'no' (not named). They count as read for the gate, not as a third-quarter read; Pfizer's Q3 report is on the watch list.",
+  "count": 11,
+  "trials": [
+   {
+    "nct_id": "NCT05639647",
+    "sponsor": "Pfizer",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Pfizer Q3 2026 release not found (only Q2 2026 dated 2026-08-04 opened; Pfizer's Q3 appears to be early Nov); trial not mentioned in Q2 release; extra searches blocked by budget limit.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000078003/000007800326000094/pfe-6282026xex99.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT05911295",
+    "sponsor": "Seagen, a wholly owned subsidiary of Pfizer",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Pfizer Q3 2026 release not found (only Q2 2026 dated 2026-08-04 opened; Pfizer's Q3 appears to be early Nov); trial not mentioned in Q2 release; extra searches blocked by budget limit.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000078003/000007800326000094/pfe-6282026xex99.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT06163326",
+    "sponsor": "Pfizer",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Q2 2026 release (2026-08-04) reports positive topline for two Phase 3 Litfulo vitiligo trials, which are the parent studies not this long-term extension; LTE itself not named, so mentioned=no; Q3 2026 release not found.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000078003/000007800326000094/pfe-6282026xex99.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT06551324",
+    "sponsor": "Pfizer",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Pfizer Q3 2026 release not found (only Q2 2026 dated 2026-08-04 opened; Pfizer's Q3 appears to be early Nov); trial not mentioned in Q2 release; extra searches blocked by budget limit.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000078003/000007800326000094/pfe-6282026xex99.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT06629779",
+    "sponsor": "Pfizer",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Pfizer Q3 2026 release not found (only Q2 2026 dated 2026-08-04 opened; Pfizer's Q3 appears to be early Nov); trial not mentioned in Q2 release; extra searches blocked by budget limit.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000078003/000007800326000094/pfe-6282026xex99.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT06641466",
+    "sponsor": "Pfizer",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Pfizer Q3 2026 release not found (only Q2 2026 dated 2026-08-04 opened; Pfizer's Q3 appears to be early Nov); trial not mentioned in Q2 release; extra searches blocked by budget limit.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000078003/000007800326000094/pfe-6282026xex99.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT06977581",
+    "sponsor": "Pfizer",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Pfizer Q3 2026 release not found (only Q2 2026 dated 2026-08-04 opened; Pfizer's Q3 appears to be early Nov); trial not mentioned in Q2 release; extra searches blocked by budget limit.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000078003/000007800326000094/pfe-6282026xex99.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT07029711",
+    "sponsor": "Pfizer",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Pfizer Q3 2026 release not found (only Q2 2026 dated 2026-08-04 opened; Pfizer's Q3 appears to be early Nov); trial not mentioned in Q2 release; extra searches blocked by budget limit.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000078003/000007800326000094/pfe-6282026xex99.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT07219615",
+    "sponsor": "Pfizer",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Pfizer Q3 2026 release not found (only Q2 2026 dated 2026-08-04 opened; Pfizer's Q3 appears to be early Nov); trial not mentioned in Q2 release; extra searches blocked by budget limit.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000078003/000007800326000094/pfe-6282026xex99.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT07228390",
+    "sponsor": "Pfizer",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Pfizer Q3 2026 release not found (only Q2 2026 dated 2026-08-04 opened; Pfizer's Q3 appears to be early Nov); trial not mentioned in Q2 release; extra searches blocked by budget limit.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000078003/000007800326000094/pfe-6282026xex99.htm"
+    ]
+   },
+   {
+    "nct_id": "NCT07653100",
+    "sponsor": "Pfizer",
+    "check": "sponsor quarterly-report read (31 October, first)",
+    "reason": "Pfizer Q3 2026 release not found (only Q2 2026 dated 2026-08-04 opened; Pfizer's Q3 appears to be early Nov); trial not mentioned in Q2 release; extra searches blocked by budget limit.",
+    "documents_read": [
+     "https://www.sec.gov/Archives/edgar/data/0000078003/000007800326000094/pfe-6282026xex99.htm"
+    ]
+   }
+  ]
+ }
+}

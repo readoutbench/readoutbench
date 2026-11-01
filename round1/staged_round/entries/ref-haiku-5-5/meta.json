@@ -1,0 +1,16 @@
+{
+ "team": "ReadoutBench",
+ "entry_name": "Claude Haiku 5.5",
+ "contact": "organiser",
+ "models": [
+  "claude-haiku-5-5"
+ ],
+ "harness": "One agent per batch of up to 10 trials, given the round's instructions unchanged and the batch's packets, and told to use only the tools to read those two files and write its answers; no web. The organiser checks every log (tools used, files read and written, the model that replied) and re-runs any batch that used another tool or was answered by another model.",
+ "setting": "closed",
+ "web_access": false,
+ "model_version": "claude-haiku-5-5",
+ "provider": "Anthropic (Claude Code subagents)",
+ "prompt_sha256": "741d8086eb10b9fcf3f857be67ca69fdc0f36440545399556adc102936480cb5",
+ "run_dates": "2026-10-29",
+ "run_settings": "Claude Code subagents, default settings; 72 batches of up to 10 trials, one agent each. Re-runs: 6 batches once: 1 for using another tool, 4 for a missing answer, 1 for a missing trial."
+}

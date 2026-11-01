@@ -1,0 +1,3805 @@
+{
+ "groups": {
+  "114143": [
+   "NCT07127042"
+  ],
+  "177ludotatate": [
+   "NCT07057622"
+  ],
+  "2qlm3003": [
+   "NCT06880276"
+  ],
+  "30000mm09": [
+   "NCT04435990"
+  ],
+  "3qlm1016": [
+   "NCT06799559"
+  ],
+  "4must": [
+   "NCT06842966"
+  ],
+  "4p004": [
+   "NCT07225829"
+  ],
+  "5tolasure": [
+   "NCT07027345"
+  ],
+  "608": [
+   "NCT07261644"
+  ],
+  "610": [
+   "NCT06323213",
+   "NCT06680947"
+  ],
+  "9mw3811": [
+   "NCT07576608"
+  ],
+  "9vhpvvaccine": [
+   "NCT04199689"
+  ],
+  "NCT04957550": [
+   "NCT04957550"
+  ],
+  "NCT06569524": [
+   "NCT06569524"
+  ],
+  "NCT06707103": [
+   "NCT06707103"
+  ],
+  "NCT07026968": [
+   "NCT07026968"
+  ],
+  "NCT07169942": [
+   "NCT07169942"
+  ],
+  "NCT07327840": [
+   "NCT07327840"
+  ],
+  "NCT07349615": [
+   "NCT07349615"
+  ],
+  "NCT07614958": [
+   "NCT07614958"
+  ],
+  "ab1002": [
+   "NCT05598333"
+  ],
+  "abbv444": [
+   "NCT07284381"
+  ],
+  "abbv932": [
+   "NCT06846320"
+  ],
+  "abbvrgx314": [
+   "NCT04704921",
+   "NCT05407636"
+  ],
+  "abemaciclib": [
+   "NCT06413706"
+  ],
+  "abenacianine": [
+   "NCT07499674"
+  ],
+  "abexinostat": [
+   "NCT03592472"
+  ],
+  "abp234": [
+   "NCT06430866"
+  ],
+  "abs": [
+   "NCT06664619"
+  ],
+  "abs1230": [
+   "NCT07600736"
+  ],
+  "acalabrutinib": [
+   "NCT04529772"
+  ],
+  "adipeg20": [
+   "NCT04587830"
+  ],
+  "afimkibart": [
+   "NCT06588855",
+   "NCT06589986"
+  ],
+  "aga2118": [
+   "NCT06577935"
+  ],
+  "ahb137": [
+   "NCT07246889"
+  ],
+  "ak112": [
+   "NCT06767527",
+   "NCT06951503"
+  ],
+  "ak117": [
+   "NCT06601335"
+  ],
+  "al2846": [
+   "NCT06860971"
+  ],
+  "alg000184": [
+   "NCT06963710"
+  ],
+  "alks2680": [
+   "NCT06843590"
+  ],
+  "allocetra": [
+   "NCT07580716"
+  ],
+  "alpelisib": [
+   "NCT04544189"
+  ],
+  "alpha1mp": [
+   "NCT01983241"
+  ],
+  "alto300": [
+   "NCT05922878"
+  ],
+  "amc6156": [
+   "NCT07072195"
+  ],
+  "amlitelimab": [
+   "NCT06557772"
+  ],
+  "amor1": [
+   "NCT06547151"
+  ],
+  "and017": [
+   "NCT07487727",
+   "NCT07494409"
+  ],
+  "angiolitesirolimuselutingstent": [
+   "NCT05952206"
+  ],
+  "anifrolumab": [
+   "NCT05138133",
+   "NCT05925803",
+   "NCT06015737"
+  ],
+  "antitl1amonoclonalantibody": [
+   "NCT07080034"
+  ],
+  "ap02": [
+   "NCT07194382"
+  ],
+  "ap306": [
+   "NCT06712654"
+  ],
+  "apalutamide": [
+   "NCT02531516",
+   "NCT05884398"
+  ],
+  "apraclonidine0125unitfree": [
+   "NCT07531043",
+   "NCT07578363"
+  ],
+  "ar882": [
+   "NCT06846515"
+  ],
+  "artesunate": [
+   "NCT05555862",
+   "NCT06075264",
+   "NCT06206564"
+  ],
+  "artrodar": [
+   "NCT04318041"
+  ],
+  "ascorbicacid5": [
+   "NCT07694375"
+  ],
+  "askb589": [
+   "NCT06206733"
+  ],
+  "asy202": [
+   "NCT07646613"
+  ],
+  "at673": [
+   "NCT07724340"
+  ],
+  "atezolizumab": [
+   "NCT04873362"
+  ],
+  "ati045": [
+   "NCT07011706"
+  ],
+  "axatilimab": [
+   "NCT06388564"
+  ],
+  "azd0780": [
+   "NCT07000123",
+   "NCT07000136",
+   "NCT07218900"
+  ],
+  "b007": [
+   "NCT06470191"
+  ],
+  "b013": [
+   "NCT06434610"
+  ],
+  "bd111": [
+   "NCT06474442"
+  ],
+  "bemdaneprocel": [
+   "NCT06944522"
+  ],
+  "bemnifosbuvirruzasvir": [
+   "NCT07037277"
+  ],
+  "benralizumab": [
+   "NCT05692180"
+  ],
+  "betamethasone": [
+   "NCT06863701"
+  ],
+  "bevacizumab": [
+   "NCT05654454"
+  ],
+  "bfb759": [
+   "NCT07105488"
+  ],
+  "bge102": [
+   "NCT07656727"
+  ],
+  "bgm0504": [
+   "NCT07658560"
+  ],
+  "bhv7000": [
+   "NCT06309966"
+  ],
+  "bi1584862": [
+   "NCT06769048"
+  ],
+  "bi764524": [
+   "NCT06321302"
+  ],
+  "bi765423": [
+   "NCT07036523"
+  ],
+  "bi771716": [
+   "NCT06722157"
+  ],
+  "biologicalsolrikitug": [
+   "NCT06496620"
+  ],
+  "bl1332": [
+   "NCT07412496"
+  ],
+  "blb01d1": [
+   "NCT06382129",
+   "NCT06500026"
+  ],
+  "bms986446": [
+   "NCT06268886"
+  ],
+  "boricacid": [
+   "NCT07109869"
+  ],
+  "br1019a": [
+   "NCT06220773"
+  ],
+  "brelovitug": [
+   "NCT07298330"
+  ],
+  "brenipatide": [
+   "NCT07223840"
+  ],
+  "brivaracetam": [
+   "NCT04666610"
+  ],
+  "brivekimig": [
+   "NCT06958536",
+   "NCT07170917"
+  ],
+  "budesonide": [
+   "NCT06596252"
+  ],
+  "bupivacaineliposome": [
+   "NCT06529432"
+  ],
+  "bupizenge": [
+   "NCT07672236"
+  ],
+  "cabergoline": [
+   "NCT07124221"
+  ],
+  "cadonilimab": [
+   "NCT06341335",
+   "NCT06617416"
+  ],
+  "cagrisema": [
+   "NCT07011667"
+  ],
+  "cal101": [
+   "NCT06736990"
+  ],
+  "cam2029": [
+   "NCT05050942"
+  ],
+  "camlipixant": [
+   "NCT07519395"
+  ],
+  "camrelizumab": [
+   "NCT04639180"
+  ],
+  "cariprazine": [
+   "NCT03817502",
+   "NCT04777357"
+  ],
+  "carisbamate": [
+   "NCT05219617"
+  ],
+  "cebranopadol": [
+   "NCT07874620"
+  ],
+  "cenerimod": [
+   "NCT05648500",
+   "NCT05672576"
+  ],
+  "cit013": [
+   "NCT06567470"
+  ],
+  "clemizole": [
+   "NCT05066217"
+  ],
+  "cm512": [
+   "NCT07166211"
+  ],
+  "cmg190303": [
+   "NCT06772168"
+  ],
+  "cmsd002": [
+   "NCT07402369"
+  ],
+  "colgatesnaptotal10": [
+   "NCT07605338"
+  ],
+  "corabotase": [
+   "NCT06937931",
+   "NCT07427797",
+   "NCT07435428"
+  ],
+  "crofelemerpowder": [
+   "NCT06904872"
+  ],
+  "ctp44": [
+   "NCT06952478"
+  ],
+  "ctp53": [
+   "NCT05906992"
+  ],
+  "cusatuzumab": [
+   "NCT06384261"
+  ],
+  "cyb003": [
+   "NCT06564818"
+  ],
+  "cyb704": [
+   "NCT06847724"
+  ],
+  "d0502": [
+   "NCT06954961"
+  ],
+  "d2570": [
+   "NCT07035041"
+  ],
+  "dapagliflozin": [
+   "NCT07222917"
+  ],
+  "dapansutrile": [
+   "NCT05658575"
+  ],
+  "datopotamabderuxtecan": [
+   "NCT06417814"
+  ],
+  "dayprax562": [
+   "NCT07010471"
+  ],
+  "dazodalibep": [
+   "NCT06245408"
+  ],
+  "de117b": [
+   "NCT06666855"
+  ],
+  "decartes08": [
+   "NCT06799247"
+  ],
+  "delgocitinib": [
+   "NCT07013201"
+  ],
+  "depemokimab": [
+   "NCT05263934"
+  ],
+  "deucravacitinib": [
+   "NCT05617677",
+   "NCT05620407",
+   "NCT05946941"
+  ],
+  "dfl24498": [
+   "NCT07503886"
+  ],
+  "disitamabvedotin": [
+   "NCT05911295",
+   "NCT06221748"
+  ],
+  "dmapps": [
+   "NCT07776210"
+  ],
+  "domvanalimab": [
+   "NCT06727565"
+  ],
+  "dostarlimab": [
+   "NCT06567782"
+  ],
+  "drugbgm0504": [
+   "NCT06716203",
+   "NCT06716216"
+  ],
+  "drugwd890": [
+   "NCT07672561"
+  ],
+  "durvalumab": [
+   "NCT06008093"
+  ],
+  "e2814": [
+   "NCT06602258"
+  ],
+  "ecc4703": [
+   "NCT07505303"
+  ],
+  "edi048": [
+   "NCT07249463"
+  ],
+  "efgartigimodph20": [
+   "NCT06655155"
+  ],
+  "efinopegdutide": [
+   "NCT06465186"
+  ],
+  "egcg": [
+   "NCT07572396"
+  ],
+  "ei001": [
+   "NCT07223229"
+  ],
+  "el219": [
+   "NCT07215273"
+  ],
+  "elapr002f": [
+   "NCT05995340"
+  ],
+  "elismetrep": [
+   "NCT07645924"
+  ],
+  "eltrekibart": [
+   "NCT06598943"
+  ],
+  "eluxadoline": [
+   "NCT03339128"
+  ],
+  "empagliflozin": [
+   "NCT07093476"
+  ],
+  "empasiprubart": [
+   "NCT06742190"
+  ],
+  "enlicitide": [
+   "NCT07216482"
+  ],
+  "ensifentrine": [
+   "NCT05270525"
+  ],
+  "entrectinib": [
+   "NCT04603807"
+  ],
+  "env294": [
+   "NCT07298395"
+  ],
+  "eptinezumab": [
+   "NCT04965675"
+  ],
+  "escharex": [
+   "NCT06568627"
+  ],
+  "ex039": [
+   "NCT05413655"
+  ],
+  "exendin4fcfusionprotein": [
+   "NCT06257966"
+  ],
+  "experimentaldrug": [
+   "NCT06905210"
+  ],
+  "fb301": [
+   "NCT07453069"
+  ],
+  "fda018adc": [
+   "NCT06519370"
+  ],
+  "felzartamab": [
+   "NCT06685757"
+  ],
+  "fianlimab": [
+   "NCT05608291",
+   "NCT06161441",
+   "NCT06190951",
+   "NCT06246916"
+  ],
+  "fkpc101": [
+   "NCT06636682"
+  ],
+  "fnp223": [
+   "NCT06355531"
+  ],
+  "frexalimab": [
+   "NCT06500702"
+  ],
+  "fxs5626": [
+   "NCT07552012"
+  ],
+  "gal101": [
+   "NCT06659549"
+  ],
+  "gc101adenoassociatedvirus": [
+   "NCT06971094"
+  ],
+  "glm101": [
+   "NCT06892288"
+  ],
+  "gq1005": [
+   "NCT07673029"
+  ],
+  "gr1014cg47": [
+   "NCT07192588"
+  ],
+  "greenlight": [
+   "NCT05171894"
+  ],
+  "gsk5784283": [
+   "NCT06748053"
+  ],
+  "gsthg141": [
+   "NCT07090759"
+  ],
+  "gt101": [
+   "NCT06241781"
+  ],
+  "gw906": [
+   "NCT07835971"
+  ],
+  "gzr18": [
+   "NCT06777238",
+   "NCT06778967"
+  ],
+  "harmonycalidocaine": [
+   "NCT07032597"
+  ],
+  "hdm1002": [
+   "NCT07082114"
+  ],
+  "hdm10051": [
+   "NCT07521631"
+  ],
+  "hec585": [
+   "NCT05139719"
+  ],
+  "herombopag": [
+   "NCT06507436"
+  ],
+  "hlx53": [
+   "NCT06349980"
+  ],
+  "hm15275": [
+   "NCT07205900"
+  ],
+  "hrs1780": [
+   "NCT07470983"
+  ],
+  "hrs1893": [
+   "NCT07021976"
+  ],
+  "hrs5580": [
+   "NCT07709897"
+  ],
+  "hrs7249": [
+   "NCT07100418"
+  ],
+  "hrs7450": [
+   "NCT07233070"
+  ],
+  "hrs7535": [
+   "NCT06820099"
+  ],
+  "hrs8427": [
+   "NCT06569056",
+   "NCT06841731"
+  ],
+  "hrs9190": [
+   "NCT07446309",
+   "NCT07746726"
+  ],
+  "hrs9531": [
+   "NCT06974851",
+   "NCT06994650",
+   "NCT07060456",
+   "NCT07285902"
+  ],
+  "hrs9563": [
+   "NCT07297797"
+  ],
+  "hs20089": [
+   "NCT06855069"
+  ],
+  "hsk31858": [
+   "NCT06660992"
+  ],
+  "hsk55718": [
+   "NCT07533786"
+  ],
+  "hu6": [
+   "NCT07491458"
+  ],
+  "humanthsc01cell": [
+   "NCT06925594"
+  ],
+  "ianalumab": [
+   "NCT05639114",
+   "NCT05653349"
+  ],
+  "ibi3002": [
+   "NCT07399067"
+  ],
+  "ibi302": [
+   "NCT06908876"
+  ],
+  "ibi306": [
+   "NCT07473960"
+  ],
+  "ibi362": [
+   "NCT06862908",
+   "NCT06884293",
+   "NCT06937749"
+  ],
+  "ibi363": [
+   "NCT07122687"
+  ],
+  "ibr854": [
+   "NCT07087158"
+  ],
+  "icotrokinra": [
+   "NCT06807424"
+  ],
+  "icovamenib": [
+   "NCT07502495"
+  ],
+  "icp322": [
+   "NCT07236099"
+  ],
+  "icp488": [
+   "NCT07440537"
+  ],
+  "icslaba": [
+   "NCT06750289"
+  ],
+  "ifxhu20": [
+   "NCT06947928"
+  ],
+  "iltamiocel": [
+   "NCT05776277"
+  ],
+  "immuncelllc": [
+   "NCT04969731"
+  ],
+  "imu838": [
+   "NCT05134441",
+   "NCT05201638"
+  ],
+  "in10018": [
+   "NCT06014528"
+  ],
+  "inavolisib": [
+   "NCT05646862",
+   "NCT05894239"
+  ],
+  "inclisiran": [
+   "NCT05360446",
+   "NCT07102628"
+  ],
+  "insulinicodec": [
+   "NCT07076199"
+  ],
+  "intravitrealofaxitinibhydrogelimplantfollowedbyasecondintravitrealofaxitinibimplantatweek24": [
+   "NCT07235085"
+  ],
+  "investigationaldrugmwiii": [
+   "NCT01297400"
+  ],
+  "investigationalvaricellavaccinelot1": [
+   "NCT06740630"
+  ],
+  "iptacopan": [
+   "NCT05230537"
+  ],
+  "iti1284": [
+   "NCT06480383"
+  ],
+  "ixovec": [
+   "NCT06856577"
+  ],
+  "jcxh105": [
+   "NCT06581575"
+  ],
+  "jitongning": [
+   "NCT06000956"
+  ],
+  "jmkx003142": [
+   "NCT06800651"
+  ],
+  "jnj95597528": [
+   "NCT07230860"
+  ],
+  "kae609": [
+   "NCT07811908"
+  ],
+  "karxt": [
+   "NCT06126224",
+   "NCT06585787",
+   "NCT06951698",
+   "NCT06951711"
+  ],
+  "kb803": [
+   "NCT07016750"
+  ],
+  "kbp336": [
+   "NCT06833749"
+  ],
+  "kc1036": [
+   "NCT06194734"
+  ],
+  "kds2010": [
+   "NCT07009171"
+  ],
+  "kh001odt": [
+   "NCT07434271"
+  ],
+  "khk4951": [
+   "NCT06116916"
+  ],
+  "kn057": [
+   "NCT06569108"
+  ],
+  "kp100li": [
+   "NCT05627648"
+  ],
+  "kps0373": [
+   "NCT07040137"
+  ],
+  "ksi101": [
+   "NCT06996080"
+  ],
+  "kyn5356": [
+   "NCT07191483"
+  ],
+  "lacripep": [
+   "NCT07568730"
+  ],
+  "lactiplantibacillusplantarumprobioticmixture": [
+   "NCT07193927"
+  ],
+  "lad328": [
+   "NCT07547813"
+  ],
+  "lavenderoil": [
+   "NCT07315516"
+  ],
+  "lianxiaxiaopigranules": [
+   "NCT06696261"
+  ],
+  "licaminlimab": [
+   "NCT07548632"
+  ],
+  "linaprazanglurate": [
+   "NCT07037875"
+  ],
+  "lisaftoclax": [
+   "NCT06104566"
+  ],
+  "litifilimab": [
+   "NCT04895241",
+   "NCT04961567"
+  ],
+  "lnk01001": [
+   "NCT07237568"
+  ],
+  "lou064": [
+   "NCT05677451"
+  ],
+  "lp352": [
+   "NCT06660394",
+   "NCT06719141"
+  ],
+  "lsaltpeptide": [
+   "NCT05879432"
+  ],
+  "lutikizumab": [
+   "NCT06972446"
+  ],
+  "ly3537021": [
+   "NCT07169851"
+  ],
+  "ly3650150": [
+   "NCT06339008"
+  ],
+  "ly3938577": [
+   "NCT07215312"
+  ],
+  "ly4515100": [
+   "NCT07511816"
+  ],
+  "m108monoclonalantibody": [
+   "NCT06177041"
+  ],
+  "macupatide": [
+   "NCT07215559"
+  ],
+  "maridebartcafraglutide": [
+   "NCT06858839",
+   "NCT06858878"
+  ],
+  "masupirdine": [
+   "NCT05397639"
+  ],
+  "maxfreshtoothpaste": [
+   "NCT07398378"
+  ],
+  "mb12": [
+   "NCT06687369"
+  ],
+  "mdmaassistedpsychotherapy": [
+   "NCT06044675"
+  ],
+  "medi0618": [
+   "NCT06602479"
+  ],
+  "melphalan": [
+   "NCT06607458"
+  ],
+  "mesenchymalstemcells": [
+   "NCT06570291"
+  ],
+  "methotrexate": [
+   "NCT06239311"
+  ],
+  "metreleptin": [
+   "NCT05164341"
+  ],
+  "mezigdomide": [
+   "NCT05519085"
+  ],
+  "mic": [
+   "NCT05365672"
+  ],
+  "microbubble": [
+   "NCT06496971"
+  ],
+  "milvexian": [
+   "NCT05702034",
+   "NCT05757869"
+  ],
+  "minoxidil": [
+   "NCT05888922"
+  ],
+  "mrna1018h5": [
+   "NCT07496450"
+  ],
+  "mt1013": [
+   "NCT07122401"
+  ],
+  "mvabn": [
+   "NCT07199569"
+  ],
+  "mwn1093": [
+   "NCT07791537"
+  ],
+  "mwn1094": [
+   "NCT07791524",
+   "NCT07801820"
+  ],
+  "naf": [
+   "NCT07842991"
+  ],
+  "navenibart": [
+   "NCT06842823"
+  ],
+  "navtemadlin": [
+   "NCT06479135"
+  ],
+  "neflamapimod": [
+   "NCT06987643"
+  ],
+  "neuroncellex": [
+   "NCT06129175"
+  ],
+  "ninerafaxstatmr": [
+   "NCT07023614"
+  ],
+  "nivolumab": [
+   "NCT03873402"
+  ],
+  "nmd670": [
+   "NCT06414954"
+  ],
+  "nnc06620419": [
+   "NCT07184632"
+  ],
+  "nono42": [
+   "NCT06403267"
+  ],
+  "npt2042": [
+   "NCT06769659"
+  ],
+  "ns136": [
+   "NCT07521683"
+  ],
+  "ns229": [
+   "NCT06046222"
+  ],
+  "nsi8226": [
+   "NCT06496607"
+  ],
+  "nt201": [
+   "NCT07210463"
+  ],
+  "ntx001": [
+   "NCT06616025"
+  ],
+  "nuvastatic": [
+   "NCT07669519"
+  ],
+  "nxc736": [
+   "NCT06104839"
+  ],
+  "obefazimod": [
+   "NCT06456593"
+  ],
+  "obexelimab": [
+   "NCT06559163"
+  ],
+  "ocf001intravaginal": [
+   "NCT07521137"
+  ],
+  "ocrelizumabtestformulation": [
+   "NCT07074886"
+  ],
+  "octac1inh": [
+   "NCT06361537"
+  ],
+  "ofqls1410": [
+   "NCT07489612"
+  ],
+  "ohb607": [
+   "NCT03253263"
+  ],
+  "oleclumab": [
+   "NCT05221840"
+  ],
+  "olvimulogenenanivacirepvec": [
+   "NCT05281471",
+   "NCT06463665"
+  ],
+  "om85": [
+   "NCT05857930"
+  ],
+  "ono2020": [
+   "NCT06803823",
+   "NCT06881836"
+  ],
+  "orforglipron": [
+   "NCT06649045"
+  ],
+  "orticumab": [
+   "NCT06927739"
+  ],
+  "otx601digitaltherapeutic": [
+   "NCT07316088"
+  ],
+  "otxtki": [
+   "NCT06495918"
+  ],
+  "pa5108implant": [
+   "NCT06964191"
+  ],
+  "pacritinib": [
+   "NCT03165734",
+   "NCT06782373"
+  ],
+  "patidegib": [
+   "NCT06050122"
+  ],
+  "pegrhgh": [
+   "NCT07260500"
+  ],
+  "pembrolizumab": [
+   "NCT04241185"
+  ],
+  "perivasculardexamethasone": [
+   "NCT04862468"
+  ],
+  "pf06821497": [
+   "NCT06551324",
+   "NCT06629779"
+  ],
+  "pf07275315": [
+   "NCT06977581"
+  ],
+  "pindololbenzoate": [
+   "NCT07101939"
+  ],
+  "pirfenidone": [
+   "NCT07388680"
+  ],
+  "pj009": [
+   "NCT06512584"
+  ],
+  "pooledallogeneicfecalmicrobiotherapy": [
+   "NCT05762211"
+  ],
+  "povorcitinib": [
+   "NCT05851443",
+   "NCT06516952",
+   "NCT06516965"
+  ],
+  "pralurbactam": [
+   "NCT07089186"
+  ],
+  "qa108granules": [
+   "NCT07189169"
+  ],
+  "qcz484": [
+   "NCT06857955"
+  ],
+  "qhrd106": [
+   "NCT07396337"
+  ],
+  "ql1206": [
+   "NCT07062978"
+  ],
+  "ql2107": [
+   "NCT06754644",
+   "NCT07162883"
+  ],
+  "qls111": [
+   "NCT07354516"
+  ],
+  "qtx2101": [
+   "NCT07504458"
+  ],
+  "quadrivalentrecombinantnorovirusvaccine": [
+   "NCT06524947"
+  ],
+  "qy201": [
+   "NCT07712523"
+  ],
+  "rbd5044": [
+   "NCT07587788"
+  ],
+  "recombinanthumanproteoglycan4": [
+   "NCT07118241"
+  ],
+  "recombinantnonimmunogenicstaphylokinase": [
+   "NCT05372718"
+  ],
+  "reformulatedlevulankerastickcontainingaminolevulinicacid20": [
+   "NCT07144345",
+   "NCT07144852"
+  ],
+  "regn7508": [
+   "NCT07015905"
+  ],
+  "regn7999": [
+   "NCT06421636"
+  ],
+  "relugolix": [
+   "NCT06671548"
+  ],
+  "remibrutinib": [
+   "NCT06868212"
+  ],
+  "remigromig": [
+   "NCT06957080"
+  ],
+  "repotrectinib": [
+   "NCT06140836"
+  ],
+  "resiliencepro": [
+   "NCT06867705"
+  ],
+  "resmetirom": [
+   "NCT05500222"
+  ],
+  "retatrutide": [
+   "NCT06297603",
+   "NCT06662383"
+  ],
+  "rezvilutamide": [
+   "NCT07241416"
+  ],
+  "rhprg4": [
+   "NCT07118254"
+  ],
+  "rimegepant": [
+   "NCT06641466"
+  ],
+  "ritlecitinib": [
+   "NCT07029711",
+   "NCT07219615",
+   "NCT07228390"
+  ],
+  "ro7269162": [
+   "NCT06402838"
+  ],
+  "rtn001": [
+   "NCT07142356"
+  ],
+  "ruxolitinib": [
+   "NCT06832618",
+   "NCT06958211",
+   "NCT06959225"
+  ],
+  "s337395": [
+   "NCT07214571"
+  ],
+  "sacituzumabtirumotecan": [
+   "NCT06356311"
+  ],
+  "sal0120": [
+   "NCT07790120"
+  ],
+  "sal0140": [
+   "NCT07654140"
+  ],
+  "sali10lozenge": [
+   "NCT07256743"
+  ],
+  "sar442970": [
+   "NCT06975722"
+  ],
+  "sat3247": [
+   "NCT07287189"
+  ],
+  "satralizumab": [
+   "NCT05503264"
+  ],
+  "sc0032": [
+   "NCT07690059"
+  ],
+  "sc0062strength": [
+   "NCT06819826"
+  ],
+  "sc1011": [
+   "NCT06125327"
+  ],
+  "sct650c": [
+   "NCT07244510"
+  ],
+  "seltorexant": [
+   "NCT06559306"
+  ],
+  "sep363856": [
+   "NCT06894212"
+  ],
+  "setmelanotide": [
+   "NCT06760546"
+  ],
+  "sg301": [
+   "NCT06508983"
+  ],
+  "shj002": [
+   "NCT06579287"
+  ],
+  "shr0302": [
+   "NCT07251595"
+  ],
+  "shr1139": [
+   "NCT07719530"
+  ],
+  "shr1819": [
+   "NCT07688772"
+  ],
+  "shra1912": [
+   "NCT06929624"
+  ],
+  "sib001": [
+   "NCT05943795"
+  ],
+  "sibeprenlimab": [
+   "NCT06928142"
+  ],
+  "sintilimab": [
+   "NCT05116462"
+  ],
+  "sl1002": [
+   "NCT07226258"
+  ],
+  "solbinsiran": [
+   "NCT07269210"
+  ],
+  "solriamfetol": [
+   "NCT06413433",
+   "NCT06568367"
+  ],
+  "sonara": [
+   "NCT06338280"
+  ],
+  "sonelokimab": [
+   "NCT06641089"
+  ],
+  "sonrotoclax": [
+   "NCT06637501"
+  ],
+  "sotagliflozin": [
+   "NCT06481891"
+  ],
+  "sp624": [
+   "NCT06254612"
+  ],
+  "sp8203": [
+   "NCT06660719"
+  ],
+  "sph4336": [
+   "NCT05860465"
+  ],
+  "spn821": [
+   "NCT07226661"
+  ],
+  "spt300": [
+   "NCT07065240"
+  ],
+  "staccatoalprazolam": [
+   "NCT05077904"
+  ],
+  "standardtreatment": [
+   "NCT05514340"
+  ],
+  "stannousfluoride": [
+   "NCT07215767"
+  ],
+  "stapokibart": [
+   "NCT07678931"
+  ],
+  "stimulanvg": [
+   "NCT06283979"
+  ],
+  "subretinaladministrationofocu400301": [
+   "NCT06388200"
+  ],
+  "syt510": [
+   "NCT07478744"
+  ],
+  "t1695": [
+   "NCT07169695"
+  ],
+  "tachosil": [
+   "NCT06664775"
+  ],
+  "tafenoquine": [
+   "NCT06207370"
+  ],
+  "tak279": [
+   "NCT06233461"
+  ],
+  "tak861": [
+   "NCT07363720"
+  ],
+  "taldefgrobepalfa": [
+   "NCT07281495"
+  ],
+  "tate": [
+   "NCT04701476"
+  ],
+  "tb006": [
+   "NCT06773962"
+  ],
+  "tegileridinefumaratelnjection": [
+   "NCT07372924"
+  ],
+  "telitacicept": [
+   "NCT06456580",
+   "NCT07249632"
+  ],
+  "tenapanor": [
+   "NCT05643534",
+   "NCT06553547",
+   "NCT07382167"
+  ],
+  "testofen": [
+   "NCT05232279"
+  ],
+  "tev56248": [
+   "NCT06052267"
+  ],
+  "tibulizumab": [
+   "NCT06993610"
+  ],
+  "tilpisertibfosmecarbil": [
+   "NCT06029972"
+  ],
+  "tinengotinib": [
+   "NCT05948475"
+  ],
+  "tirzepatide": [
+   "NCT05536804",
+   "NCT06914895",
+   "NCT06962280"
+  ],
+  "tjo087": [
+   "NCT07810972"
+  ],
+  "tobemstomig": [
+   "NCT05852691"
+  ],
+  "tobevibart": [
+   "NCT06903338",
+   "NCT07128550",
+   "NCT07142811"
+  ],
+  "tonlamarsen": [
+   "NCT07511361"
+  ],
+  "tour006": [
+   "NCT06088979"
+  ],
+  "tqb3473": [
+   "NCT06900920"
+  ],
+  "tqb3616letrozoleanastrozoletamoxifen": [
+   "NCT05780567"
+  ],
+  "tqc2731": [
+   "NCT06707883",
+   "NCT07107256"
+  ],
+  "tqc2938": [
+   "NCT06789289"
+  ],
+  "triesence": [
+   "NCT07832552"
+  ],
+  "trifarotene": [
+   "NCT07186413"
+  ],
+  "triv509": [
+   "NCT07167758"
+  ],
+  "trpti": [
+   "NCT07457723"
+  ],
+  "ts17220": [
+   "NCT07285291"
+  ],
+  "ts23": [
+   "NCT05408546"
+  ],
+  "tulisokibart": [
+   "NCT07176390",
+   "NCT07486960"
+  ],
+  "tumortreatingfields": [
+   "NCT05653453"
+  ],
+  "tx000045": [
+   "NCT06616974"
+  ],
+  "tynadote": [
+   "NCT05557448"
+  ],
+  "ubt251": [
+   "NCT07395687"
+  ],
+  "uliledlimab": [
+   "NCT07005336"
+  ],
+  "upadacitinib": [
+   "NCT05843643",
+   "NCT06389136",
+   "NCT06701331"
+  ],
+  "vadadustat": [
+   "NCT06901505"
+  ],
+  "vc005group": [
+   "NCT07598383"
+  ],
+  "vct220": [
+   "NCT07360275"
+  ],
+  "vent03": [
+   "NCT07260877"
+  ],
+  "vgrr01": [
+   "NCT06699108"
+  ],
+  "vim0423": [
+   "NCT07304089"
+  ],
+  "vonoprazan": [
+   "NCT06851559"
+  ],
+  "vp102": [
+   "NCT07246590"
+  ],
+  "vrb101": [
+   "NCT07281937"
+  ],
+  "vsa006": [
+   "NCT06322628"
+  ],
+  "vvn46110": [
+   "NCT07136805"
+  ],
+  "vx993": [
+   "NCT06619860"
+  ],
+  "vyd2311md": [
+   "NCT07298434"
+  ],
+  "xeomin": [
+   "NCT07018700",
+   "NCT07018713"
+  ],
+  "xhs004": [
+   "NCT06981091"
+  ],
+  "xl092": [
+   "NCT05678673"
+  ],
+  "xylocorestrenghtxylocorestrenghtxylocorestrenght": [
+   "NCT03994471"
+  ],
+  "yd0743": [
+   "NCT07413094"
+  ],
+  "zelicapavir": [
+   "NCT07482657"
+  ],
+  "zen003694": [
+   "NCT04986423"
+  ],
+  "zibotentan": [
+   "NCT06087835",
+   "NCT06942910"
+  ],
+  "zilretta": [
+   "NCT06269705"
+  ],
+  "ziltivekimab": [
+   "NCT06118281"
+  ],
+  "zl1109": [
+   "NCT07211776"
+  ],
+  "zongertinib": [
+   "NCT06151574"
+  ],
+  "zorevunersen": [
+   "NCT06872125"
+  ],
+  "zp59676": [
+   "NCT06128447"
+  ],
+  "zt006": [
+   "NCT07230132"
+  ],
+  "zt01": [
+   "NCT05762107"
+  ],
+  "zuberitamab": [
+   "NCT06642909"
+  ]
+ },
+ "trial_below_bar": {
+  "NCT01297400": false,
+  "NCT01983241": false,
+  "NCT02531516": false,
+  "NCT02616302": true,
+  "NCT03165734": false,
+  "NCT03253263": false,
+  "NCT03339128": false,
+  "NCT03592472": true,
+  "NCT03817502": false,
+  "NCT03873402": false,
+  "NCT03992430": false,
+  "NCT03994471": false,
+  "NCT04088396": false,
+  "NCT04199689": false,
+  "NCT04241185": false,
+  "NCT04318041": false,
+  "NCT04435990": false,
+  "NCT04529772": false,
+  "NCT04544189": false,
+  "NCT04587830": false,
+  "NCT04603807": false,
+  "NCT04639180": false,
+  "NCT04657289": false,
+  "NCT04666610": false,
+  "NCT04691661": false,
+  "NCT04701476": true,
+  "NCT04704921": false,
+  "NCT04777357": false,
+  "NCT04862468": false,
+  "NCT04873362": false,
+  "NCT04895241": false,
+  "NCT04957485": false,
+  "NCT04957550": false,
+  "NCT04961567": false,
+  "NCT04965675": false,
+  "NCT04969731": false,
+  "NCT04976634": false,
+  "NCT04986423": false,
+  "NCT05050942": false,
+  "NCT05066217": false,
+  "NCT05077904": false,
+  "NCT05087056": true,
+  "NCT05116462": true,
+  "NCT05123755": false,
+  "NCT05134441": false,
+  "NCT05138133": false,
+  "NCT05139719": true,
+  "NCT05164341": false,
+  "NCT05171894": false,
+  "NCT05198323": false,
+  "NCT05201638": false,
+  "NCT05219617": false,
+  "NCT05221840": false,
+  "NCT05230537": false,
+  "NCT05232279": false,
+  "NCT05263934": false,
+  "NCT05267613": true,
+  "NCT05270525": false,
+  "NCT05281471": false,
+  "NCT05339126": false,
+  "NCT05360446": false,
+  "NCT05365672": false,
+  "NCT05372718": true,
+  "NCT05397639": false,
+  "NCT05407636": false,
+  "NCT05408546": false,
+  "NCT05413655": true,
+  "NCT05500222": false,
+  "NCT05503264": false,
+  "NCT05514340": false,
+  "NCT05519085": false,
+  "NCT05536804": false,
+  "NCT05555862": true,
+  "NCT05557448": false,
+  "NCT05598333": false,
+  "NCT05608291": false,
+  "NCT05617677": false,
+  "NCT05620407": false,
+  "NCT05627648": false,
+  "NCT05639114": false,
+  "NCT05639647": false,
+  "NCT05643534": false,
+  "NCT05646862": false,
+  "NCT05648500": false,
+  "NCT05653349": false,
+  "NCT05653453": false,
+  "NCT05654454": true,
+  "NCT05658575": false,
+  "NCT05672576": false,
+  "NCT05677451": false,
+  "NCT05678673": false,
+  "NCT05692180": false,
+  "NCT05702034": false,
+  "NCT05727176": false,
+  "NCT05757869": false,
+  "NCT05762107": false,
+  "NCT05762211": false,
+  "NCT05776277": false,
+  "NCT05780567": false,
+  "NCT05843643": false,
+  "NCT05849298": false,
+  "NCT05851443": false,
+  "NCT05852691": false,
+  "NCT05853575": false,
+  "NCT05857930": false,
+  "NCT05860465": false,
+  "NCT05879432": false,
+  "NCT05884398": true,
+  "NCT05888922": true,
+  "NCT05894239": false,
+  "NCT05906992": false,
+  "NCT05910528": false,
+  "NCT05911295": false,
+  "NCT05922878": false,
+  "NCT05925803": false,
+  "NCT05943795": true,
+  "NCT05946941": false,
+  "NCT05948475": false,
+  "NCT05952206": false,
+  "NCT05995340": true,
+  "NCT06000956": false,
+  "NCT06008093": true,
+  "NCT06014528": false,
+  "NCT06015737": false,
+  "NCT06029972": true,
+  "NCT06032195": false,
+  "NCT06044675": false,
+  "NCT06046222": false,
+  "NCT06050122": false,
+  "NCT06052267": false,
+  "NCT06075264": false,
+  "NCT06087536": false,
+  "NCT06087835": false,
+  "NCT06088979": false,
+  "NCT06101329": false,
+  "NCT06101342": false,
+  "NCT06104566": false,
+  "NCT06104839": false,
+  "NCT06116916": false,
+  "NCT06118281": false,
+  "NCT06122779": false,
+  "NCT06125327": true,
+  "NCT06126224": false,
+  "NCT06128447": true,
+  "NCT06129175": false,
+  "NCT06140836": false,
+  "NCT06151574": false,
+  "NCT06161441": true,
+  "NCT06163326": false,
+  "NCT06177041": false,
+  "NCT06190951": false,
+  "NCT06194734": true,
+  "NCT06197568": false,
+  "NCT06206564": true,
+  "NCT06206733": false,
+  "NCT06207370": false,
+  "NCT06212999": false,
+  "NCT06213506": false,
+  "NCT06220773": false,
+  "NCT06221748": false,
+  "NCT06233461": false,
+  "NCT06237335": false,
+  "NCT06239311": false,
+  "NCT06241781": false,
+  "NCT06245408": false,
+  "NCT06246916": false,
+  "NCT06254612": false,
+  "NCT06257966": true,
+  "NCT06260163": false,
+  "NCT06268886": false,
+  "NCT06269705": false,
+  "NCT06283979": false,
+  "NCT06297603": false,
+  "NCT06302491": false,
+  "NCT06304103": true,
+  "NCT06309485": true,
+  "NCT06309966": false,
+  "NCT06321302": false,
+  "NCT06322628": false,
+  "NCT06323213": false,
+  "NCT06338280": false,
+  "NCT06339008": true,
+  "NCT06340633": false,
+  "NCT06341335": false,
+  "NCT06349980": false,
+  "NCT06355531": false,
+  "NCT06356311": false,
+  "NCT06361537": false,
+  "NCT06365853": false,
+  "NCT06382129": false,
+  "NCT06384261": false,
+  "NCT06388200": false,
+  "NCT06388564": false,
+  "NCT06389136": false,
+  "NCT06402331": false,
+  "NCT06402838": false,
+  "NCT06403267": true,
+  "NCT06413433": false,
+  "NCT06413706": false,
+  "NCT06414954": false,
+  "NCT06417814": false,
+  "NCT06421636": false,
+  "NCT06430866": false,
+  "NCT06434610": true,
+  "NCT06456580": false,
+  "NCT06456593": false,
+  "NCT06463665": false,
+  "NCT06465186": false,
+  "NCT06466135": false,
+  "NCT06470191": true,
+  "NCT06474442": false,
+  "NCT06479135": false,
+  "NCT06480383": false,
+  "NCT06481891": false,
+  "NCT06491043": false,
+  "NCT06495918": false,
+  "NCT06496607": false,
+  "NCT06496620": false,
+  "NCT06496971": false,
+  "NCT06500026": false,
+  "NCT06500702": false,
+  "NCT06506916": false,
+  "NCT06507436": true,
+  "NCT06508983": false,
+  "NCT06512584": true,
+  "NCT06516952": false,
+  "NCT06516965": false,
+  "NCT06519370": true,
+  "NCT06524947": false,
+  "NCT06529432": false,
+  "NCT06534437": false,
+  "NCT06537999": false,
+  "NCT06547151": false,
+  "NCT06551324": false,
+  "NCT06553547": false,
+  "NCT06557772": false,
+  "NCT06559163": false,
+  "NCT06559306": false,
+  "NCT06564818": false,
+  "NCT06567470": false,
+  "NCT06567782": false,
+  "NCT06568367": false,
+  "NCT06568627": false,
+  "NCT06569056": true,
+  "NCT06569108": false,
+  "NCT06569524": false,
+  "NCT06570291": false,
+  "NCT06574347": false,
+  "NCT06577935": false,
+  "NCT06579287": false,
+  "NCT06581575": false,
+  "NCT06585787": false,
+  "NCT06588855": false,
+  "NCT06589986": false,
+  "NCT06596252": false,
+  "NCT06598943": false,
+  "NCT06601335": false,
+  "NCT06602193": false,
+  "NCT06602258": false,
+  "NCT06602479": false,
+  "NCT06607458": false,
+  "NCT06616025": false,
+  "NCT06616974": false,
+  "NCT06617416": false,
+  "NCT06619860": true,
+  "NCT06629779": false,
+  "NCT06636682": false,
+  "NCT06637501": false,
+  "NCT06641089": false,
+  "NCT06641466": true,
+  "NCT06642909": false,
+  "NCT06649045": false,
+  "NCT06655155": false,
+  "NCT06659549": false,
+  "NCT06660394": false,
+  "NCT06660719": false,
+  "NCT06660992": false,
+  "NCT06662383": false,
+  "NCT06664619": false,
+  "NCT06664775": true,
+  "NCT06666855": false,
+  "NCT06671548": true,
+  "NCT06680947": false,
+  "NCT06681324": false,
+  "NCT06685757": false,
+  "NCT06687369": false,
+  "NCT06693895": false,
+  "NCT06696261": false,
+  "NCT06699108": false,
+  "NCT06701331": false,
+  "NCT06707103": false,
+  "NCT06707883": true,
+  "NCT06708260": true,
+  "NCT06712654": false,
+  "NCT06716203": true,
+  "NCT06716216": false,
+  "NCT06719141": false,
+  "NCT06721494": false,
+  "NCT06721871": false,
+  "NCT06722157": false,
+  "NCT06727565": false,
+  "NCT06736990": false,
+  "NCT06740630": false,
+  "NCT06741397": false,
+  "NCT06742190": false,
+  "NCT06742892": false,
+  "NCT06748053": false,
+  "NCT06750289": true,
+  "NCT06754644": false,
+  "NCT06760546": false,
+  "NCT06764940": false,
+  "NCT06767527": false,
+  "NCT06769048": false,
+  "NCT06769659": true,
+  "NCT06772168": true,
+  "NCT06773962": false,
+  "NCT06777238": false,
+  "NCT06778967": false,
+  "NCT06782373": false,
+  "NCT06789289": true,
+  "NCT06799247": false,
+  "NCT06799559": true,
+  "NCT06800651": true,
+  "NCT06803823": false,
+  "NCT06807424": false,
+  "NCT06812078": false,
+  "NCT06819826": false,
+  "NCT06820099": false,
+  "NCT06832618": false,
+  "NCT06833749": false,
+  "NCT06838000": false,
+  "NCT06841731": true,
+  "NCT06842823": false,
+  "NCT06842966": true,
+  "NCT06843590": false,
+  "NCT06846320": false,
+  "NCT06846515": false,
+  "NCT06847724": false,
+  "NCT06851559": false,
+  "NCT06855069": false,
+  "NCT06856577": false,
+  "NCT06857955": false,
+  "NCT06858839": false,
+  "NCT06858878": false,
+  "NCT06860971": true,
+  "NCT06862908": false,
+  "NCT06863701": false,
+  "NCT06865079": false,
+  "NCT06867705": false,
+  "NCT06868212": false,
+  "NCT06872125": false,
+  "NCT06873035": false,
+  "NCT06880276": false,
+  "NCT06881836": true,
+  "NCT06884293": false,
+  "NCT06884865": false,
+  "NCT06892288": false,
+  "NCT06894212": false,
+  "NCT06894511": false,
+  "NCT06899802": false,
+  "NCT06900920": false,
+  "NCT06901505": false,
+  "NCT06903338": false,
+  "NCT06904872": false,
+  "NCT06905210": false,
+  "NCT06908876": false,
+  "NCT06912633": false,
+  "NCT06914895": false,
+  "NCT06915246": false,
+  "NCT06925594": true,
+  "NCT06926660": false,
+  "NCT06927739": false,
+  "NCT06928142": false,
+  "NCT06929624": false,
+  "NCT06931405": false,
+  "NCT06937749": false,
+  "NCT06937931": false,
+  "NCT06942910": false,
+  "NCT06944522": false,
+  "NCT06946797": false,
+  "NCT06947928": false,
+  "NCT06951503": false,
+  "NCT06951698": false,
+  "NCT06951711": false,
+  "NCT06952478": false,
+  "NCT06952699": false,
+  "NCT06954961": true,
+  "NCT06957080": false,
+  "NCT06958211": false,
+  "NCT06958536": false,
+  "NCT06959225": false,
+  "NCT06962280": false,
+  "NCT06963710": false,
+  "NCT06964191": false,
+  "NCT06971094": false,
+  "NCT06972446": false,
+  "NCT06974851": false,
+  "NCT06975722": false,
+  "NCT06977581": false,
+  "NCT06981091": false,
+  "NCT06984627": false,
+  "NCT06987643": false,
+  "NCT06993610": true,
+  "NCT06994650": false,
+  "NCT06996080": false,
+  "NCT07000123": false,
+  "NCT07000136": false,
+  "NCT07002034": false,
+  "NCT07003919": false,
+  "NCT07005180": false,
+  "NCT07005336": false,
+  "NCT07009171": false,
+  "NCT07010471": false,
+  "NCT07011667": false,
+  "NCT07011706": false,
+  "NCT07013201": false,
+  "NCT07015437": false,
+  "NCT07015905": false,
+  "NCT07016750": false,
+  "NCT07017179": false,
+  "NCT07018700": false,
+  "NCT07018713": false,
+  "NCT07019675": false,
+  "NCT07020923": false,
+  "NCT07021976": false,
+  "NCT07023614": false,
+  "NCT07026968": false,
+  "NCT07027345": false,
+  "NCT07029516": false,
+  "NCT07029711": false,
+  "NCT07032597": true,
+  "NCT07035041": false,
+  "NCT07036523": false,
+  "NCT07037277": false,
+  "NCT07037875": false,
+  "NCT07040137": false,
+  "NCT07057622": true,
+  "NCT07060456": false,
+  "NCT07062978": false,
+  "NCT07065240": false,
+  "NCT07072195": false,
+  "NCT07072728": false,
+  "NCT07074886": false,
+  "NCT07074977": false,
+  "NCT07076199": false,
+  "NCT07080034": false,
+  "NCT07082114": false,
+  "NCT07087158": true,
+  "NCT07089186": false,
+  "NCT07090759": true,
+  "NCT07093476": false,
+  "NCT07097701": false,
+  "NCT07100418": false,
+  "NCT07101939": false,
+  "NCT07102628": false,
+  "NCT07105488": false,
+  "NCT07106892": false,
+  "NCT07107256": true,
+  "NCT07109869": false,
+  "NCT07118241": true,
+  "NCT07118254": false,
+  "NCT07121413": true,
+  "NCT07122401": false,
+  "NCT07122687": false,
+  "NCT07124221": true,
+  "NCT07127042": true,
+  "NCT07128550": false,
+  "NCT07136805": false,
+  "NCT07142356": false,
+  "NCT07142811": false,
+  "NCT07144345": false,
+  "NCT07144852": false,
+  "NCT07162883": false,
+  "NCT07166211": false,
+  "NCT07167758": false,
+  "NCT07169695": false,
+  "NCT07169851": false,
+  "NCT07169942": false,
+  "NCT07170917": false,
+  "NCT07175428": false,
+  "NCT07176390": false,
+  "NCT07184632": false,
+  "NCT07186413": false,
+  "NCT07189169": false,
+  "NCT07191483": false,
+  "NCT07192588": true,
+  "NCT07193927": false,
+  "NCT07194382": false,
+  "NCT07199569": false,
+  "NCT07205900": false,
+  "NCT07207408": false,
+  "NCT07210463": false,
+  "NCT07211633": false,
+  "NCT07211776": false,
+  "NCT07214571": false,
+  "NCT07215273": false,
+  "NCT07215312": false,
+  "NCT07215520": false,
+  "NCT07215559": false,
+  "NCT07215767": false,
+  "NCT07216482": false,
+  "NCT07218523": false,
+  "NCT07218900": false,
+  "NCT07219615": false,
+  "NCT07220109": false,
+  "NCT07222917": false,
+  "NCT07223229": false,
+  "NCT07223840": false,
+  "NCT07225829": false,
+  "NCT07226258": false,
+  "NCT07226661": false,
+  "NCT07228390": false,
+  "NCT07230132": false,
+  "NCT07230860": true,
+  "NCT07233070": false,
+  "NCT07235085": false,
+  "NCT07236099": false,
+  "NCT07237568": false,
+  "NCT07241377": true,
+  "NCT07241416": false,
+  "NCT07244510": false,
+  "NCT07246590": false,
+  "NCT07246889": false,
+  "NCT07247188": false,
+  "NCT07249463": false,
+  "NCT07249632": false,
+  "NCT07251595": false,
+  "NCT07256743": false,
+  "NCT07260500": false,
+  "NCT07260877": false,
+  "NCT07261644": false,
+  "NCT07269210": false,
+  "NCT07269717": false,
+  "NCT07281495": false,
+  "NCT07281937": false,
+  "NCT07284381": false,
+  "NCT07285291": true,
+  "NCT07285902": false,
+  "NCT07287189": false,
+  "NCT07297797": false,
+  "NCT07298330": false,
+  "NCT07298395": false,
+  "NCT07298434": true,
+  "NCT07301255": false,
+  "NCT07304089": false,
+  "NCT07315516": false,
+  "NCT07316088": false,
+  "NCT07323784": false,
+  "NCT07327840": false,
+  "NCT07349615": false,
+  "NCT07354516": false,
+  "NCT07360275": false,
+  "NCT07363720": false,
+  "NCT07365826": false,
+  "NCT07365904": false,
+  "NCT07371650": false,
+  "NCT07372924": true,
+  "NCT07382167": false,
+  "NCT07388680": false,
+  "NCT07395687": false,
+  "NCT07395986": false,
+  "NCT07396337": true,
+  "NCT07398378": false,
+  "NCT07399067": false,
+  "NCT07400588": false,
+  "NCT07402369": false,
+  "NCT07402876": false,
+  "NCT07408024": false,
+  "NCT07412496": false,
+  "NCT07413094": true,
+  "NCT07427797": false,
+  "NCT07431086": false,
+  "NCT07434271": false,
+  "NCT07435428": false,
+  "NCT07440537": false,
+  "NCT07443202": false,
+  "NCT07446309": true,
+  "NCT07453069": false,
+  "NCT07457723": false,
+  "NCT07470983": false,
+  "NCT07472725": false,
+  "NCT07473960": true,
+  "NCT07477704": false,
+  "NCT07478744": false,
+  "NCT07481955": false,
+  "NCT07482657": false,
+  "NCT07486960": false,
+  "NCT07487727": false,
+  "NCT07489612": true,
+  "NCT07491458": false,
+  "NCT07494409": true,
+  "NCT07496450": false,
+  "NCT07499674": false,
+  "NCT07502495": false,
+  "NCT07503886": false,
+  "NCT07504458": false,
+  "NCT07505303": false,
+  "NCT07511361": false,
+  "NCT07511816": false,
+  "NCT07519395": false,
+  "NCT07521137": false,
+  "NCT07521631": true,
+  "NCT07521683": false,
+  "NCT07531043": false,
+  "NCT07533786": false,
+  "NCT07547813": false,
+  "NCT07548632": false,
+  "NCT07552012": false,
+  "NCT07565506": false,
+  "NCT07568730": false,
+  "NCT07572396": true,
+  "NCT07576608": false,
+  "NCT07578363": false,
+  "NCT07580716": false,
+  "NCT07587788": false,
+  "NCT07598383": true,
+  "NCT07600736": false,
+  "NCT07605338": false,
+  "NCT07614958": false,
+  "NCT07645248": false,
+  "NCT07645924": false,
+  "NCT07646613": false,
+  "NCT07653100": false,
+  "NCT07654140": false,
+  "NCT07656727": false,
+  "NCT07658560": false,
+  "NCT07669519": false,
+  "NCT07672236": false,
+  "NCT07672561": true,
+  "NCT07673029": false,
+  "NCT07678931": false,
+  "NCT07688772": false,
+  "NCT07690059": false,
+  "NCT07694375": false,
+  "NCT07709897": false,
+  "NCT07712523": false,
+  "NCT07719530": true,
+  "NCT07724340": false,
+  "NCT07743008": false,
+  "NCT07746726": false,
+  "NCT07776210": true,
+  "NCT07790120": true,
+  "NCT07791524": true,
+  "NCT07791537": true,
+  "NCT07801820": true,
+  "NCT07804797": true,
+  "NCT07810972": false,
+  "NCT07811908": false,
+  "NCT07832552": false,
+  "NCT07835971": false,
+  "NCT07842991": false,
+  "NCT07858422": false,
+  "NCT07874620": false
+ },
+ "trial_china_only": {
+  "NCT01297400": false,
+  "NCT01983241": false,
+  "NCT02531516": false,
+  "NCT03165734": false,
+  "NCT03253263": false,
+  "NCT03339128": false,
+  "NCT03592472": false,
+  "NCT03817502": false,
+  "NCT03873402": false,
+  "NCT03994471": false,
+  "NCT04199689": false,
+  "NCT04241185": false,
+  "NCT04318041": false,
+  "NCT04435990": false,
+  "NCT04529772": false,
+  "NCT04544189": true,
+  "NCT04587830": false,
+  "NCT04603807": false,
+  "NCT04639180": true,
+  "NCT04666610": false,
+  "NCT04701476": false,
+  "NCT04704921": false,
+  "NCT04777357": false,
+  "NCT04862468": false,
+  "NCT04873362": false,
+  "NCT04895241": false,
+  "NCT04957550": true,
+  "NCT04961567": false,
+  "NCT04965675": false,
+  "NCT04969731": false,
+  "NCT04986423": false,
+  "NCT05050942": false,
+  "NCT05066217": false,
+  "NCT05077904": false,
+  "NCT05116462": true,
+  "NCT05134441": false,
+  "NCT05138133": false,
+  "NCT05139719": true,
+  "NCT05164341": false,
+  "NCT05171894": false,
+  "NCT05201638": false,
+  "NCT05219617": false,
+  "NCT05221840": false,
+  "NCT05230537": false,
+  "NCT05232279": false,
+  "NCT05263934": false,
+  "NCT05270525": false,
+  "NCT05281471": false,
+  "NCT05360446": false,
+  "NCT05365672": false,
+  "NCT05372718": false,
+  "NCT05397639": false,
+  "NCT05407636": false,
+  "NCT05408546": false,
+  "NCT05413655": false,
+  "NCT05500222": false,
+  "NCT05503264": false,
+  "NCT05514340": false,
+  "NCT05519085": false,
+  "NCT05536804": false,
+  "NCT05555862": false,
+  "NCT05557448": false,
+  "NCT05598333": false,
+  "NCT05608291": false,
+  "NCT05617677": false,
+  "NCT05620407": false,
+  "NCT05627648": false,
+  "NCT05639114": false,
+  "NCT05643534": false,
+  "NCT05646862": false,
+  "NCT05648500": false,
+  "NCT05653349": false,
+  "NCT05653453": true,
+  "NCT05654454": false,
+  "NCT05658575": false,
+  "NCT05672576": false,
+  "NCT05677451": false,
+  "NCT05678673": false,
+  "NCT05692180": false,
+  "NCT05702034": false,
+  "NCT05757869": false,
+  "NCT05762107": false,
+  "NCT05762211": false,
+  "NCT05776277": false,
+  "NCT05780567": true,
+  "NCT05843643": false,
+  "NCT05851443": false,
+  "NCT05852691": false,
+  "NCT05857930": false,
+  "NCT05860465": true,
+  "NCT05879432": false,
+  "NCT05884398": false,
+  "NCT05888922": false,
+  "NCT05894239": false,
+  "NCT05906992": false,
+  "NCT05911295": false,
+  "NCT05922878": false,
+  "NCT05925803": false,
+  "NCT05943795": true,
+  "NCT05946941": false,
+  "NCT05948475": false,
+  "NCT05952206": false,
+  "NCT05995340": false,
+  "NCT06000956": true,
+  "NCT06008093": false,
+  "NCT06014528": true,
+  "NCT06015737": false,
+  "NCT06029972": false,
+  "NCT06044675": false,
+  "NCT06046222": false,
+  "NCT06050122": false,
+  "NCT06052267": false,
+  "NCT06075264": false,
+  "NCT06087835": false,
+  "NCT06088979": false,
+  "NCT06104566": false,
+  "NCT06104839": false,
+  "NCT06116916": false,
+  "NCT06118281": false,
+  "NCT06125327": true,
+  "NCT06126224": false,
+  "NCT06128447": false,
+  "NCT06129175": false,
+  "NCT06140836": false,
+  "NCT06151574": false,
+  "NCT06161441": false,
+  "NCT06177041": true,
+  "NCT06190951": false,
+  "NCT06194734": true,
+  "NCT06206564": false,
+  "NCT06206733": true,
+  "NCT06207370": false,
+  "NCT06220773": false,
+  "NCT06221748": true,
+  "NCT06233461": false,
+  "NCT06239311": false,
+  "NCT06241781": true,
+  "NCT06245408": false,
+  "NCT06246916": false,
+  "NCT06254612": false,
+  "NCT06257966": true,
+  "NCT06268886": false,
+  "NCT06269705": false,
+  "NCT06283979": false,
+  "NCT06297603": false,
+  "NCT06309966": false,
+  "NCT06321302": false,
+  "NCT06322628": true,
+  "NCT06323213": true,
+  "NCT06338280": false,
+  "NCT06339008": false,
+  "NCT06341335": true,
+  "NCT06349980": true,
+  "NCT06355531": false,
+  "NCT06356311": false,
+  "NCT06361537": false,
+  "NCT06382129": true,
+  "NCT06384261": false,
+  "NCT06388200": false,
+  "NCT06388564": false,
+  "NCT06389136": false,
+  "NCT06402838": false,
+  "NCT06403267": false,
+  "NCT06413433": false,
+  "NCT06413706": false,
+  "NCT06414954": false,
+  "NCT06417814": false,
+  "NCT06421636": false,
+  "NCT06430866": false,
+  "NCT06434610": true,
+  "NCT06456580": false,
+  "NCT06456593": false,
+  "NCT06463665": false,
+  "NCT06465186": false,
+  "NCT06470191": true,
+  "NCT06474442": true,
+  "NCT06479135": false,
+  "NCT06480383": false,
+  "NCT06481891": false,
+  "NCT06495918": false,
+  "NCT06496607": false,
+  "NCT06496620": false,
+  "NCT06496971": false,
+  "NCT06500026": true,
+  "NCT06500702": false,
+  "NCT06507436": true,
+  "NCT06508983": true,
+  "NCT06512584": true,
+  "NCT06516952": false,
+  "NCT06516965": false,
+  "NCT06519370": true,
+  "NCT06524947": true,
+  "NCT06529432": true,
+  "NCT06547151": false,
+  "NCT06551324": false,
+  "NCT06553547": false,
+  "NCT06557772": false,
+  "NCT06559163": false,
+  "NCT06559306": false,
+  "NCT06564818": false,
+  "NCT06567470": false,
+  "NCT06567782": false,
+  "NCT06568367": false,
+  "NCT06568627": false,
+  "NCT06569056": true,
+  "NCT06569108": true,
+  "NCT06569524": true,
+  "NCT06570291": true,
+  "NCT06577935": false,
+  "NCT06579287": false,
+  "NCT06581575": false,
+  "NCT06585787": false,
+  "NCT06588855": false,
+  "NCT06589986": false,
+  "NCT06596252": false,
+  "NCT06598943": false,
+  "NCT06601335": true,
+  "NCT06602258": false,
+  "NCT06602479": false,
+  "NCT06607458": false,
+  "NCT06616025": false,
+  "NCT06616974": false,
+  "NCT06617416": true,
+  "NCT06619860": false,
+  "NCT06629779": false,
+  "NCT06636682": false,
+  "NCT06637501": false,
+  "NCT06641089": false,
+  "NCT06641466": false,
+  "NCT06642909": true,
+  "NCT06649045": false,
+  "NCT06655155": false,
+  "NCT06659549": false,
+  "NCT06660394": false,
+  "NCT06660719": false,
+  "NCT06660992": true,
+  "NCT06662383": false,
+  "NCT06664619": false,
+  "NCT06664775": false,
+  "NCT06666855": true,
+  "NCT06671548": true,
+  "NCT06680947": true,
+  "NCT06685757": false,
+  "NCT06687369": false,
+  "NCT06696261": true,
+  "NCT06699108": true,
+  "NCT06701331": false,
+  "NCT06707103": false,
+  "NCT06707883": true,
+  "NCT06712654": false,
+  "NCT06716203": true,
+  "NCT06716216": true,
+  "NCT06719141": false,
+  "NCT06722157": false,
+  "NCT06727565": false,
+  "NCT06736990": false,
+  "NCT06740630": false,
+  "NCT06742190": false,
+  "NCT06748053": false,
+  "NCT06750289": false,
+  "NCT06754644": true,
+  "NCT06760546": false,
+  "NCT06767527": true,
+  "NCT06769048": false,
+  "NCT06769659": false,
+  "NCT06772168": false,
+  "NCT06773962": false,
+  "NCT06777238": true,
+  "NCT06778967": true,
+  "NCT06782373": false,
+  "NCT06789289": true,
+  "NCT06799247": false,
+  "NCT06799559": true,
+  "NCT06800651": true,
+  "NCT06803823": false,
+  "NCT06807424": false,
+  "NCT06819826": true,
+  "NCT06820099": true,
+  "NCT06832618": false,
+  "NCT06833749": false,
+  "NCT06841731": true,
+  "NCT06842823": false,
+  "NCT06842966": false,
+  "NCT06843590": false,
+  "NCT06846320": false,
+  "NCT06846515": false,
+  "NCT06847724": false,
+  "NCT06851559": false,
+  "NCT06855069": true,
+  "NCT06856577": false,
+  "NCT06857955": false,
+  "NCT06858839": false,
+  "NCT06858878": false,
+  "NCT06860971": true,
+  "NCT06862908": true,
+  "NCT06863701": false,
+  "NCT06867705": false,
+  "NCT06868212": false,
+  "NCT06872125": false,
+  "NCT06880276": true,
+  "NCT06881836": false,
+  "NCT06884293": true,
+  "NCT06892288": false,
+  "NCT06894212": false,
+  "NCT06900920": true,
+  "NCT06901505": false,
+  "NCT06903338": false,
+  "NCT06904872": false,
+  "NCT06905210": false,
+  "NCT06908876": true,
+  "NCT06914895": false,
+  "NCT06925594": true,
+  "NCT06927739": false,
+  "NCT06928142": false,
+  "NCT06929624": true,
+  "NCT06937749": true,
+  "NCT06937931": false,
+  "NCT06942910": false,
+  "NCT06944522": false,
+  "NCT06947928": false,
+  "NCT06951503": true,
+  "NCT06951698": false,
+  "NCT06951711": false,
+  "NCT06952478": false,
+  "NCT06954961": true,
+  "NCT06957080": false,
+  "NCT06958211": false,
+  "NCT06958536": false,
+  "NCT06959225": false,
+  "NCT06962280": false,
+  "NCT06963710": false,
+  "NCT06964191": false,
+  "NCT06971094": true,
+  "NCT06972446": false,
+  "NCT06974851": true,
+  "NCT06975722": false,
+  "NCT06977581": false,
+  "NCT06981091": true,
+  "NCT06987643": false,
+  "NCT06993610": false,
+  "NCT06994650": true,
+  "NCT06996080": false,
+  "NCT07000123": false,
+  "NCT07000136": false,
+  "NCT07005336": true,
+  "NCT07009171": false,
+  "NCT07010471": false,
+  "NCT07011667": false,
+  "NCT07011706": false,
+  "NCT07013201": false,
+  "NCT07015905": false,
+  "NCT07016750": false,
+  "NCT07018700": false,
+  "NCT07018713": false,
+  "NCT07021976": true,
+  "NCT07023614": false,
+  "NCT07026968": true,
+  "NCT07027345": false,
+  "NCT07029711": false,
+  "NCT07032597": true,
+  "NCT07035041": true,
+  "NCT07036523": false,
+  "NCT07037277": false,
+  "NCT07037875": false,
+  "NCT07040137": false,
+  "NCT07057622": true,
+  "NCT07060456": true,
+  "NCT07062978": true,
+  "NCT07065240": false,
+  "NCT07072195": false,
+  "NCT07074886": false,
+  "NCT07076199": false,
+  "NCT07080034": false,
+  "NCT07082114": true,
+  "NCT07087158": true,
+  "NCT07089186": true,
+  "NCT07090759": true,
+  "NCT07093476": false,
+  "NCT07100418": true,
+  "NCT07101939": false,
+  "NCT07102628": false,
+  "NCT07105488": false,
+  "NCT07107256": true,
+  "NCT07109869": false,
+  "NCT07118241": false,
+  "NCT07118254": false,
+  "NCT07122401": true,
+  "NCT07122687": true,
+  "NCT07124221": true,
+  "NCT07127042": true,
+  "NCT07128550": false,
+  "NCT07136805": true,
+  "NCT07142356": false,
+  "NCT07142811": false,
+  "NCT07144345": false,
+  "NCT07144852": false,
+  "NCT07162883": false,
+  "NCT07166211": true,
+  "NCT07167758": false,
+  "NCT07169695": false,
+  "NCT07169851": false,
+  "NCT07169942": false,
+  "NCT07170917": false,
+  "NCT07176390": false,
+  "NCT07184632": false,
+  "NCT07186413": true,
+  "NCT07189169": true,
+  "NCT07191483": false,
+  "NCT07192588": false,
+  "NCT07193927": false,
+  "NCT07194382": false,
+  "NCT07199569": false,
+  "NCT07205900": false,
+  "NCT07210463": false,
+  "NCT07211776": true,
+  "NCT07214571": false,
+  "NCT07215273": false,
+  "NCT07215312": false,
+  "NCT07215559": false,
+  "NCT07215767": false,
+  "NCT07216482": false,
+  "NCT07218900": false,
+  "NCT07219615": false,
+  "NCT07222917": false,
+  "NCT07223229": false,
+  "NCT07223840": false,
+  "NCT07225829": false,
+  "NCT07226258": false,
+  "NCT07226661": false,
+  "NCT07228390": false,
+  "NCT07230132": true,
+  "NCT07230860": false,
+  "NCT07233070": true,
+  "NCT07235085": false,
+  "NCT07236099": false,
+  "NCT07237568": true,
+  "NCT07241416": true,
+  "NCT07244510": false,
+  "NCT07246590": false,
+  "NCT07246889": true,
+  "NCT07249463": false,
+  "NCT07249632": true,
+  "NCT07251595": true,
+  "NCT07256743": false,
+  "NCT07260500": true,
+  "NCT07260877": false,
+  "NCT07261644": true,
+  "NCT07269210": false,
+  "NCT07281495": false,
+  "NCT07281937": false,
+  "NCT07284381": false,
+  "NCT07285291": false,
+  "NCT07285902": true,
+  "NCT07287189": false,
+  "NCT07297797": true,
+  "NCT07298330": false,
+  "NCT07298395": false,
+  "NCT07298434": false,
+  "NCT07304089": false,
+  "NCT07315516": false,
+  "NCT07316088": false,
+  "NCT07327840": false,
+  "NCT07349615": true,
+  "NCT07354516": false,
+  "NCT07360275": true,
+  "NCT07363720": false,
+  "NCT07372924": true,
+  "NCT07382167": false,
+  "NCT07388680": true,
+  "NCT07395687": false,
+  "NCT07396337": true,
+  "NCT07398378": true,
+  "NCT07399067": true,
+  "NCT07402369": true,
+  "NCT07412496": false,
+  "NCT07413094": true,
+  "NCT07427797": false,
+  "NCT07434271": false,
+  "NCT07435428": false,
+  "NCT07440537": true,
+  "NCT07446309": true,
+  "NCT07453069": false,
+  "NCT07457723": false,
+  "NCT07470983": true,
+  "NCT07473960": true,
+  "NCT07478744": false,
+  "NCT07482657": false,
+  "NCT07486960": false,
+  "NCT07487727": true,
+  "NCT07489612": true,
+  "NCT07491458": false,
+  "NCT07494409": true,
+  "NCT07496450": false,
+  "NCT07499674": false,
+  "NCT07502495": false,
+  "NCT07503886": false,
+  "NCT07504458": false,
+  "NCT07505303": false,
+  "NCT07511361": false,
+  "NCT07511816": false,
+  "NCT07519395": false,
+  "NCT07521137": false,
+  "NCT07521631": true,
+  "NCT07521683": true,
+  "NCT07531043": false,
+  "NCT07533786": true,
+  "NCT07547813": false,
+  "NCT07548632": false,
+  "NCT07552012": true,
+  "NCT07568730": false,
+  "NCT07572396": false,
+  "NCT07576608": true,
+  "NCT07578363": false,
+  "NCT07580716": false,
+  "NCT07587788": true,
+  "NCT07598383": true,
+  "NCT07600736": false,
+  "NCT07605338": false,
+  "NCT07614958": false,
+  "NCT07645924": false,
+  "NCT07646613": false,
+  "NCT07654140": true,
+  "NCT07656727": false,
+  "NCT07658560": true,
+  "NCT07669519": false,
+  "NCT07672236": false,
+  "NCT07672561": true,
+  "NCT07673029": true,
+  "NCT07678931": true,
+  "NCT07688772": true,
+  "NCT07690059": false,
+  "NCT07694375": false,
+  "NCT07709897": true,
+  "NCT07712523": true,
+  "NCT07719530": true,
+  "NCT07724340": false,
+  "NCT07746726": true,
+  "NCT07776210": false,
+  "NCT07790120": true,
+  "NCT07791524": true,
+  "NCT07791537": true,
+  "NCT07801820": true,
+  "NCT07810972": false,
+  "NCT07811908": false,
+  "NCT07832552": false,
+  "NCT07835971": true,
+  "NCT07842991": false,
+  "NCT07874620": false
+ },
+ "trial_group": {
+  "NCT01297400": "investigationaldrugmwiii",
+  "NCT01983241": "alpha1mp",
+  "NCT02531516": "apalutamide",
+  "NCT03165734": "pacritinib",
+  "NCT03253263": "ohb607",
+  "NCT03339128": "eluxadoline",
+  "NCT03592472": "abexinostat",
+  "NCT03817502": "cariprazine",
+  "NCT03873402": "nivolumab",
+  "NCT03994471": "xylocorestrenghtxylocorestrenghtxylocorestrenght",
+  "NCT04199689": "9vhpvvaccine",
+  "NCT04241185": "pembrolizumab",
+  "NCT04318041": "artrodar",
+  "NCT04435990": "30000mm09",
+  "NCT04529772": "acalabrutinib",
+  "NCT04544189": "alpelisib",
+  "NCT04587830": "adipeg20",
+  "NCT04603807": "entrectinib",
+  "NCT04639180": "camrelizumab",
+  "NCT04666610": "brivaracetam",
+  "NCT04701476": "tate",
+  "NCT04704921": "abbvrgx314",
+  "NCT04777357": "cariprazine",
+  "NCT04862468": "perivasculardexamethasone",
+  "NCT04873362": "atezolizumab",
+  "NCT04895241": "litifilimab",
+  "NCT04957550": "NCT04957550",
+  "NCT04961567": "litifilimab",
+  "NCT04965675": "eptinezumab",
+  "NCT04969731": "immuncelllc",
+  "NCT04986423": "zen003694",
+  "NCT05050942": "cam2029",
+  "NCT05066217": "clemizole",
+  "NCT05077904": "staccatoalprazolam",
+  "NCT05116462": "sintilimab",
+  "NCT05134441": "imu838",
+  "NCT05138133": "anifrolumab",
+  "NCT05139719": "hec585",
+  "NCT05164341": "metreleptin",
+  "NCT05171894": "greenlight",
+  "NCT05201638": "imu838",
+  "NCT05219617": "carisbamate",
+  "NCT05221840": "oleclumab",
+  "NCT05230537": "iptacopan",
+  "NCT05232279": "testofen",
+  "NCT05263934": "depemokimab",
+  "NCT05270525": "ensifentrine",
+  "NCT05281471": "olvimulogenenanivacirepvec",
+  "NCT05360446": "inclisiran",
+  "NCT05365672": "mic",
+  "NCT05372718": "recombinantnonimmunogenicstaphylokinase",
+  "NCT05397639": "masupirdine",
+  "NCT05407636": "abbvrgx314",
+  "NCT05408546": "ts23",
+  "NCT05413655": "ex039",
+  "NCT05500222": "resmetirom",
+  "NCT05503264": "satralizumab",
+  "NCT05514340": "standardtreatment",
+  "NCT05519085": "mezigdomide",
+  "NCT05536804": "tirzepatide",
+  "NCT05555862": "artesunate",
+  "NCT05557448": "tynadote",
+  "NCT05598333": "ab1002",
+  "NCT05608291": "fianlimab",
+  "NCT05617677": "deucravacitinib",
+  "NCT05620407": "deucravacitinib",
+  "NCT05627648": "kp100li",
+  "NCT05639114": "ianalumab",
+  "NCT05643534": "tenapanor",
+  "NCT05646862": "inavolisib",
+  "NCT05648500": "cenerimod",
+  "NCT05653349": "ianalumab",
+  "NCT05653453": "tumortreatingfields",
+  "NCT05654454": "bevacizumab",
+  "NCT05658575": "dapansutrile",
+  "NCT05672576": "cenerimod",
+  "NCT05677451": "lou064",
+  "NCT05678673": "xl092",
+  "NCT05692180": "benralizumab",
+  "NCT05702034": "milvexian",
+  "NCT05757869": "milvexian",
+  "NCT05762107": "zt01",
+  "NCT05762211": "pooledallogeneicfecalmicrobiotherapy",
+  "NCT05776277": "iltamiocel",
+  "NCT05780567": "tqb3616letrozoleanastrozoletamoxifen",
+  "NCT05843643": "upadacitinib",
+  "NCT05851443": "povorcitinib",
+  "NCT05852691": "tobemstomig",
+  "NCT05857930": "om85",
+  "NCT05860465": "sph4336",
+  "NCT05879432": "lsaltpeptide",
+  "NCT05884398": "apalutamide",
+  "NCT05888922": "minoxidil",
+  "NCT05894239": "inavolisib",
+  "NCT05906992": "ctp53",
+  "NCT05911295": "disitamabvedotin",
+  "NCT05922878": "alto300",
+  "NCT05925803": "anifrolumab",
+  "NCT05943795": "sib001",
+  "NCT05946941": "deucravacitinib",
+  "NCT05948475": "tinengotinib",
+  "NCT05952206": "angiolitesirolimuselutingstent",
+  "NCT05995340": "elapr002f",
+  "NCT06000956": "jitongning",
+  "NCT06008093": "durvalumab",
+  "NCT06014528": "in10018",
+  "NCT06015737": "anifrolumab",
+  "NCT06029972": "tilpisertibfosmecarbil",
+  "NCT06044675": "mdmaassistedpsychotherapy",
+  "NCT06046222": "ns229",
+  "NCT06050122": "patidegib",
+  "NCT06052267": "tev56248",
+  "NCT06075264": "artesunate",
+  "NCT06087835": "zibotentan",
+  "NCT06088979": "tour006",
+  "NCT06104566": "lisaftoclax",
+  "NCT06104839": "nxc736",
+  "NCT06116916": "khk4951",
+  "NCT06118281": "ziltivekimab",
+  "NCT06125327": "sc1011",
+  "NCT06126224": "karxt",
+  "NCT06128447": "zp59676",
+  "NCT06129175": "neuroncellex",
+  "NCT06140836": "repotrectinib",
+  "NCT06151574": "zongertinib",
+  "NCT06161441": "fianlimab",
+  "NCT06177041": "m108monoclonalantibody",
+  "NCT06190951": "fianlimab",
+  "NCT06194734": "kc1036",
+  "NCT06206564": "artesunate",
+  "NCT06206733": "askb589",
+  "NCT06207370": "tafenoquine",
+  "NCT06220773": "br1019a",
+  "NCT06221748": "disitamabvedotin",
+  "NCT06233461": "tak279",
+  "NCT06239311": "methotrexate",
+  "NCT06241781": "gt101",
+  "NCT06245408": "dazodalibep",
+  "NCT06246916": "fianlimab",
+  "NCT06254612": "sp624",
+  "NCT06257966": "exendin4fcfusionprotein",
+  "NCT06268886": "bms986446",
+  "NCT06269705": "zilretta",
+  "NCT06283979": "stimulanvg",
+  "NCT06297603": "retatrutide",
+  "NCT06309966": "bhv7000",
+  "NCT06321302": "bi764524",
+  "NCT06322628": "vsa006",
+  "NCT06323213": "610",
+  "NCT06338280": "sonara",
+  "NCT06339008": "ly3650150",
+  "NCT06341335": "cadonilimab",
+  "NCT06349980": "hlx53",
+  "NCT06355531": "fnp223",
+  "NCT06356311": "sacituzumabtirumotecan",
+  "NCT06361537": "octac1inh",
+  "NCT06382129": "blb01d1",
+  "NCT06384261": "cusatuzumab",
+  "NCT06388200": "subretinaladministrationofocu400301",
+  "NCT06388564": "axatilimab",
+  "NCT06389136": "upadacitinib",
+  "NCT06402838": "ro7269162",
+  "NCT06403267": "nono42",
+  "NCT06413433": "solriamfetol",
+  "NCT06413706": "abemaciclib",
+  "NCT06414954": "nmd670",
+  "NCT06417814": "datopotamabderuxtecan",
+  "NCT06421636": "regn7999",
+  "NCT06430866": "abp234",
+  "NCT06434610": "b013",
+  "NCT06456580": "telitacicept",
+  "NCT06456593": "obefazimod",
+  "NCT06463665": "olvimulogenenanivacirepvec",
+  "NCT06465186": "efinopegdutide",
+  "NCT06470191": "b007",
+  "NCT06474442": "bd111",
+  "NCT06479135": "navtemadlin",
+  "NCT06480383": "iti1284",
+  "NCT06481891": "sotagliflozin",
+  "NCT06495918": "otxtki",
+  "NCT06496607": "nsi8226",
+  "NCT06496620": "biologicalsolrikitug",
+  "NCT06496971": "microbubble",
+  "NCT06500026": "blb01d1",
+  "NCT06500702": "frexalimab",
+  "NCT06507436": "herombopag",
+  "NCT06508983": "sg301",
+  "NCT06512584": "pj009",
+  "NCT06516952": "povorcitinib",
+  "NCT06516965": "povorcitinib",
+  "NCT06519370": "fda018adc",
+  "NCT06524947": "quadrivalentrecombinantnorovirusvaccine",
+  "NCT06529432": "bupivacaineliposome",
+  "NCT06547151": "amor1",
+  "NCT06551324": "pf06821497",
+  "NCT06553547": "tenapanor",
+  "NCT06557772": "amlitelimab",
+  "NCT06559163": "obexelimab",
+  "NCT06559306": "seltorexant",
+  "NCT06564818": "cyb003",
+  "NCT06567470": "cit013",
+  "NCT06567782": "dostarlimab",
+  "NCT06568367": "solriamfetol",
+  "NCT06568627": "escharex",
+  "NCT06569056": "hrs8427",
+  "NCT06569108": "kn057",
+  "NCT06569524": "NCT06569524",
+  "NCT06570291": "mesenchymalstemcells",
+  "NCT06577935": "aga2118",
+  "NCT06579287": "shj002",
+  "NCT06581575": "jcxh105",
+  "NCT06585787": "karxt",
+  "NCT06588855": "afimkibart",
+  "NCT06589986": "afimkibart",
+  "NCT06596252": "budesonide",
+  "NCT06598943": "eltrekibart",
+  "NCT06601335": "ak117",
+  "NCT06602258": "e2814",
+  "NCT06602479": "medi0618",
+  "NCT06607458": "melphalan",
+  "NCT06616025": "ntx001",
+  "NCT06616974": "tx000045",
+  "NCT06617416": "cadonilimab",
+  "NCT06619860": "vx993",
+  "NCT06629779": "pf06821497",
+  "NCT06636682": "fkpc101",
+  "NCT06637501": "sonrotoclax",
+  "NCT06641089": "sonelokimab",
+  "NCT06641466": "rimegepant",
+  "NCT06642909": "zuberitamab",
+  "NCT06649045": "orforglipron",
+  "NCT06655155": "efgartigimodph20",
+  "NCT06659549": "gal101",
+  "NCT06660394": "lp352",
+  "NCT06660719": "sp8203",
+  "NCT06660992": "hsk31858",
+  "NCT06662383": "retatrutide",
+  "NCT06664619": "abs",
+  "NCT06664775": "tachosil",
+  "NCT06666855": "de117b",
+  "NCT06671548": "relugolix",
+  "NCT06680947": "610",
+  "NCT06685757": "felzartamab",
+  "NCT06687369": "mb12",
+  "NCT06696261": "lianxiaxiaopigranules",
+  "NCT06699108": "vgrr01",
+  "NCT06701331": "upadacitinib",
+  "NCT06707103": "NCT06707103",
+  "NCT06707883": "tqc2731",
+  "NCT06712654": "ap306",
+  "NCT06716203": "drugbgm0504",
+  "NCT06716216": "drugbgm0504",
+  "NCT06719141": "lp352",
+  "NCT06722157": "bi771716",
+  "NCT06727565": "domvanalimab",
+  "NCT06736990": "cal101",
+  "NCT06740630": "investigationalvaricellavaccinelot1",
+  "NCT06742190": "empasiprubart",
+  "NCT06748053": "gsk5784283",
+  "NCT06750289": "icslaba",
+  "NCT06754644": "ql2107",
+  "NCT06760546": "setmelanotide",
+  "NCT06767527": "ak112",
+  "NCT06769048": "bi1584862",
+  "NCT06769659": "npt2042",
+  "NCT06772168": "cmg190303",
+  "NCT06773962": "tb006",
+  "NCT06777238": "gzr18",
+  "NCT06778967": "gzr18",
+  "NCT06782373": "pacritinib",
+  "NCT06789289": "tqc2938",
+  "NCT06799247": "decartes08",
+  "NCT06799559": "3qlm1016",
+  "NCT06800651": "jmkx003142",
+  "NCT06803823": "ono2020",
+  "NCT06807424": "icotrokinra",
+  "NCT06819826": "sc0062strength",
+  "NCT06820099": "hrs7535",
+  "NCT06832618": "ruxolitinib",
+  "NCT06833749": "kbp336",
+  "NCT06841731": "hrs8427",
+  "NCT06842823": "navenibart",
+  "NCT06842966": "4must",
+  "NCT06843590": "alks2680",
+  "NCT06846320": "abbv932",
+  "NCT06846515": "ar882",
+  "NCT06847724": "cyb704",
+  "NCT06851559": "vonoprazan",
+  "NCT06855069": "hs20089",
+  "NCT06856577": "ixovec",
+  "NCT06857955": "qcz484",
+  "NCT06858839": "maridebartcafraglutide",
+  "NCT06858878": "maridebartcafraglutide",
+  "NCT06860971": "al2846",
+  "NCT06862908": "ibi362",
+  "NCT06863701": "betamethasone",
+  "NCT06867705": "resiliencepro",
+  "NCT06868212": "remibrutinib",
+  "NCT06872125": "zorevunersen",
+  "NCT06880276": "2qlm3003",
+  "NCT06881836": "ono2020",
+  "NCT06884293": "ibi362",
+  "NCT06892288": "glm101",
+  "NCT06894212": "sep363856",
+  "NCT06900920": "tqb3473",
+  "NCT06901505": "vadadustat",
+  "NCT06903338": "tobevibart",
+  "NCT06904872": "crofelemerpowder",
+  "NCT06905210": "experimentaldrug",
+  "NCT06908876": "ibi302",
+  "NCT06914895": "tirzepatide",
+  "NCT06925594": "humanthsc01cell",
+  "NCT06927739": "orticumab",
+  "NCT06928142": "sibeprenlimab",
+  "NCT06929624": "shra1912",
+  "NCT06937749": "ibi362",
+  "NCT06937931": "corabotase",
+  "NCT06942910": "zibotentan",
+  "NCT06944522": "bemdaneprocel",
+  "NCT06947928": "ifxhu20",
+  "NCT06951503": "ak112",
+  "NCT06951698": "karxt",
+  "NCT06951711": "karxt",
+  "NCT06952478": "ctp44",
+  "NCT06954961": "d0502",
+  "NCT06957080": "remigromig",
+  "NCT06958211": "ruxolitinib",
+  "NCT06958536": "brivekimig",
+  "NCT06959225": "ruxolitinib",
+  "NCT06962280": "tirzepatide",
+  "NCT06963710": "alg000184",
+  "NCT06964191": "pa5108implant",
+  "NCT06971094": "gc101adenoassociatedvirus",
+  "NCT06972446": "lutikizumab",
+  "NCT06974851": "hrs9531",
+  "NCT06975722": "sar442970",
+  "NCT06977581": "pf07275315",
+  "NCT06981091": "xhs004",
+  "NCT06987643": "neflamapimod",
+  "NCT06993610": "tibulizumab",
+  "NCT06994650": "hrs9531",
+  "NCT06996080": "ksi101",
+  "NCT07000123": "azd0780",
+  "NCT07000136": "azd0780",
+  "NCT07005336": "uliledlimab",
+  "NCT07009171": "kds2010",
+  "NCT07010471": "dayprax562",
+  "NCT07011667": "cagrisema",
+  "NCT07011706": "ati045",
+  "NCT07013201": "delgocitinib",
+  "NCT07015905": "regn7508",
+  "NCT07016750": "kb803",
+  "NCT07018700": "xeomin",
+  "NCT07018713": "xeomin",
+  "NCT07021976": "hrs1893",
+  "NCT07023614": "ninerafaxstatmr",
+  "NCT07026968": "NCT07026968",
+  "NCT07027345": "5tolasure",
+  "NCT07029711": "ritlecitinib",
+  "NCT07032597": "harmonycalidocaine",
+  "NCT07035041": "d2570",
+  "NCT07036523": "bi765423",
+  "NCT07037277": "bemnifosbuvirruzasvir",
+  "NCT07037875": "linaprazanglurate",
+  "NCT07040137": "kps0373",
+  "NCT07057622": "177ludotatate",
+  "NCT07060456": "hrs9531",
+  "NCT07062978": "ql1206",
+  "NCT07065240": "spt300",
+  "NCT07072195": "amc6156",
+  "NCT07074886": "ocrelizumabtestformulation",
+  "NCT07076199": "insulinicodec",
+  "NCT07080034": "antitl1amonoclonalantibody",
+  "NCT07082114": "hdm1002",
+  "NCT07087158": "ibr854",
+  "NCT07089186": "pralurbactam",
+  "NCT07090759": "gsthg141",
+  "NCT07093476": "empagliflozin",
+  "NCT07100418": "hrs7249",
+  "NCT07101939": "pindololbenzoate",
+  "NCT07102628": "inclisiran",
+  "NCT07105488": "bfb759",
+  "NCT07107256": "tqc2731",
+  "NCT07109869": "boricacid",
+  "NCT07118241": "recombinanthumanproteoglycan4",
+  "NCT07118254": "rhprg4",
+  "NCT07122401": "mt1013",
+  "NCT07122687": "ibi363",
+  "NCT07124221": "cabergoline",
+  "NCT07127042": "114143",
+  "NCT07128550": "tobevibart",
+  "NCT07136805": "vvn46110",
+  "NCT07142356": "rtn001",
+  "NCT07142811": "tobevibart",
+  "NCT07144345": "reformulatedlevulankerastickcontainingaminolevulinicacid20",
+  "NCT07144852": "reformulatedlevulankerastickcontainingaminolevulinicacid20",
+  "NCT07162883": "ql2107",
+  "NCT07166211": "cm512",
+  "NCT07167758": "triv509",
+  "NCT07169695": "t1695",
+  "NCT07169851": "ly3537021",
+  "NCT07169942": "NCT07169942",
+  "NCT07170917": "brivekimig",
+  "NCT07176390": "tulisokibart",
+  "NCT07184632": "nnc06620419",
+  "NCT07186413": "trifarotene",
+  "NCT07189169": "qa108granules",
+  "NCT07191483": "kyn5356",
+  "NCT07192588": "gr1014cg47",
+  "NCT07193927": "lactiplantibacillusplantarumprobioticmixture",
+  "NCT07194382": "ap02",
+  "NCT07199569": "mvabn",
+  "NCT07205900": "hm15275",
+  "NCT07210463": "nt201",
+  "NCT07211776": "zl1109",
+  "NCT07214571": "s337395",
+  "NCT07215273": "el219",
+  "NCT07215312": "ly3938577",
+  "NCT07215559": "macupatide",
+  "NCT07215767": "stannousfluoride",
+  "NCT07216482": "enlicitide",
+  "NCT07218900": "azd0780",
+  "NCT07219615": "ritlecitinib",
+  "NCT07222917": "dapagliflozin",
+  "NCT07223229": "ei001",
+  "NCT07223840": "brenipatide",
+  "NCT07225829": "4p004",
+  "NCT07226258": "sl1002",
+  "NCT07226661": "spn821",
+  "NCT07228390": "ritlecitinib",
+  "NCT07230132": "zt006",
+  "NCT07230860": "jnj95597528",
+  "NCT07233070": "hrs7450",
+  "NCT07235085": "intravitrealofaxitinibhydrogelimplantfollowedbyasecondintravitrealofaxitinibimplantatweek24",
+  "NCT07236099": "icp322",
+  "NCT07237568": "lnk01001",
+  "NCT07241416": "rezvilutamide",
+  "NCT07244510": "sct650c",
+  "NCT07246590": "vp102",
+  "NCT07246889": "ahb137",
+  "NCT07249463": "edi048",
+  "NCT07249632": "telitacicept",
+  "NCT07251595": "shr0302",
+  "NCT07256743": "sali10lozenge",
+  "NCT07260500": "pegrhgh",
+  "NCT07260877": "vent03",
+  "NCT07261644": "608",
+  "NCT07269210": "solbinsiran",
+  "NCT07281495": "taldefgrobepalfa",
+  "NCT07281937": "vrb101",
+  "NCT07284381": "abbv444",
+  "NCT07285291": "ts17220",
+  "NCT07285902": "hrs9531",
+  "NCT07287189": "sat3247",
+  "NCT07297797": "hrs9563",
+  "NCT07298330": "brelovitug",
+  "NCT07298395": "env294",
+  "NCT07298434": "vyd2311md",
+  "NCT07304089": "vim0423",
+  "NCT07315516": "lavenderoil",
+  "NCT07316088": "otx601digitaltherapeutic",
+  "NCT07327840": "NCT07327840",
+  "NCT07349615": "NCT07349615",
+  "NCT07354516": "qls111",
+  "NCT07360275": "vct220",
+  "NCT07363720": "tak861",
+  "NCT07372924": "tegileridinefumaratelnjection",
+  "NCT07382167": "tenapanor",
+  "NCT07388680": "pirfenidone",
+  "NCT07395687": "ubt251",
+  "NCT07396337": "qhrd106",
+  "NCT07398378": "maxfreshtoothpaste",
+  "NCT07399067": "ibi3002",
+  "NCT07402369": "cmsd002",
+  "NCT07412496": "bl1332",
+  "NCT07413094": "yd0743",
+  "NCT07427797": "corabotase",
+  "NCT07434271": "kh001odt",
+  "NCT07435428": "corabotase",
+  "NCT07440537": "icp488",
+  "NCT07446309": "hrs9190",
+  "NCT07453069": "fb301",
+  "NCT07457723": "trpti",
+  "NCT07470983": "hrs1780",
+  "NCT07473960": "ibi306",
+  "NCT07478744": "syt510",
+  "NCT07482657": "zelicapavir",
+  "NCT07486960": "tulisokibart",
+  "NCT07487727": "and017",
+  "NCT07489612": "ofqls1410",
+  "NCT07491458": "hu6",
+  "NCT07494409": "and017",
+  "NCT07496450": "mrna1018h5",
+  "NCT07499674": "abenacianine",
+  "NCT07502495": "icovamenib",
+  "NCT07503886": "dfl24498",
+  "NCT07504458": "qtx2101",
+  "NCT07505303": "ecc4703",
+  "NCT07511361": "tonlamarsen",
+  "NCT07511816": "ly4515100",
+  "NCT07519395": "camlipixant",
+  "NCT07521137": "ocf001intravaginal",
+  "NCT07521631": "hdm10051",
+  "NCT07521683": "ns136",
+  "NCT07531043": "apraclonidine0125unitfree",
+  "NCT07533786": "hsk55718",
+  "NCT07547813": "lad328",
+  "NCT07548632": "licaminlimab",
+  "NCT07552012": "fxs5626",
+  "NCT07568730": "lacripep",
+  "NCT07572396": "egcg",
+  "NCT07576608": "9mw3811",
+  "NCT07578363": "apraclonidine0125unitfree",
+  "NCT07580716": "allocetra",
+  "NCT07587788": "rbd5044",
+  "NCT07598383": "vc005group",
+  "NCT07600736": "abs1230",
+  "NCT07605338": "colgatesnaptotal10",
+  "NCT07614958": "NCT07614958",
+  "NCT07645924": "elismetrep",
+  "NCT07646613": "asy202",
+  "NCT07654140": "sal0140",
+  "NCT07656727": "bge102",
+  "NCT07658560": "bgm0504",
+  "NCT07669519": "nuvastatic",
+  "NCT07672236": "bupizenge",
+  "NCT07672561": "drugwd890",
+  "NCT07673029": "gq1005",
+  "NCT07678931": "stapokibart",
+  "NCT07688772": "shr1819",
+  "NCT07690059": "sc0032",
+  "NCT07694375": "ascorbicacid5",
+  "NCT07709897": "hrs5580",
+  "NCT07712523": "qy201",
+  "NCT07719530": "shr1139",
+  "NCT07724340": "at673",
+  "NCT07746726": "hrs9190",
+  "NCT07776210": "dmapps",
+  "NCT07790120": "sal0120",
+  "NCT07791524": "mwn1094",
+  "NCT07791537": "mwn1093",
+  "NCT07801820": "mwn1094",
+  "NCT07810972": "tjo087",
+  "NCT07811908": "kae609",
+  "NCT07832552": "triesence",
+  "NCT07835971": "gw906",
+  "NCT07842991": "naf",
+  "NCT07874620": "cebranopadol"
+ },
+ "trial_sponsor": {
+  "NCT01297400": "Skingenix, Inc.",
+  "NCT01983241": "Grifols Therapeutics LLC",
+  "NCT02531516": "Aragon Pharmaceuticals, Inc.",
+  "NCT03165734": "Swedish Orphan Biovitrum",
+  "NCT03253263": "OHB Neonatology Ltd.",
+  "NCT03339128": "AbbVie",
+  "NCT03592472": "Xynomic Pharmaceuticals, Inc.",
+  "NCT03817502": "Gedeon Richter Plc.",
+  "NCT03873402": "Bristol-Myers Squibb",
+  "NCT03994471": "Iperboreal Pharma Srl",
+  "NCT04199689": "Merck Sharp & Dohme",
+  "NCT04241185": "Merck Sharp & Dohme",
+  "NCT04318041": "TRB Chemedica",
+  "NCT04435990": "Inmunotek S.L.",
+  "NCT04529772": "Acerta Pharma BV",
+  "NCT04544189": "Novartis",
+  "NCT04587830": "Polaris Group",
+  "NCT04603807": "Hoffmann-La Roche",
+  "NCT04639180": "Jiangsu HengRui",
+  "NCT04666610": "UCB Biopharma SRL",
+  "NCT04701476": "Teclison Ltd.",
+  "NCT04704921": "AbbVie",
+  "NCT04777357": "AbbVie",
+  "NCT04862468": "Mercator MedSystems, Inc.",
+  "NCT04873362": "Hoffmann-La Roche",
+  "NCT04895241": "Biogen",
+  "NCT04957550": "Jiangsu HengRui",
+  "NCT04961567": "Biogen",
+  "NCT04965675": "H. Lundbeck A/S",
+  "NCT04969731": "GC Cell Corporation",
+  "NCT04986423": "Zenith Epigenetics",
+  "NCT05050942": "Camurus AB",
+  "NCT05066217": "Epygenix",
+  "NCT05077904": "UCB Biopharma SRL",
+  "NCT05116462": "Innovent Biologics",
+  "NCT05134441": "Immunic AG",
+  "NCT05138133": "AstraZeneca",
+  "NCT05139719": "Sunshine Lake Pharma Co., Ltd.",
+  "NCT05164341": "Chiesi Farmaceutici S.p.A.",
+  "NCT05171894": "Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co., Ltd.",
+  "NCT05201638": "Immunic AG",
+  "NCT05219617": "SK Life Science, Inc.",
+  "NCT05221840": "AstraZeneca",
+  "NCT05230537": "Novartis",
+  "NCT05232279": "RDC Clinical Pty Ltd",
+  "NCT05263934": "GlaxoSmithKline",
+  "NCT05270525": "Merck Sharp & Dohme",
+  "NCT05281471": "Genelux Corporation",
+  "NCT05360446": "Novartis",
+  "NCT05365672": "TolerogenixX GmbH",
+  "NCT05372718": "Supergene, LLC",
+  "NCT05397639": "Suven Life Sciences Limited",
+  "NCT05407636": "AbbVie",
+  "NCT05408546": "Translational Sciences, Inc.",
+  "NCT05413655": "Excelsior",
+  "NCT05500222": "Madrigal Pharmaceuticals, Inc.",
+  "NCT05503264": "Hoffmann-La Roche",
+  "NCT05514340": "Pharmazz, Inc.",
+  "NCT05519085": "Bristol-Myers Squibb",
+  "NCT05536804": "Eli Lilly",
+  "NCT05555862": "Frantz Viral Therapeutics, LLC",
+  "NCT05557448": "Sinew Pharma Inc.",
+  "NCT05598333": "AskBio Inc",
+  "NCT05608291": "Regeneron Pharmaceuticals",
+  "NCT05617677": "Bristol-Myers Squibb",
+  "NCT05620407": "Bristol-Myers Squibb",
+  "NCT05627648": "Kringle Pharma, Inc.",
+  "NCT05639114": "Novartis",
+  "NCT05643534": "Ardelyx",
+  "NCT05646862": "Hoffmann-La Roche",
+  "NCT05648500": "Viatris Innovation GmbH",
+  "NCT05653349": "Novartis",
+  "NCT05653453": "Jiangsu Healthy Life Innovation Medical Technology Co., Ltd",
+  "NCT05654454": "Mabscale, LLC",
+  "NCT05658575": "Olatec Therapeutics, Inc.",
+  "NCT05672576": "Viatris Innovation GmbH",
+  "NCT05677451": "Novartis",
+  "NCT05678673": "Exelixis",
+  "NCT05692180": "AstraZeneca",
+  "NCT05702034": "Johnson & Johnson",
+  "NCT05757869": "Johnson & Johnson",
+  "NCT05762107": "Zucara Therapeutics Inc.",
+  "NCT05762211": "MaaT Pharma",
+  "NCT05776277": "Cook MyoSite",
+  "NCT05780567": "Chia Tai Tianqing",
+  "NCT05843643": "AbbVie",
+  "NCT05851443": "Incyte Corporation",
+  "NCT05852691": "Hoffmann-La Roche",
+  "NCT05857930": "OM Pharma SA",
+  "NCT05860465": "Shanghai Pharmaceuticals Holding Co., Ltd",
+  "NCT05879432": "Arch Biopartners Inc.",
+  "NCT05884398": "Johnson & Johnson",
+  "NCT05888922": "Industrial Farmac\u00e9utica Cantabria, S.A.",
+  "NCT05894239": "Hoffmann-La Roche",
+  "NCT05906992": "Celltrion",
+  "NCT05911295": "Pfizer",
+  "NCT05922878": "Alto Neuroscience",
+  "NCT05925803": "AstraZeneca",
+  "NCT05943795": "Sichuan Baili Pharmaceutical Co., Ltd.",
+  "NCT05946941": "Bristol-Myers Squibb",
+  "NCT05948475": "TransThera Sciences (Nanjing), Inc.",
+  "NCT05952206": "iVascular S.L.U.",
+  "NCT05995340": "AbbVie",
+  "NCT06000956": "Tasly Pharmaceutical Group Co., Ltd",
+  "NCT06008093": "AstraZeneca",
+  "NCT06014528": "InxMed (Shanghai) Co., Ltd.",
+  "NCT06015737": "AstraZeneca",
+  "NCT06029972": "Gilead Sciences",
+  "NCT06044675": "Remedy",
+  "NCT06046222": "NS Pharma, Inc.",
+  "NCT06050122": "Sol-Gel Technologies, Ltd.",
+  "NCT06052267": "Teva Branded Pharmaceutical Products R&D LLC",
+  "NCT06075264": "Frantz Viral Therapeutics, LLC",
+  "NCT06087835": "AstraZeneca",
+  "NCT06088979": "Novartis",
+  "NCT06104566": "Ascentage Pharma Group Inc.",
+  "NCT06104839": "NEXTGEN Bioscience",
+  "NCT06116916": "Kyowa Kirin Co., Ltd.",
+  "NCT06118281": "Novo Nordisk A/S",
+  "NCT06125327": "Guangzhou JOYO Pharma Co., Ltd",
+  "NCT06126224": "Bristol-Myers Squibb",
+  "NCT06128447": "Zero Point Five Therapeutics",
+  "NCT06129175": "Cytopeutics Sdn. Bhd.",
+  "NCT06140836": "Bristol-Myers Squibb",
+  "NCT06151574": "Boehringer Ingelheim",
+  "NCT06161441": "Regeneron Pharmaceuticals",
+  "NCT06177041": "FutureGen Biopharmaceutical (Beijing) Co., Ltd",
+  "NCT06190951": "Regeneron Pharmaceuticals",
+  "NCT06194734": "Beijing Konruns Pharmaceutical Co., Ltd.",
+  "NCT06206564": "Frantz Viral Therapeutics, LLC",
+  "NCT06206733": "AskGene Pharma, Inc.",
+  "NCT06207370": "60 Degrees Pharmaceuticals LLC",
+  "NCT06220773": "Boryung Pharmaceutical Co., Ltd",
+  "NCT06221748": "RemeGen Co., Ltd.",
+  "NCT06233461": "Takeda",
+  "NCT06239311": "medac GmbH",
+  "NCT06241781": "Grit Biotechnology",
+  "NCT06245408": "Amgen",
+  "NCT06246916": "Regeneron Pharmaceuticals",
+  "NCT06254612": "Sirtsei Pharmaceuticals, Inc.",
+  "NCT06257966": "Beijing Dongfang Biotech Co., Ltd.",
+  "NCT06268886": "Bristol-Myers Squibb",
+  "NCT06269705": "Pacira Pharmaceuticals, Inc",
+  "NCT06283979": "Biocomposites Ltd",
+  "NCT06297603": "Eli Lilly",
+  "NCT06309966": "Biohaven Therapeutics Ltd.",
+  "NCT06321302": "Boehringer Ingelheim",
+  "NCT06322628": "Visirna Therapeutics HK Limited",
+  "NCT06323213": "3SBio",
+  "NCT06338280": "Sonara Health",
+  "NCT06339008": "Eli Lilly",
+  "NCT06341335": "Akeso",
+  "NCT06349980": "Fosun Pharma",
+  "NCT06355531": "Ferrer Internacional S.A.",
+  "NCT06356311": "Merck Sharp & Dohme",
+  "NCT06361537": "Octapharma",
+  "NCT06382129": "Sichuan Baili Pharmaceutical Co., Ltd.",
+  "NCT06384261": "OncoVerity, Inc.",
+  "NCT06388200": "Ocugen",
+  "NCT06388564": "Incyte Corporation",
+  "NCT06389136": "AbbVie",
+  "NCT06402838": "Hoffmann-La Roche",
+  "NCT06403267": "NoNO Inc.",
+  "NCT06413433": "Axsome Therapeutics, Inc.",
+  "NCT06413706": "Eli Lilly",
+  "NCT06414954": "NMD Pharma A/S",
+  "NCT06417814": "AstraZeneca",
+  "NCT06421636": "Regeneron Pharmaceuticals",
+  "NCT06430866": "Amgen",
+  "NCT06434610": "Shanghai Jiaolian Drug Research and Development Co., Ltd",
+  "NCT06456580": "Vor Biopharma",
+  "NCT06456593": "Abivax S.A.",
+  "NCT06463665": "Genelux Corporation",
+  "NCT06465186": "Merck Sharp & Dohme",
+  "NCT06470191": "Shanghai Jiaolian Drug Research and Development Co., Ltd",
+  "NCT06474442": "Shanghai BDgene Co., Ltd.",
+  "NCT06479135": "Kartos Therapeutics, Inc.",
+  "NCT06480383": "Intra-Cellular Therapies, Inc.",
+  "NCT06481891": "Lexicon Pharmaceuticals",
+  "NCT06495918": "Ocular Therapeutix, Inc.",
+  "NCT06496607": "Uniquity One (UNI)",
+  "NCT06496620": "Uniquity One (UNI)",
+  "NCT06496971": "NaviFUS Corporation",
+  "NCT06500026": "Sichuan Baili Pharmaceutical Co., Ltd.",
+  "NCT06500702": "Sanofi",
+  "NCT06507436": "Jiangsu HengRui",
+  "NCT06508983": "Hangzhou Sumgen Biotech Co., Ltd.",
+  "NCT06512584": "Chongqing Peg-Bio Biopharm Co., Ltd.",
+  "NCT06516952": "Incyte Corporation",
+  "NCT06516965": "Incyte Corporation",
+  "NCT06519370": "Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co., Ltd.",
+  "NCT06524947": "Anhui Zhifei Longcom Biologic Pharmacy Co., Ltd.",
+  "NCT06529432": "Jiangsu HengRui",
+  "NCT06547151": "Amorphical Ltd.",
+  "NCT06551324": "Pfizer",
+  "NCT06553547": "Ardelyx",
+  "NCT06557772": "Sanofi",
+  "NCT06559163": "Zenas BioPharma (USA), LLC",
+  "NCT06559306": "Johnson & Johnson",
+  "NCT06564818": "Cybin IRL Limited",
+  "NCT06567470": "Citryll BV",
+  "NCT06567782": "GlaxoSmithKline",
+  "NCT06568367": "Axsome Therapeutics, Inc.",
+  "NCT06568627": "MediWound Ltd",
+  "NCT06569056": "Jiangsu HengRui",
+  "NCT06569108": "Suzhou Alphamab Co., Ltd.",
+  "NCT06569524": "Chia Tai Tianqing",
+  "NCT06570291": "Wuxi Cellular Biopharmaceutical Group Ltd.",
+  "NCT06577935": "Angitia Biopharmaceuticals",
+  "NCT06579287": "Sunhawk Vision Biotech, Inc.",
+  "NCT06581575": "Immorna Biotherapeutics, Inc.",
+  "NCT06585787": "Bristol-Myers Squibb",
+  "NCT06588855": "Hoffmann-La Roche",
+  "NCT06589986": "Hoffmann-La Roche",
+  "NCT06596252": "Dr. Falk Pharma GmbH",
+  "NCT06598943": "Eli Lilly",
+  "NCT06601335": "Akeso",
+  "NCT06602258": "Eisai Inc.",
+  "NCT06602479": "AbbVie",
+  "NCT06607458": "Delcath Systems Inc.",
+  "NCT06616025": "Neuraptive Therapeutics Inc.",
+  "NCT06616974": "Tectonic Therapeutic",
+  "NCT06617416": "Akeso",
+  "NCT06619860": "Vertex Pharmaceuticals Incorporated",
+  "NCT06629779": "Pfizer",
+  "NCT06636682": "Cellvax Therapeutics Inc",
+  "NCT06637501": "BeOne Medicines",
+  "NCT06641089": "MoonLake Immunotherapeutics AG",
+  "NCT06641466": "Pfizer",
+  "NCT06642909": "BioRay Pharmaceutical Co., Ltd.",
+  "NCT06649045": "Eli Lilly",
+  "NCT06655155": "argenx",
+  "NCT06659549": "Galimedix Therapeutics Inc",
+  "NCT06660394": "Longboard Pharmaceuticals",
+  "NCT06660719": "Shin Poong Pharmaceutical Co. Ltd.",
+  "NCT06660992": "Haisco",
+  "NCT06662383": "Eli Lilly",
+  "NCT06664619": "Teva Branded Pharmaceutical Products R&D LLC",
+  "NCT06664775": "Corza Medical GmbH",
+  "NCT06666855": "Santen Pharmaceutical Co., Ltd.",
+  "NCT06671548": "Qilu",
+  "NCT06680947": "3SBio",
+  "NCT06685757": "Biogen",
+  "NCT06687369": "mAbxience Research S.L.",
+  "NCT06696261": "Tasly Pharmaceutical Group Co., Ltd",
+  "NCT06699108": "Shanghai Vitalgen BioPharma Co., Ltd.",
+  "NCT06701331": "AbbVie",
+  "NCT06707103": "TR Therapeutics",
+  "NCT06707883": "Chia Tai Tianqing",
+  "NCT06712654": "R1 Therapeutics",
+  "NCT06716203": "BrightGene Bio-Medical Technology Co., Ltd.",
+  "NCT06716216": "BrightGene Bio-Medical Technology Co., Ltd.",
+  "NCT06719141": "Longboard Pharmaceuticals",
+  "NCT06722157": "Boehringer Ingelheim",
+  "NCT06727565": "Gilead Sciences",
+  "NCT06736990": "Calluna Pharma AS",
+  "NCT06740630": "GlaxoSmithKline",
+  "NCT06742190": "argenx",
+  "NCT06748053": "GlaxoSmithKline",
+  "NCT06750289": "AstraZeneca",
+  "NCT06754644": "Qilu",
+  "NCT06760546": "Rhythm Pharmaceuticals, Inc.",
+  "NCT06767527": "Akeso",
+  "NCT06769048": "Boehringer Ingelheim",
+  "NCT06769659": "NeuroPro Therapeutics, Inc.",
+  "NCT06772168": "CMG Pharmaceutical Co. Ltd",
+  "NCT06773962": "TrueBinding, Inc.",
+  "NCT06777238": "Gan & Lee Pharmaceuticals.",
+  "NCT06778967": "Gan & Lee Pharmaceuticals.",
+  "NCT06782373": "Swedish Orphan Biovitrum",
+  "NCT06789289": "Chia Tai Tianqing",
+  "NCT06799247": "Cartesian Therapeutics",
+  "NCT06799559": "Qilu",
+  "NCT06800651": "Jemincare",
+  "NCT06803823": "Ono Pharmaceutical Co., Ltd.",
+  "NCT06807424": "Johnson & Johnson",
+  "NCT06819826": "Biocity Biopharmaceutics Co., Ltd.",
+  "NCT06820099": "Jiangsu HengRui",
+  "NCT06832618": "Incyte Corporation",
+  "NCT06833749": "KeyBioscience AG",
+  "NCT06841731": "Jiangsu HengRui",
+  "NCT06842823": "Astria Therapeutics, Inc.",
+  "NCT06842966": "Valenta Pharm JSC",
+  "NCT06843590": "Alkermes, Inc.",
+  "NCT06846320": "AbbVie",
+  "NCT06846515": "Arthrosi Therapeutics",
+  "NCT06847724": "Sandoz",
+  "NCT06851559": "Phathom Pharmaceuticals, Inc.",
+  "NCT06855069": "Hansoh",
+  "NCT06856577": "Adverum Biotechnologies, Inc.",
+  "NCT06857955": "Novartis",
+  "NCT06858839": "Amgen",
+  "NCT06858878": "Amgen",
+  "NCT06860971": "Chia Tai Tianqing",
+  "NCT06862908": "Innovent Biologics",
+  "NCT06863701": "Laboratorios Silanes S.A. de C.V.",
+  "NCT06867705": "Resilience",
+  "NCT06868212": "Novartis",
+  "NCT06872125": "Stoke Therapeutics, Inc",
+  "NCT06880276": "Qilu",
+  "NCT06881836": "Ono Pharmaceutical Co., Ltd.",
+  "NCT06884293": "Innovent Biologics",
+  "NCT06892288": "Glycomine, Inc.",
+  "NCT06894212": "Otsuka Pharmaceutical Development & Commercialization, Inc.",
+  "NCT06900920": "Chia Tai Tianqing",
+  "NCT06901505": "Akebia Therapeutics",
+  "NCT06903338": "Vir Biotechnology, Inc.",
+  "NCT06904872": "Napo Therapeutics, S.p.A.",
+  "NCT06905210": "Eurofarma Laboratorios S.A.",
+  "NCT06908876": "Innovent Biologics",
+  "NCT06914895": "Eli Lilly",
+  "NCT06925594": "Jiangsu Topcel-KH Pharmaceutical Co., Ltd.",
+  "NCT06927739": "Abcentra",
+  "NCT06928142": "Otsuka Pharmaceutical Development & Commercialization, Inc.",
+  "NCT06929624": "Jiangsu HengRui",
+  "NCT06937749": "Innovent Biologics",
+  "NCT06937931": "Ipsen",
+  "NCT06942910": "AstraZeneca",
+  "NCT06944522": "BlueRock Therapeutics",
+  "NCT06947928": "TuHURA Biosciences, Inc.",
+  "NCT06951503": "Akeso",
+  "NCT06951698": "Bristol-Myers Squibb",
+  "NCT06951711": "Bristol-Myers Squibb",
+  "NCT06952478": "Celltrion",
+  "NCT06954961": "InventisBio Co., Ltd",
+  "NCT06957080": "EyeBiotech Ltd.",
+  "NCT06958211": "Incyte Corporation",
+  "NCT06958536": "Sanofi",
+  "NCT06959225": "Incyte Corporation",
+  "NCT06962280": "Eli Lilly",
+  "NCT06963710": "Aligos Therapeutics",
+  "NCT06964191": "PolyActiva Pty Ltd",
+  "NCT06971094": "GeneCradle Inc",
+  "NCT06972446": "AbbVie",
+  "NCT06974851": "Jiangsu HengRui",
+  "NCT06975722": "Sanofi",
+  "NCT06977581": "Pfizer",
+  "NCT06981091": "Fosun Pharma",
+  "NCT06987643": "EIP Pharma Inc",
+  "NCT06993610": "Zura Bio Inc",
+  "NCT06994650": "Jiangsu HengRui",
+  "NCT06996080": "Kodiak Sciences Inc",
+  "NCT07000123": "AstraZeneca",
+  "NCT07000136": "AstraZeneca",
+  "NCT07005336": "TJ Biopharma Co., Ltd.",
+  "NCT07009171": "NeuroBiogen Co., Ltd",
+  "NCT07010471": "Praxis Precision Medicines",
+  "NCT07011667": "Novo Nordisk A/S",
+  "NCT07011706": "Aclaris Therapeutics, Inc.",
+  "NCT07013201": "LEO Pharma",
+  "NCT07015905": "Regeneron Pharmaceuticals",
+  "NCT07016750": "Krystal Biotech, Inc.",
+  "NCT07018700": "Merz",
+  "NCT07018713": "Merz",
+  "NCT07021976": "Jiangsu HengRui",
+  "NCT07023614": "Imbria Pharmaceuticals, Inc.",
+  "NCT07026968": "CSPC",
+  "NCT07027345": "BioMendics, LLC",
+  "NCT07029711": "Pfizer",
+  "NCT07032597": "AbbVie",
+  "NCT07035041": "InventisBio Co., Ltd",
+  "NCT07036523": "Boehringer Ingelheim",
+  "NCT07037277": "Atea Pharmaceuticals, Inc.",
+  "NCT07037875": "Cinclus Pharma Holding AB",
+  "NCT07040137": "Kissei Pharmaceutical Co., Ltd.",
+  "NCT07057622": "HTA Co., Ltd.",
+  "NCT07060456": "Jiangsu HengRui",
+  "NCT07062978": "Qilu",
+  "NCT07065240": "Seaport Therapeutics",
+  "NCT07072195": "Animuscure Inc.",
+  "NCT07074886": "Hoffmann-La Roche",
+  "NCT07076199": "Novo Nordisk A/S",
+  "NCT07080034": "Biocad",
+  "NCT07082114": "Hangzhou Zhongmei Huadong Pharmaceutical Co., Ltd.",
+  "NCT07087158": "Imbioray (Hangzhou) Biomedicine Co., Ltd.",
+  "NCT07089186": "Qilu",
+  "NCT07090759": "Fujian Akeylink Biotechnology Co., Ltd.",
+  "NCT07093476": "Celltrion",
+  "NCT07100418": "Jiangsu HengRui",
+  "NCT07101939": "Actimed Therapeutics Ltd",
+  "NCT07102628": "Novartis",
+  "NCT07105488": "Bluefin Biomedicine, Inc.",
+  "NCT07107256": "Chia Tai Tianqing",
+  "NCT07109869": "pH-D Feminine Health LLC",
+  "NCT07118241": "Lubris Bio Pty Ltd",
+  "NCT07118254": "Lubris Bio Pty Ltd",
+  "NCT07122401": "Shaanxi Micot Pharmaceutical Technology Co., Ltd.",
+  "NCT07122687": "Innovent Biologics",
+  "NCT07124221": "Changchun GeneScience Pharmaceutical Co., Ltd.",
+  "NCT07127042": "ScinnoHub Pharmaceutical Co., Ltd.",
+  "NCT07128550": "Vir Biotechnology, Inc.",
+  "NCT07136805": "VivaVision Biotech, Inc",
+  "NCT07142356": "Retension Pharmaceuticals. Inc.",
+  "NCT07142811": "Vir Biotechnology, Inc.",
+  "NCT07144345": "Sun Pharmaceutical Industries, Inc.",
+  "NCT07144852": "Sun Pharmaceutical Industries, Inc.",
+  "NCT07162883": "Qilu",
+  "NCT07166211": "Keymed Biosciences Co.Ltd",
+  "NCT07167758": "Triveni Bio",
+  "NCT07169695": "Laboratoires Thea",
+  "NCT07169851": "Eli Lilly",
+  "NCT07169942": "Structure Therapeutics",
+  "NCT07170917": "Sanofi",
+  "NCT07176390": "Merck Sharp & Dohme",
+  "NCT07184632": "Novo Nordisk A/S",
+  "NCT07186413": "Galderma R&D",
+  "NCT07189169": "Smilebiotek Zhuhai Limited",
+  "NCT07191483": "Kynexis B.V.",
+  "NCT07192588": "Graegis Pharmaceuticals Ltd",
+  "NCT07193927": "AB Biotics, SA",
+  "NCT07194382": "Avalyn Pharma Inc.",
+  "NCT07199569": "Bavarian Nordic",
+  "NCT07205900": "Hanmi Pharmaceutical Company Limited",
+  "NCT07210463": "Merz",
+  "NCT07211776": "Zai Lab (Shanghai) Co., Ltd.",
+  "NCT07214571": "Shionogi",
+  "NCT07215273": "Elion Therapeutics, Inc.",
+  "NCT07215312": "Eli Lilly",
+  "NCT07215559": "Eli Lilly",
+  "NCT07215767": "HALEON",
+  "NCT07216482": "Merck Sharp & Dohme",
+  "NCT07218900": "AstraZeneca",
+  "NCT07219615": "Pfizer",
+  "NCT07222917": "AstraZeneca",
+  "NCT07223229": "Elixiron Immunotherapeutics (Hong Kong) Ltd.",
+  "NCT07223840": "Eli Lilly",
+  "NCT07225829": "4Moving Biotech",
+  "NCT07226258": "Saol Therapeutics Inc",
+  "NCT07226661": "Supernus Pharmaceuticals, Inc.",
+  "NCT07228390": "Pfizer",
+  "NCT07230132": "Beijing QL Biopharmaceutical Co.,Ltd",
+  "NCT07230860": "Johnson & Johnson",
+  "NCT07233070": "Jiangsu HengRui",
+  "NCT07235085": "Ocular Therapeutix, Inc.",
+  "NCT07236099": "Beijing InnoCare Pharma Tech Co., Ltd.",
+  "NCT07237568": "Lynk Pharmaceuticals Co., Ltd",
+  "NCT07241416": "Jiangsu HengRui",
+  "NCT07244510": "Sinocelltech Ltd.",
+  "NCT07246590": "Verrica Pharmaceuticals Inc.",
+  "NCT07246889": "Ausper Biopharma Co., Ltd.",
+  "NCT07249463": "Novartis",
+  "NCT07249632": "RemeGen Co., Ltd.",
+  "NCT07251595": "Jiangsu HengRui",
+  "NCT07256743": "Ostia Sciences",
+  "NCT07260500": "Changchun GeneScience Pharmaceutical Co., Ltd.",
+  "NCT07260877": "Ventus Therapeutics U.S., Inc.",
+  "NCT07261644": "3SBio",
+  "NCT07269210": "Eli Lilly",
+  "NCT07281495": "Biohaven Therapeutics Ltd.",
+  "NCT07281937": "Verdiva Bio Dev Limited",
+  "NCT07284381": "AbbVie",
+  "NCT07285291": "Taisho Pharmaceutical Co., Ltd.",
+  "NCT07285902": "Jiangsu HengRui",
+  "NCT07287189": "Satellos Bioscience, Inc.",
+  "NCT07297797": "Jiangsu HengRui",
+  "NCT07298330": "Mirum Pharmaceuticals, Inc.",
+  "NCT07298395": "Enveda Therapeutics",
+  "NCT07298434": "Invivyd, Inc.",
+  "NCT07304089": "Vima Therapeutics",
+  "NCT07315516": "RDC Clinical Pty Ltd",
+  "NCT07316088": "Oui Therapeutics, Inc.",
+  "NCT07327840": "Kylonova (Xiamen) Biopharma co., LTD.",
+  "NCT07349615": "Jiangsu HengRui",
+  "NCT07354516": "Qlaris Bio, Inc.",
+  "NCT07360275": "Vincentage Pharma Co., Ltd",
+  "NCT07363720": "Takeda",
+  "NCT07372924": "Jiangsu HengRui",
+  "NCT07382167": "Ardelyx",
+  "NCT07388680": "Beijing Continent Pharmaceutical Co, Ltd.",
+  "NCT07395687": "Novo Nordisk A/S",
+  "NCT07396337": "Changzhou Qianhong Bio-pharma Co., Ltd.",
+  "NCT07398378": "Colgate Palmolive",
+  "NCT07399067": "Innovent Biologics",
+  "NCT07402369": "Shenzhen Kangzhe Biotechnology Co., Ltd.",
+  "NCT07412496": "Bausch & Lomb Incorporated",
+  "NCT07413094": "Shanghai Yidian Pharmaceutical Technology Development Co., Ltd.",
+  "NCT07427797": "Ipsen",
+  "NCT07434271": "Kadence Bio",
+  "NCT07435428": "Ipsen",
+  "NCT07440537": "Beijing InnoCare Pharma Tech Co., Ltd.",
+  "NCT07446309": "Jiangsu HengRui",
+  "NCT07453069": "Freya Biosciences ApS",
+  "NCT07457723": "RDC Clinical Pty Ltd",
+  "NCT07470983": "Jiangsu HengRui",
+  "NCT07473960": "Innovent Biologics",
+  "NCT07478744": "Synendos Therapeutics AG",
+  "NCT07482657": "Enanta Pharmaceuticals, Inc",
+  "NCT07486960": "Merck Sharp & Dohme",
+  "NCT07487727": "Kind Pharmaceuticals LLC",
+  "NCT07489612": "Qilu",
+  "NCT07491458": "Rivus Pharmaceuticals, Inc.",
+  "NCT07494409": "Kind Pharmaceuticals LLC",
+  "NCT07496450": "ModernaTX, Inc.",
+  "NCT07499674": "Vergent Bioscience, Inc.",
+  "NCT07502495": "Biomea Fusion Inc.",
+  "NCT07503886": "Domp\u00e9 Farmaceutici S.p.A",
+  "NCT07504458": "Quetzal Therapeutics",
+  "NCT07505303": "Eccogene",
+  "NCT07511361": "Kardigan, Inc.",
+  "NCT07511816": "Eli Lilly",
+  "NCT07519395": "GlaxoSmithKline",
+  "NCT07521137": "Sano Chemicals Inc",
+  "NCT07521631": "Hangzhou Zhongmei Huadong Pharmaceutical Co., Ltd.",
+  "NCT07521683": "NeuShen Therapeutics",
+  "NCT07531043": "Alcon Research",
+  "NCT07533786": "Haisco",
+  "NCT07547813": "Almirall, S.A.",
+  "NCT07548632": "Oculis",
+  "NCT07552012": "Fosun Pharma",
+  "NCT07568730": "TearSolutions, Inc.",
+  "NCT07572396": "Amplexd Therapeutics, Inc.",
+  "NCT07576608": "Mabwell (Shanghai) Bioscience Co., Ltd.",
+  "NCT07578363": "Alcon Research",
+  "NCT07580716": "Enlivex Therapeutics Ltd.",
+  "NCT07587788": "Ribotek Biopharmaceuticals (Shandong) Co., Ltd",
+  "NCT07598383": "Jiangsu vcare pharmaceutical technology co., LTD",
+  "NCT07600736": "Actio Biosciences, Inc.",
+  "NCT07605338": "Colgate Palmolive",
+  "NCT07614958": "A. Menarini International Licensing S.A.",
+  "NCT07645924": "TriGemX Bio, Inc.",
+  "NCT07646613": "Aspeya, Inc.",
+  "NCT07654140": "Shenzhen Salubris Pharmaceuticals Co., Ltd.",
+  "NCT07656727": "BioAge Labs, Inc.",
+  "NCT07658560": "BrightGene Bio-Medical Technology Co., Ltd.",
+  "NCT07669519": "Natureceuticals Sdn Bhd",
+  "NCT07672236": "OncoZenge AB",
+  "NCT07672561": "Zhejiang Wenda Pharma Technology LTD.",
+  "NCT07673029": "GeneQuantum Healthcare (Suzhou) Co., Ltd.",
+  "NCT07678931": "Chengdu Kangnuoxing Biopharma,Inc.",
+  "NCT07688772": "Jiangsu HengRui",
+  "NCT07690059": "Sensory Cloud, Inc.",
+  "NCT07694375": "Caravel Oculus Pty Ltd",
+  "NCT07709897": "Jiangsu HengRui",
+  "NCT07712523": "E-nitiate Biopharmaceuticals (Hangzhou) Co., Ltd.",
+  "NCT07719530": "Jiangsu HengRui",
+  "NCT07724340": "Antag Therapeutics",
+  "NCT07746726": "Jiangsu HengRui",
+  "NCT07776210": "Regenerative Ocular Immunobiologics LLC",
+  "NCT07790120": "Shenzhen Salubris Pharmaceuticals Co., Ltd.",
+  "NCT07791524": "Shanghai Minwei Biotechnology Co., Ltd",
+  "NCT07791537": "Shanghai Minwei Biotechnology Co., Ltd",
+  "NCT07801820": "Shanghai Minwei Biotechnology Co., Ltd",
+  "NCT07810972": "Taejoon Pharmaceutical Co., Ltd.",
+  "NCT07811908": "Novartis",
+  "NCT07832552": "Harrow Inc",
+  "NCT07835971": "Shenzhen Salubris Pharmaceuticals Co., Ltd.",
+  "NCT07842991": "Colgate Palmolive",
+  "NCT07874620": "Adneuris Therapeutics, Inc."
+ }
+}

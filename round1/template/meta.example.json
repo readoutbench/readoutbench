@@ -1,0 +1,18 @@
+{
+ "team": "Your team",
+ "entry_name": "Model X with search and a three-model vote",
+ "contact": "you@example.org",
+ "models": [
+  "model-a",
+  "model-b"
+ ],
+ "harness": "One paragraph: tools, number of calls, how answers are combined.",
+ "setting": "open",
+ "web_access": true,
+ "cost_usd_per_trial": 2.4,
+ "retrieval": "web search",
+ "human_in_the_loop": false,
+ "fine_tuned": false,
+ "ensemble": true,
+ "code_url": "https://github.com/your-team/your-entry"
+}

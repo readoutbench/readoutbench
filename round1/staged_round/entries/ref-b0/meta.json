@@ -1,0 +1,19 @@
+{
+ "team": "ReadoutBench",
+ "contact": "organiser",
+ "setting": "closed",
+ "web_access": false,
+ "cost_usd_per_trial": 0,
+ "models": [],
+ "sources_sha256": {
+  "baselines_info.json": "7d61b295ece41e101b5143088a2e7f5a25025b49b8a69a6d8433092ad68a9683",
+  "baselines_label_audit.jsonl": "2c294ad4b584d5c209b76f941c5660cc051f303cee70530df423b67e406a9cd7",
+  "baselines_relabel_check_a.jsonl": "16e0b63c156d2da103752997d6aacd32fd313bf7cb7c10992004d06c61f52f62",
+  "baselines_relabel_check_b.jsonl": "5578d17b63a8509852b84a2cb783aea1cd11e2cf22acf799bc8227c548e011a0",
+  "baselines_round_features.jsonl": "fe93f0d07d8a312a2f1ad23026edf80f3c33c61ac327cb4c9e5c40db9d71ae4d",
+  "baselines_training.jsonl": "07dd383d23ebb762e9e95fd29f6f792fa86e4babc4fa314253649c54970c6883",
+  "make_baselines.py": "46758bdb91fa2a892b4f304ea0c16d158bb5908304e2dc04e5e515f124b80087"
+ },
+ "entry_name": "Base rate (B0)",
+ "harness": "share met at the deadline among earlier company trials whose first result came within the same window after primary completion and that were followed for all of it, shrunk towards the share in B1's fit (make_baselines.py)"
+}

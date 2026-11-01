@@ -1,0 +1,62 @@
+{
+ "settings": {
+  "reps": 1000,
+  "seed": 7,
+  "gap": 0.005,
+  "registry_error_sd_logit": 0.9,
+  "within_group_error_share": 0.5,
+  "entry_error_sd_at_minus_gap": 0.7982785701751709,
+  "entry_error_sd_at_plus_gap": 0.9940793514251709,
+  "bootstrap_resamples": 1000
+ },
+ "by_size": {
+  "100": {
+   "false_clearly_better_at_margin": 0.026,
+   "false_clearly_worse_at_margin": 0.031,
+   "false_clearly_better_centred_bootstrap": 0.026,
+   "mc_standard_error": 0.0049371044145328745,
+   "sd": 0.020085621335758745,
+   "lead_needed_half_the_time": 0.04436709473571905,
+   "lead_needed_80pct": 0.06127157544994167,
+   "sd_entry_built_on_registry_model": 0.00431172956745009,
+   "lead_needed_half_the_time_built_on_it": 0.013450834729937747,
+   "lead_needed_80pct_built_on_it": 0.017079676880224662
+  },
+  "200": {
+   "false_clearly_better_at_margin": 0.017,
+   "false_clearly_worse_at_margin": 0.03,
+   "false_clearly_better_centred_bootstrap": 0.017,
+   "mc_standard_error": 0.0049371044145328745,
+   "sd": 0.014308345208975979,
+   "lead_needed_half_the_time": 0.033043841509165395,
+   "lead_needed_80pct": 0.04508604531228897,
+   "sd_entry_built_on_registry_model": 0.003068458108081211,
+   "lead_needed_half_the_time_built_on_it": 0.011014067427347283,
+   "lead_needed_80pct_built_on_it": 0.013596546208728702
+  },
+  "400": {
+   "false_clearly_better_at_margin": 0.019,
+   "false_clearly_worse_at_margin": 0.022,
+   "false_clearly_better_centred_bootstrap": 0.018,
+   "mc_standard_error": 0.0049371044145328745,
+   "sd": 0.010119476749637408,
+   "lead_needed_half_the_time": 0.024833810128126334,
+   "lead_needed_80pct": 0.03335057426963292,
+   "sd_entry_built_on_registry_model": 0.0021858687217934263,
+   "lead_needed_half_the_time_built_on_it": 0.00928422400344113,
+   "lead_needed_80pct_built_on_it": 0.011123897022945636
+  },
+  "548": {
+   "false_clearly_better_at_margin": 0.027,
+   "false_clearly_worse_at_margin": 0.028,
+   "false_clearly_better_centred_bootstrap": 0.028,
+   "mc_standard_error": 0.0049371044145328745,
+   "sd": 0.008695068258824148,
+   "lead_needed_half_the_time": 0.022042020764838015,
+   "lead_needed_80pct": 0.029359972807897854,
+   "sd_entry_built_on_registry_model": 0.001866408286376935,
+   "lead_needed_half_the_time_built_on_it": 0.008658093050600483,
+   "lead_needed_80pct_built_on_it": 0.010228901458989326
+  }
+ }
+}

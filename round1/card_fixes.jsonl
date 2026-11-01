@@ -1,0 +1,11 @@
+{"nct_id": "NCT05598333", "numbers": "yes", "numbers_reason": null, "fix_note": "review 26 Oct: several primary outcomes are not a reason for no numbers; the card takes the first (CV death)"}
+{"nct_id": "NCT06220773", "numbers": "yes", "numbers_reason": null, "fix_note": "review 26 Oct: the card takes the first co-primary (systolic blood pressure)"}
+{"nct_id": "NCT07089186", "numbers": "yes", "numbers_reason": null, "fix_note": "review 26 Oct: the card takes the first co-primary (cUTI overall success)"}
+{"nct_id": "NCT07214571", "numbers": "yes", "numbers_reason": null, "fix_note": "review 26 Oct: the card takes the first co-primary (viral load at Day 2)"}
+{"nct_id": "NCT07437547", "numbers": "yes", "numbers_reason": null, "fix_note": "review 26 Oct: the card takes the first co-primary (time to return to sport)"}
+{"nct_id": "NCT07776210", "numbers": "yes", "numbers_reason": null, "fix_note": "review 26 Oct: the card takes the first co-primary (corneal staining)"}
+{"nct_id": "NCT06843018", "numbers": "yes", "numbers_reason": null, "fix_note": "review 26 Oct: the card takes the first component (sore-throat VAS at 1 hour, a 0-100 mm scale)"}
+{"nct_id": "NCT05757869", "control_measure": "annualized event rate of stroke or non-CNS systemic embolism in the apixaban arm", "fix_note": "review 26 Oct (second sample): unit no longer repeated in the control measure"}
+{"nct_id": "NCT05884398", "control_measure": "18-month rPFS rate in the continuous-ADT arm (alive and free of radiographic progression 18 months after randomization)", "fix_note": "review 26 Oct (second sample): unit no longer repeated in the control measure"}
+{"nct_id": "NCT06993610", "unit": "% change from baseline (the effect is a difference in percentage points)", "fix_note": "review 26 Oct (second sample): the effect's unit stated"}
+{"nct_id": "NCT07774364", "endpoint": "Change from baseline to week 8 in facial inflammatory and non-inflammatory acne lesion counts (registered time frame 12 weeks; the description gives week 8)", "effect_measure": "difference in mean change from baseline in inflammatory lesion count, experimental minus control", "fix_note": "review 26 Oct (second sample): endpoint names both lesion types as registered and flags the week 8 / 12 weeks difference; the number questions stay on the inflammatory count"}
