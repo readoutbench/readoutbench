@@ -1,0 +1,10 @@
+ReadoutBench 2026-r1: entries made after submissions closed (2026-11-15 23:59:59 UTC). No outside entries were received.
+Organiser reference entries; every file in round1/post_close_entries/. SHA-256 of forecasts.jsonl:
+claude-fable-5-2 run 2026-11-11 SHA-256 efe1f2ca7fbbd7af1e27fc088636c2e39810e8bbca45695a880c01681e88ec53
+gemini-4-carbon run 2026-11-16..17 SHA-256 38d9aeb7264ef1a55e7ad0cb437a4f5d72a934e8cb7be8dd2c25647400486005
+gpt-6.1-sol run 2026-11-16..17 SHA-256 2a8e4715bec51e3bbdbd7ae079c8683ad0474c92cfb4733b119f4f0733617ac2
+readoutbench-best-estimate (open board) made 2026-11-17 SHA-256 9f69b29218578f05fb757d6f81c2c958ec9b3bd64c4f00692a3a627cb8d0387c
+The sealed files of ref-opus-5-5, ref-sonnet-5-5 and ref-haiku-5-5 are now published in round1/staged_round/entries/; their SHA-256s match the ones in 2026-r1.txt:
+ref-opus-5-5 SHA-256 b327da3d9ad0d5f3f46f80405801424e99657a4fd54fcad4a7afc6d73a363c76
+ref-sonnet-5-5 SHA-256 b54374184abee348401a9763fab90b158c92f64a653ea591b2fc5935870c336e
+ref-haiku-5-5 SHA-256 e910e8ae6cffddd123f33ec479be08808b2bce45b5c4364a95ef141d735cfcb0
