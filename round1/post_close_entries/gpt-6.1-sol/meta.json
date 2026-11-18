@@ -1,0 +1,16 @@
+{
+ "team": "ReadoutBench",
+ "contact": "organiser",
+ "setting": "closed",
+ "web_access": false,
+ "prompt_sha256": "741d8086eb10b9fcf3f857be67ca69fdc0f36440545399556adc102936480cb5",
+ "entry_name": "GPT-6.1 Sol (extra-high effort)",
+ "models": [
+  "openai/gpt-6.1-sol"
+ ],
+ "model_version": "gpt-6.1-sol-20260929",
+ "provider": "OpenAI via OpenRouter Batch API",
+ "run_dates": "2026-11-16 to 2026-11-17",
+ "harness": "One API request per batch of up to 10 trials: one user message holding the round's instructions unchanged and the batch's packets; no system prompt, no tools, no web. Every response is saved with the model and provider that served it (OpenAI for all). The subgroup block is left out: in one trial the model gave a ratio range starting at 0, which the checker refuses, in all three runs of its batch.",
+ "run_settings": "Reasoning effort xhigh, max 100,000 output tokens; 66 batches. 35 batches dropped by the provider (not billed) were sent again. Re-runs: 1 batch, twice (subgroup ratio of 0; not cleared)."
+}
