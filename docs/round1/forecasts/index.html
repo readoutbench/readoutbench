@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ReadoutBench Round 1 forecasts</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,650;12..96,700&family=Instrument+Sans:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{--surface:#F2F4F7;--raised:#FFFFFF;--sunken:#E6E9EF;--line:#D3D8E0;--line-strong:#7F889A;--ink:#0B1220;--muted:#4B5565;--cobalt:#2B4BF2;--cobalt-soft:#E3E8FE;--ref:#7D8798;--amber-strong:#8A5A00}
+@media (prefers-color-scheme:dark){:root{--surface:#0A0F1A;--raised:#111827;--sunken:#070B12;--line:#232C3C;--line-strong:#5E6A80;--ink:#E6EAF2;--muted:#9AA4B5;--cobalt:#7D93FF;--cobalt-soft:#18205A;--ref:#6B778C;--amber-strong:#FFC83D}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--surface);color:var(--ink);font:16px/26px "Instrument Sans",system-ui,sans-serif}
+a{color:var(--cobalt)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--cobalt);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+@media (max-width:640px){.wrap{padding:0 16px}}
+header.top{background:var(--raised);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;gap:16px;flex-wrap:wrap}
+.brand{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:20px;color:var(--ink);text-decoration:none}
+.brand span{color:var(--muted);font-weight:650}
+nav a{color:var(--ink);text-decoration:none;font-size:14px;margin-left:20px}
+.label{font-family:"JetBrains Mono",monospace;font-size:12px;line-height:16px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:"Bricolage Grotesque",sans-serif;font-size:40px;line-height:44px;font-weight:700;letter-spacing:-.02em;margin:12px 0 0}
+h2{font-family:"Bricolage Grotesque",sans-serif;font-size:28px;line-height:34px;font-weight:650;letter-spacing:-.01em;margin:0}
+@media (max-width:640px){h1{font-size:32px;line-height:36px}}
+.lead{font-size:19px;line-height:30px;max-width:68ch;margin:16px 0 0}
+section{border-top:1px solid var(--line);padding:56px 0}
+section.hero{border-top:0;padding:64px 0 48px}
+.note{color:var(--muted);font-size:14px;line-height:22px;max-width:68ch;margin:10px 0 24px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:24px;font-size:14px;color:var(--muted)}
+.facts b{color:var(--ink);font-weight:600}
+.box{background:var(--raised);border:1px solid var(--line);border-radius:2px;overflow-x:auto}
+table{border-collapse:collapse;width:100%}
+th{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px 14px;border-bottom:1px solid var(--line);font-size:14px;line-height:22px;vertical-align:top}
+tr:last-child td{border-bottom:0}
+.mono{font-family:"JetBrains Mono",monospace;font-size:14px;font-variant-numeric:tabular-nums}
+.num{text-align:right;white-space:nowrap}
+.ref td{color:var(--muted)}
+.tag{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line-strong);border-radius:2px;padding:0 5px;margin-left:6px;color:var(--muted);white-space:nowrap}
+.controls{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:14px;align-items:flex-end}
+.controls label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--muted)}
+input[type=search],select{height:40px;padding:0 10px;border:1px solid var(--line-strong);border-radius:2px;background:var(--raised);color:var(--ink);font:inherit;font-size:14px}
+input[type=search]{width:300px;max-width:80vw}
+.count{font-size:14px;color:var(--muted);margin-left:auto}
+.trial{font-weight:600;color:var(--ink)}
+.sub{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted)}
+.cell{display:flex;align-items:center;gap:8px;justify-content:flex-end}
+.bar{width:48px;height:6px;background:var(--sunken);position:relative}
+.bar i{position:absolute;left:0;top:0;bottom:0;background:var(--cobalt)}
+.bar.r i{background:var(--ref)}
+button.row{all:unset;cursor:pointer;display:block;width:100%}
+button.more{font:inherit;font-size:13px;color:var(--cobalt);background:none;border:0;padding:0;cursor:pointer;margin-top:4px}
+.reasons{background:var(--sunken)}
+.reasons td{padding:14px}
+.reasons dl{margin:0;display:grid;grid-template-columns:150px 1fr;gap:8px 16px}
+.reasons dt{font-weight:600}
+.reasons dd{margin:0;color:var(--ink)}
+@media (max-width:640px){.reasons dl{grid-template-columns:1fr}}
+.pager{display:flex;gap:8px;align-items:center;justify-content:flex-end;margin-top:12px;font-size:14px;color:var(--muted)}
+.pager button{height:36px;padding:0 14px;border:1px solid var(--line-strong);background:var(--raised);color:var(--ink);border-radius:2px;font:inherit;font-size:14px;cursor:pointer}
+.pager button:disabled{opacity:.4;cursor:default}
+.method p{max-width:68ch}
+footer{border-top:1px solid var(--line);background:var(--raised)}
+footer .wrap{padding-top:20px;padding-bottom:20px;font-size:14px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.err{color:#C0262D}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="#">ReadoutBench</a>
+<nav aria-label="Main"><a href="#entries">Entries</a><a href="#trials">Trials</a><a href="#pilot">Pilot</a><a href="#method">Method</a></nav>
+</div></header>
+
+<main class="wrap">
+<section class="hero">
+<div class="label">Round 1 · Models board</div>
+<h1>What frontier models forecast for 653 clinical trials, before the results</h1>
+<p class="lead">On 29 October 2026 we froze 653 company-run phase 2 and 3 trials whose results were not yet public. Each model got the same instructions and the trial's registry record, with no web access, and forecast whether each trial will meet its primary goal. Every forecast is public here before the result is.</p>
+<div class="facts">
+<span><b>653</b> trials</span>
+<span><b>548</b> ask whether the trial meets its goal</span>
+<span>Trials frozen <b class="mono">2026-10-29</b></span>
+<span>First scoring <b class="mono">2027-03-31</b></span>
+</div>
+</section>
+
+<section id="entries">
+<h2>Entries</h2>
+<p class="note">No trial has been scored yet, so there is no ranking. The score column fills in at the first scoring pass. The average forecast is shown so you can see how optimistic each model is; the registry baseline is a simple model fitted on earlier trials.</p>
+<div class="box">
+<table>
+<thead><tr><th>Model</th><th>Setting</th><th>Run</th><th class="num">Answered</th><th class="num">Avg. chance of success</th><th class="num">Score</th></tr></thead>
+<tbody id="entries-body"></tbody>
+</table>
+</div>
+</section>
+
+<section id="trials">
+<h2>Trials</h2>
+<p class="note">Each number is the model's chance that the trial reports meeting its primary goal. Open a row to read each model's main reason. Sort by disagreement to see where the models split.</p>
+<div class="controls">
+<label>Search<input id="q" type="search" placeholder="Drug, disease, sponsor or NCT number" autocomplete="off"></label>
+<label>Phase<select id="phase"><option value="">All</option><option value="Phase 3">Phase 3</option><option value="Phase 2">Phase 2</option></select></label>
+<label>Sort<select id="sort"><option value="dis">Most disagreement</option><option value="hi">Most likely to succeed</option><option value="lo">Least likely to succeed</option><option value="pcd">Earliest completion</option></select></label>
+<span class="count" id="count" aria-live="polite"></span>
+</div>
+<div class="box">
+<table>
+<thead><tr id="trial-head"></tr></thead>
+<tbody id="trial-body"><tr><td>Loading the trials…</td></tr></tbody>
+</table>
+</div>
+<div class="pager"><button id="prev" type="button">Previous</button><span id="page"></span><button id="next" type="button">Next</button></div>
+</section>
+
+<section id="pilot">
+<h2>Pilot: 111 trials that had already reported</h2>
+<p class="note">Before Round 1 we ran the same instructions on 111 company trials whose results came out between July and October 2026, after the models' training data. 73% met their primary goal. This is a retrospective test: it shows how the models behave, not how they will score on Round 1.</p>
+<div class="box"><table>
+<thead><tr><th>Forecaster</th><th class="num">Avg. forecast</th><th class="num">Share that met</th><th class="num">Brier (lower is better)</th><th class="num">Ranking (AUROC)</th></tr></thead>
+<tbody id="pilot-summary"></tbody></table></div>
+<p class="note" style="margin-top:16px">The models ranked the trials about as well as the registry model, or better, but forecast about 14 points too low. The best-estimate recipe takes its level from the registry model and its ranking from the models: it moves the models' average to the registry model's average, then averages the two. It uses no pilot outcomes, so it carries over to Round 1 unchanged. It was the best of 12 recipes compared on these trials, and its lead over the registry model is small: Round 1 is the real test.</p>
+<div class="controls"><label>Sort<select id="psort"><option value="miss">Biggest miss of the best estimate</option><option value="hit">Best calls</option></select></label><span class="count" id="pcount"></span></div>
+<div class="box"><table>
+<thead><tr><th>Trial</th><th class="num">Opus 5.5</th><th class="num">Sonnet 5.5</th><th class="num">Haiku 5.5</th><th class="num">Registry</th><th class="num">Best estimate</th><th>Result</th></tr></thead>
+<tbody id="pilot-body"></tbody></table></div>
+<div class="pager"><button id="pprev" type="button">Previous</button><span id="ppage"></span><button id="pnext" type="button">Next</button></div>
+</section>
+
+<section id="method" class="method">
+<h2>Method</h2>
+<p>Every model got the round's instructions (SHA-256 <span class="mono">741d8086…80cb5</span>), unchanged, and batches of up to 10 trial records, with no web access. Gemini and GPT received them as one message through their APIs, with no system prompt and no tools; the Claude models ran as one agent per batch that could only read those two files and write its answers. A batch the round's checker refused, or that a provider failed to answer, was sent again, at most twice for a refused answer.</p>
+<p>A trial meets its goal when the sponsor or investigators report the primary objective met. Labels come from the sponsor's own statements, with a source for every trial. Scores are Brier skill against the registry base rate, with intervals over trials; the first pass is on 31 March 2027, then 30 June and 31 December 2027.</p>
+<p>The fingerprints (SHA-256) of the Claude Opus, Sonnet and Haiku 5.5 forecast files were published in the repository on 1 November 2026, before the round opened, while the files stayed private; the files shown here match them. The other three models were run after the round closed, and their files were published with their fingerprints on the dates shown.</p>
+<p>The forecast files, run logs and code are in the <a href="https://github.com/readoutbench/readoutbench">public repository</a>.</p>
+</section>
+</main>
+
+<footer><div class="wrap"><span>ReadoutBench · forecasting clinical trial results before they are public</span><span>Round 1 forecasts published 2026-11-17</span></div></footer>
+
+<script>
+(function(){
+var D=null,page=0,PER=40,open={};
+var $=function(id){return document.getElementById(id)};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]})}
+function fmt(p){return p==null?"–":Number(p).toFixed(2)}
+function cell(p,ref){if(p==null)return '<span class="mono" style="color:var(--muted)">–</span>';var w=Math.round(Math.max(0,Math.min(1,p))*100);return '<div class="cell"><span class="mono">'+fmt(p)+'</span><span class="bar'+(ref?' r':'')+'" aria-hidden="true"><i style="width:'+w+'%"></i></span></div>'}
+function cols(){return D.models.map(function(m){return {key:m.key,name:m.name}}).concat([{key:"best",name:"Best estimate"},{key:"b1",name:"Registry baseline",ref:true}])}
+function spread(t){var v=D.models.map(function(m){return t.f[m.key]&&t.f[m.key].p}).filter(function(x){return x!=null});return v.length<2?-1:Math.max.apply(null,v)-Math.min.apply(null,v)}
+function avg(t){var v=D.models.map(function(m){return t.f[m.key]&&t.f[m.key].p}).filter(function(x){return x!=null});return v.length?v.reduce(function(a,b){return a+b},0)/v.length:null}
+function entries(){
+ var rows=D.models.map(function(m){
+  var v=D.trials.filter(function(t){return t.asks&&t.f[m.key]&&t.f[m.key].p!=null}).map(function(t){return t.f[m.key].p});
+  var mean=v.length?v.reduce(function(a,b){return a+b},0)/v.length:null;
+  return '<tr><td><b>'+esc(m.name)+'</b> <span class="sub">'+esc(m.lab)+'</span></td><td>'+esc(m.setting)+'</td><td class="mono">'+esc(m.run)+'</td><td class="num mono">'+v.length+' / '+D.n_pmet+'</td><td class="num mono">'+fmt(mean)+'</td><td class="num" style="color:var(--muted)">from 2027-03-31</td></tr>'});
+ var b=D.trials.filter(function(t){return t.f.b1}).map(function(t){return t.f.b1.p});
+ var be=D.trials.filter(function(t){return t.f.best}).map(function(t){return t.f.best.p});
+ rows.push('<tr><td><b>ReadoutBench best estimate</b> <span class="tag">Open board</span></td><td>registry model + all six models, recipe chosen on the pilot</td><td class="mono">2026-11-17</td><td class="num mono">'+be.length+' / '+D.n_pmet+'</td><td class="num mono">'+fmt(be.reduce(function(a,c){return a+c},0)/be.length)+'</td><td class="num" style="color:var(--muted)">from 2027-03-31</td></tr>');
+ rows.push('<tr class="ref"><td>Registry baseline <span class="tag">Baseline</span></td><td>logistic model on registry fields</td><td class="mono">2026-10-29</td><td class="num mono">'+b.length+' / '+D.n_pmet+'</td><td class="num mono">'+fmt(b.reduce(function(a,c){return a+c},0)/b.length)+'</td><td class="num">from 2027-03-31</td></tr>');
+ $("entries-body").innerHTML=rows.join("");
+}
+function filtered(){
+ var q=$("q").value.trim().toLowerCase(),ph=$("phase").value,s=$("sort").value;
+ var L=D.trials.filter(function(t){if(!t.asks)return false;if(ph&&t.ph.indexOf(ph)<0)return false;if(!q)return true;return (t.id+" "+t.t+" "+t.sp+" "+t.c).toLowerCase().indexOf(q)>=0});
+ var key={dis:function(t){return -spread(t)},hi:function(t){var a=avg(t);return a==null?9:-a},lo:function(t){var a=avg(t);return a==null?9:a},pcd:function(t){return t.pcd||"9"}}[s];
+ return L.slice().sort(function(a,b){var x=key(a),y=key(b);return x<y?-1:x>y?1:0});
+}
+function render(){
+ var C=cols(),L=filtered(),pages=Math.max(1,Math.ceil(L.length/PER));if(page>=pages)page=pages-1;
+ $("trial-head").innerHTML='<th>Trial</th>'+C.map(function(c){return '<th class="num">'+esc(c.name)+'</th>'}).join("");
+ $("count").textContent=L.length+" trials";
+ var html=L.slice(page*PER,page*PER+PER).map(function(t){
+  var row='<tr><td><div class="trial">'+esc(t.t)+'</div><div class="sub">'+esc(t.id)+' · '+esc(t.ph)+' · '+esc(t.sp)+(t.pcd?' · completion '+esc(t.pcd):'')+'</div><button class="more" type="button" data-id="'+t.id+'" aria-expanded="'+(open[t.id]?"true":"false")+'">'+(open[t.id]?"Hide reasons":"Show reasons")+'</button></td>'+C.map(function(c){return '<td class="num">'+cell(t.f[c.key]&&t.f[c.key].p,c.ref)+'</td>'}).join("")+'</tr>';
+  if(open[t.id]){
+   row+='<tr class="reasons"><td colspan="'+(C.length+1)+'"><div class="sub" style="margin-bottom:10px">Primary endpoint: '+esc(t.ep||"see the registry record")+' · <a href="https://clinicaltrials.gov/study/'+esc(t.id)+'">registry record</a></div><dl>'+D.models.map(function(m){var f=t.f[m.key];return '<dt>'+esc(m.name)+'</dt><dd>'+(f?esc(f.r)+(f.k?' <span class="tag">'+esc(f.k)+'</span>':''):'<span style="color:var(--muted)">not answered yet</span>')+'</dd>'}).join("")+'</dl></td></tr>';
+  }
+  return row}).join("");
+ $("trial-body").innerHTML=html||'<tr><td colspan="'+(C.length+1)+'">No trials match.</td></tr>';
+ $("page").textContent="Page "+(page+1)+" of "+pages;$("prev").disabled=page<=0;$("next").disabled=page>=pages-1;
+}
+$("trial-body").addEventListener("click",function(e){var b=e.target.closest("button.more");if(!b)return;var id=b.getAttribute("data-id");open[id]=!open[id];render()});
+["q","phase","sort"].forEach(function(id){$(id).addEventListener(id==="q"?"input":"change",function(){page=0;render()})});
+$("prev").addEventListener("click",function(){page--;render();$("trials").scrollIntoView()});
+$("next").addEventListener("click",function(){page++;render();$("trials").scrollIntoView()});
+
+var P=null,pp=0;
+function prender(){
+ var o=$("psort").value,L=P.trials.slice().sort(function(a,b){var x=Math.abs(a.met-a.be),y=Math.abs(b.met-b.be);return o==="miss"?y-x:x-y});
+ var pages=Math.ceil(L.length/20);if(pp>=pages)pp=pages-1;if(pp<0)pp=0;
+ $("pcount").textContent=L.length+" trials";
+ $("pilot-body").innerHTML=L.slice(pp*20,pp*20+20).map(function(t){return '<tr><td><div class="trial">'+esc(t.t)+'</div><div class="sub">'+esc(t.id)+' · <a href="https://clinicaltrials.gov/study/'+esc(t.id)+'">registry record</a></div></td>'+["o","s","h"].map(function(k){return '<td class="num">'+cell(t[k])+'</td>'}).join("")+'<td class="num">'+cell(t.b1,true)+'</td><td class="num">'+cell(t.be)+'</td><td>'+(t.met?'<span class="tag" style="margin:0">Met</span>':'<span class="tag" style="margin:0">Not met</span>')+'</td></tr>'}).join("");
+ $("ppage").textContent="Page "+(pp+1)+" of "+pages;$("pprev").disabled=pp<=0;$("pnext").disabled=pp>=pages-1;
+}
+$("psort").addEventListener("change",function(){pp=0;prender()});
+$("pprev").addEventListener("click",function(){pp--;prender();$("pilot").scrollIntoView()});
+$("pnext").addEventListener("click",function(){pp++;prender();$("pilot").scrollIntoView()});
+fetch("pilot.json").then(function(r){return r.json()}).then(function(d){P=d;
+ $("pilot-summary").innerHTML=d.summary.map(function(r){return '<tr'+(r.name==="Registry model"?' class="ref"':'')+'><td>'+(r.name==="Best-estimate recipe"?'<b>'+esc(r.name)+'</b>':esc(r.name))+'</td><td class="num mono">'+fmt(r.mean)+'</td><td class="num mono">'+fmt(d.share_met)+'</td><td class="num mono">'+r.brier.toFixed(3)+'</td><td class="num mono">'+r.auc.toFixed(2)+'</td></tr>'}).join("");
+ prender()}).catch(function(){$("pilot-body").innerHTML='<tr><td class="err">Error: the pilot data could not be loaded.</td></tr>'});
+fetch("data.json").then(function(r){return r.json()}).then(function(d){D=d;entries();render()}).catch(function(){$("trial-body").innerHTML='<tr><td class="err">Error: the forecast data could not be loaded.</td></tr>'});
+})();
+</script>
+</body>
+</html>
