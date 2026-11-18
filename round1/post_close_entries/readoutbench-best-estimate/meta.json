@@ -1,0 +1,21 @@
+{
+ "team": "ReadoutBench",
+ "entry_name": "ReadoutBench best estimate (registry model + model ensemble)",
+ "contact": "organiser",
+ "setting": "open",
+ "web_access": false,
+ "models": [
+  "claude-fable-5-2",
+  "claude-opus-5-5",
+  "claude-sonnet-5-5",
+  "claude-haiku-5-5",
+  "gemini-4-carbon",
+  "gpt-6.1-sol"
+ ],
+ "ensemble": true,
+ "harness": "No new model calls. For each trial: average the six Models-board entries' p_met on the log-odds scale; shift that average by one constant so its mean over the 548 trials equals the registry model's (B1) mean; then average it 50/50 with B1 on the log-odds scale. The recipe was chosen on the 111 pilot trials (out-of-sample Brier 0.145 against B1's 0.164) and fixed before publication; no Round 1 outcome was known.",
+ "run_dates": "2026-11-17",
+ "run_settings": "shift +0.300 log-odds; B1 mean 0.625",
+ "cost_usd_per_trial": 0,
+ "prompt_sha256": null
+}
