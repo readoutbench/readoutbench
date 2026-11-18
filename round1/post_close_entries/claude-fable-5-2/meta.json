@@ -1,0 +1,17 @@
+{
+ "team": "ReadoutBench",
+ "entry_name": "Claude Fable 5.2 (extra-high effort)",
+ "contact": "organiser",
+ "models": [
+  "claude-fable-5-2"
+ ],
+ "harness": "One agent per batch of up to 10 trials, given the round's instructions unchanged and the batch's packets, and told to use only the tools to read those two files and write its answers; no web. Unlike the other reference entries, the logs of this run could not be checked: the session that ran it kept no agent transcripts, so the model that wrote each reply and the tools each agent used are as launched and as the agents reported, not verified. The harness reported 5 tool calls per agent (6 for one batch, 4 for the last, 3-trial batch). The subgroup block is left out: in two trials the model gave a ratio range starting at 0, which the checker refuses, in all three runs of their batches.",
+ "setting": "closed",
+ "web_access": false,
+ "cost_usd_per_trial": null,
+ "model_version": "claude-fable-5-2",
+ "provider": "Anthropic (Claude app cloud session, subagents)",
+ "prompt_sha256": "741d8086eb10b9fcf3f857be67ca69fdc0f36440545399556adc102936480cb5",
+ "run_dates": "2026-11-11",
+ "run_settings": "Extra-high reasoning effort; 66 batches of up to 10 trials. Re-runs: 2 batches, twice each (a subgroup ratio of 0 the checker refuses; not cleared, so the subgroup block is left out). A 5-batch test at default effort earlier that day was discarded."
+}
