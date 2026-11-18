@@ -1,0 +1,16 @@
+{
+ "team": "ReadoutBench",
+ "contact": "organiser",
+ "setting": "closed",
+ "web_access": false,
+ "prompt_sha256": "741d8086eb10b9fcf3f857be67ca69fdc0f36440545399556adc102936480cb5",
+ "entry_name": "Gemini 4 Carbon (thinking capped at 20,000 tokens)",
+ "models": [
+  "google/gemini-4-carbon"
+ ],
+ "model_version": "gemini-4-carbon-20261110",
+ "provider": "Google via OpenRouter Batch API",
+ "run_dates": "2026-11-16 to 2026-11-17",
+ "harness": "One API request per batch of up to 10 trials: one user message holding the round's instructions unchanged and the batch's packets; no system prompt, no tools, no web. Every response is saved with the model and provider that served it (Google for all). A first run at effort high, without a cap, thought until the 32,768-token output limit and returned no answers in 40 batches; it was discarded and all 66 batches were run again with thinking capped.",
+ "run_settings": "Reasoning max_tokens 20,000, max 32,000 output tokens; 66 batches. Re-runs: 1 batch, once (answered 9 of 10 trials)."
+}
